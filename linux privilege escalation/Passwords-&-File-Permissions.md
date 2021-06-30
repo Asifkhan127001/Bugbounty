@@ -1,13 +1,14 @@
- STORE PASSWORD & File Permissions
+## STORE PASSWORD & File Permissions
             
-                 
- history
- ls -la
- cat .bash_history
- history | grep pass
- grep --color=auto -rnw '/' -ie "PASSWORD" --color=always 2> /dev/null
- find . -type f -exec grep -i -I "PASSWORD" {} /dev/null \;
- /etc/security/opasswd
+
+
+ ###history
+ ###ls -la
+ ###cat .bash_history
+ ###history | grep pass
+ ###grep --color=auto -rnw '/' -ie "PASSWORD" --color=always 2> /dev/null
+ ###find . -type f -exec grep -i -I "PASSWORD" {} /dev/null \;
+ ###/etc/security/opasswd
  
  
  
