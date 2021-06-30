@@ -1,4 +1,4 @@
-               ## STORE PASSWORD & File Permissions
+   ## STORE PASSWORD & File Permissions
             
 
 
@@ -12,18 +12,18 @@
  
  
  
-      Files that were edited in the last 10 minutes
+ ## Files that were edited in the last 10 minutes
                             
                 find / -mmin -10 2>/dev/null | grep -Ev "^/proc"
           
           
          
-      In memory passwords 
+   ## In memory passwords 
                 
                    strings /dev/mem -n10 | grep -i PASS
 
 
-      Find sensitive files
+  ## Find sensitive files
                
                       locate password | more           
                       /boot/grub/i386-pc/password.mod
@@ -34,7 +34,7 @@
 
 
 
-    SSH Key
+ ## SSH Key
                         
                       find / -name authorized_keys 2> /dev/null
                       find / -name id_rsa 2> /dev/null
