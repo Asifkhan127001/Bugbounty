@@ -11,7 +11,7 @@
                  
                  
                  
-    ### LD_PRELOAD and NOPASSWD
+   ### LD_PRELOAD and NOPASSWD
 
 If `LD_PRELOAD` is explicitly defined in the sudoers file
 
