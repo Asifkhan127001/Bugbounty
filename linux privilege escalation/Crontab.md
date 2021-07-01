@@ -11,8 +11,8 @@
           
    ### Cron jobs
 
-          Check if you have access with write permission on these files.   
-          Check inside the file, to find other paths with write permissions.   
+      Check if you have access with write permission on these files.   
+      Check inside the file, to find other paths with write permissions.   
 
           ```powershell
             /etc/init.d
