@@ -14,7 +14,17 @@
                  
 		 
 		 
-                 
+		 
+   ## Sudo resource		 
+   
+   https://gtfobins.github.io/
+   
+   
+   
+   
+   
+   
+   
    ### LD_PRELOAD and NOPASSWD
 
 If `LD_PRELOAD` is explicitly defined in the sudoers file
