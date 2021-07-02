@@ -13,9 +13,14 @@
        find / -type f -perm -04000 -ls 2>/dev/null
        strace <PATH=2>&1>
        
-  ## OUTPUT
+       
+  ## TYPE COMMAND 
   
-         strace /usr/local/bin/suid-so 2>&1 | grep -i -E "open|access|no such file"
+       strace /usr/local/bin/suid-so 2>&1 | grep -i -E "open|access|no such file"
+  
+  
+  ## OUTPUT
+ 
          
          
 ## access("/etc/suid-debug", F_OK)         = -1 ENOENT (No such file or directory)
