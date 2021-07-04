@@ -10,8 +10,8 @@
        
   ## Shared Object Injection
   
-   find / -type f -perm -04000 -ls 2>/dev/null
-   strace <PATH=2>&1
+    find / -type f -perm -04000 -ls 2>/dev/null
+    strace <PATH=2>&1
        
        
   ## TYPE COMMAND 
