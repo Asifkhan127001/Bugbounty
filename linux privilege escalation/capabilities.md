@@ -2,11 +2,11 @@
  
  ## Type Command
  
- getcap -r / 2>/dev/null
+   getcap -r / 2>/dev/null
  
  ## Output
  
-    /usr/bin/python2.6 = cap_setuid+ep
+ /usr/bin/python2.6 = cap_setuid+ep
     
  ## Exploit
  
