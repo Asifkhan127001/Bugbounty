@@ -63,7 +63,7 @@
 
   ## Run The Program
   
-   /usr/local/bin/suid-so
+    /usr/local/bin/suid-so
 
    ####  Environment Variables
                 
