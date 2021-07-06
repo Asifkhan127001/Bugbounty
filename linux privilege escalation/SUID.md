@@ -61,7 +61,9 @@
     gcc -shared -fpic -o /home/user/.config/libcalc.so /home/user/libcalc.c
 
 
-
+  ## Run The Program
+  
+   /usr/local/bin/suid-so
 
    ####  Environment Variables
                 
