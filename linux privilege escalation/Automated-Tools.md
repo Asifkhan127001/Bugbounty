@@ -9,3 +9,5 @@ There are many scripts that you can execute on a linux machine which automatical
 - [linux-exploit-suggester - Linux exploit-suggester & privilege Escalation](https://github.com/mzet-/linux-exploit-suggester)
 
 - [linux-exploit-suggester2 - Linux exploit-suggester2 & privilege Escalation](https://github.com/jondonas/linux-exploit-suggester-2)
+
+- [pspy - unprivileged Linux process snooping -                               ](https://github.com/DominicBreuker/pspy)
