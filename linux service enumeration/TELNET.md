@@ -9,7 +9,7 @@
     nmap -A -p23 IP
      
    ## STEP 2
-    RUN SOME NMAP SCRIPT 
+   RUN SOME NMAP SCRIPT 
     
     telnet-brute.nse
     telnet-ntlm-info.nse
@@ -35,7 +35,7 @@
   ## STEP 6 
    Telnet Config File
    
-     /etc/inetd.conf
+    /etc/inetd.conf
     /etc/xinetd.d/telnet
     /etc/xinetd.d/stelnet
     
