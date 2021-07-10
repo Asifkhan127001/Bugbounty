@@ -5,13 +5,18 @@ The File Transfer Protocol is a standard communication protocol used for the tra
 
  ## FTP ENUMERATION
   
- ### STEP 1
+ ## STEP 1
+  Use Nmap Find Information
+  
+    nmap -A -p21 IP
+   
+ ### STEP 2
  
  first Cheack Anonymous Login use nmap script 
    
     ftp-anon.nse
     
- ### Step 2
+ ### Step 3
  use some nmap script just like 
  
     ftp-anon.nse
@@ -20,7 +25,7 @@ The File Transfer Protocol is a standard communication protocol used for the tra
     ftp-syst.nse
     etc.....    
      
-  ### STEP 3
+  ### STEP 4
   use Metasploit auxiliary  
   
     auxiliary/scanner/ftp/anonymous
@@ -29,7 +34,7 @@ The File Transfer Protocol is a standard communication protocol used for the tra
     etc....
     
     
-  ### STEP 4
+  ### STEP 5
   search exploit like
   
     google.com
