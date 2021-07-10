@@ -52,9 +52,12 @@ The File Transfer Protocol is a standard communication protocol used for the tra
     
   ## STEP 7
    Ftp Login
-   
+   nmap -sV --script=banner IP
     ftp Ip
    
+ ## FTP CONFIG FILE 
+ 
+    /etc/vsftpd.conf
    
   
   
