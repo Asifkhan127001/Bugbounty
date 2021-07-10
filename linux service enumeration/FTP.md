@@ -29,7 +29,7 @@ The File Transfer Protocol is a standard communication protocol used for the tra
     etc....
     
     
-  ### STEP3 
+  ### STEP 4
   search exploit like
   
     google.com
