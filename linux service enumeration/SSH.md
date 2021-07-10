@@ -26,6 +26,14 @@
     auxiliary/scanner/ssh/ssh_version
     auxiliary/scanner/ssh/ssh_login 
     auxiliary/scanner/ssh/ssh_login_pubkey
+    
+   ## Step 4
+   ## BANNER GRABBING
+     
+     nmap -sV — script=banner  IP
+     telnet IP 22
+     nc IP 22
+     
       
    ## STEP 4 
      
@@ -37,6 +45,10 @@
     exploitdb
     cve
     
+  ## SSH LOGIN
+    
+    ssh IP
+    SSH -i key Login
     
     
     
