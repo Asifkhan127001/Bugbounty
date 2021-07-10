@@ -9,23 +9,23 @@
     
    use nmap find information
    
-       nmap -A -p22 IP
+    nmap -A -p22 IP
        
    STEP 2
   
   Use nmap Script Just Like
     
-      ssh2-enum-algos.nse
-      ssh-brute.nse
+    ssh2-enum-algos.nse
+    ssh-brute.nse
 
    STEP 3
    
    Use Metasploit auxiliary Find Information
     
-      auxiliary/scanner/ssh/ssh_enumusers
-      auxiliary/scanner/ssh/ssh_version
-      auxiliary/scanner/ssh/ssh_login 
-      auxiliary/scanner/ssh/ssh_login_pubkey
+    auxiliary/scanner/ssh/ssh_enumusers
+    auxiliary/scanner/ssh/ssh_version
+    auxiliary/scanner/ssh/ssh_login 
+    auxiliary/scanner/ssh/ssh_login_pubkey
       
    ## STEP 4 
      
