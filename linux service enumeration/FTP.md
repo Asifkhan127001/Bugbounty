@@ -33,8 +33,15 @@ The File Transfer Protocol is a standard communication protocol used for the tra
     auxiliary/scanner/ftp/ftp_login
     etc....
     
+  ## STEP 5
+  ## BANNER GRABBING
+   Banner Grabbing is Find Service Version Information
+   
+     telnet IP 21
+     nmap -sV --script=banner IP
+     nc IP 21
     
-  ### STEP 5
+  ### STEP 6
   search exploit like
   
     google.com
@@ -42,4 +49,17 @@ The File Transfer Protocol is a standard communication protocol used for the tra
     cve
     github
     etc.....
+    
+  ## STEP 7
+   Ftp Login
+   
+    ftp Ip
+   
+   
+  
+  
+  
+  
+  
+  
      
