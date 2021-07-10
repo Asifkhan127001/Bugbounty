@@ -26,6 +26,7 @@
    Banner Grabbing
    
     nc -vn IP 23
+    nmap -sV --script=banner IP
     
   ## STEP 5
   Telnet Login 
