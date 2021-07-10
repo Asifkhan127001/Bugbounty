@@ -6,10 +6,11 @@
  
  first Cheack Anonymous Login use nmap script 
    
-   ftp-anon.nse
+    ftp-anon.nse
     
  ### Step 2
  use some nmap script just like 
+ 
      ftp-anon.nse
      ftp-brute.nse
      tftp-enum.nse
@@ -17,7 +18,8 @@
  etc.....    
      
   ### STEP 3
-  use Metasploit auxiliary 
+  use Metasploit auxiliary  
+  
       auxiliary/scanner/ftp/anonymous
       auxiliary/scanner/ftp/ftp_version
       auxiliary/scanner/ftp/ftp_login
@@ -26,6 +28,7 @@
     
   ### STEP3 
   search exploit like
+  
        google.com
        searchsploit
        cve
