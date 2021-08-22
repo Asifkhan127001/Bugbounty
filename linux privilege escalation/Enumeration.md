@@ -1,8 +1,8 @@
  ## USER ENUMERATION
              
-       whoami
-       id
-       cat /etc/passwd
+     whoami
+     id
+     cat /etc/passwd
        cat /etc/shadow
        cat /etc/passwd | cut -d : -f 1
        cat /etc/group
