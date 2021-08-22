@@ -1,7 +1,7 @@
 
    ## Shodan 
    
- Install shodan 
+ INSTALL SHODAN 
    
     pip install shodan
     shodan
