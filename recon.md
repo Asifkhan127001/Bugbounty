@@ -1,14 +1,14 @@
 
    ## Shodan 
    
-   install shodan 
+ Install shodan 
    
-     pip install shodan
-     shodan
+   pip install shodan
+   shodan
        
-   ADD API KEY 
+ ADD API KEY 
   
-     shodan init Apikye
+   shodan init Apikye
        
    
 
