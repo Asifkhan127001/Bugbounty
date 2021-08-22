@@ -7,7 +7,7 @@
  
 Output
  
- /usr/bin/python2.6 = cap_setuid+ep
+   /usr/bin/python2.6 = cap_setuid+ep
    
    
 Exploit
