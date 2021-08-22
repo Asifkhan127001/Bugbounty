@@ -1,6 +1,6 @@
 
  * [USER ENUMERATION](#USER ENUMERATION)
- * [STORE PASSWORD & File Permissions](#STORE PASSWORD & File Permissions)
+ * [STORE PASSWORD & File Permissions](#Store Password & File Permissions)
  * [Automation-Tools](#Automation-Tools)
  * [sudo](#sudo)
  * [Suid](#Suid)
