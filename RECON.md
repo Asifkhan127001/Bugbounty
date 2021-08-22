@@ -1,4 +1,10 @@
 
+ * [shodan](#Shodan)
+ * [Certificate](#Certificate)
+ * 
+  
+
+
    ## Shodan 
    
  INSTALL SHODAN 
@@ -14,9 +20,23 @@
  just Type Command 
      
     shodan info
+  
+  Shodan Scan 
+  
+      shodan <domain> <ip> and domain name y ip 
+      
     
   
 
+
+
+
+
+
+ ## Certificate
+
+     crt.sh
+     
 
 
 
