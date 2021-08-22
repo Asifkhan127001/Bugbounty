@@ -13,7 +13,7 @@
  Cheak shodan Query credits available and Scan credits available
  just Type Command 
      
-     shodan info
+    shodan info
     
   
 
