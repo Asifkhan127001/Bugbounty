@@ -1,15 +1,15 @@
  ## USER ENUMERATION
              
-          whoami
-          id
-          cat /etc/passwd
-          cat /etc/shadow
-          cat /etc/passwd | cut -d : -f 1
-          cat /etc/group
-          history
-          cat .bash_history
-          sudo -l
-          sudo su -
+       whoami
+       id
+       cat /etc/passwd
+       cat /etc/shadow
+       cat /etc/passwd | cut -d : -f 1
+       cat /etc/group
+       history
+       cat .bash_history
+       sudo -l
+       sudo su -
  
   SYSTEM ENUMERATION
               
