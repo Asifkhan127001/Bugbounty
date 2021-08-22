@@ -3,37 +3,37 @@
     whoami
     id
     cat /etc/passwd
-       cat /etc/shadow
-       cat /etc/passwd | cut -d : -f 1
-       cat /etc/group
-       history
-       cat .bash_history
-       sudo -l
-       sudo su -
+    cat /etc/shadow
+    cat /etc/passwd | cut -d : -f 1
+    cat /etc/group
+    history
+    cat .bash_history
+    sudo -l
+    sudo su -
  
   SYSTEM ENUMERATION
               
-          hostname
-          uname -a
-       cat /etc/os-release
-       cat /proc/version
-       cat /etc/issue
-           lscpu
-           ps aux
-           ps aux | grep "username"
+     hostname
+     uname -a
+     cat /etc/os-release
+     cat /proc/version
+     cat /etc/issue
+     lscpu
+     ps aux
+     ps aux | grep "username"
  
  
  
-  ## NETWORK ENUMERATION
+ NETWORK ENUMERATION
               
-           ifconfig
-           ip a
-           ip route
-           arp -a
-           netstat -ano
+      ifconfig
+      ip a
+      ip route
+      arp -a
+      netstat -ano
  
  
-  ## PASWORD ENUMERATION
+ PASWORD ENUMERATION
              
              
           grep --color=auto -rnw '/' -ie "PASSWORD" --color=always 2> /dev/null
