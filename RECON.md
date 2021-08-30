@@ -43,8 +43,24 @@
 
 
  ## SubDomain
+   Tools
+     
+    AMASS.
+    SubBrute.
+    Knock.
+    DNSRecon.
+    Sublist3r.
+    AltDNS.
+    Axiom.
+   
+    
+ Website 
  
-
+ -[Pentest tools](https://pentest-tools.com/home)
+ -[Virus Total](https://www.virustotal.com/gui/home/upload)
+ -[Projectdiscovery](https://projectdiscovery.io/)
+ -[Nmmapper](https://www.nmmapper.com/)
+ 
 
 
 
