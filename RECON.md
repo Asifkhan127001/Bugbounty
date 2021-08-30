@@ -47,6 +47,7 @@
      
     AMASS.
     SubBrute.
+    subfinder
     Knock.
     DNSRecon.
     Sublist3r.
