@@ -6,6 +6,11 @@
 
    TOOLS
    
-    amaas
-    knock
-   
+    amass
+    SubBrute
+    Knock
+    DNSRecon
+    Sublist3r
+    subfinder
+    
+  
