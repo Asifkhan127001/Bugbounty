@@ -12,5 +12,5 @@
     DNSRecon
     Sublist3r
     subfinder
-    
+    Wayback Machine 
   
