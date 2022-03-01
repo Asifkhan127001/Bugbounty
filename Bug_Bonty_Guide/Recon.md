@@ -13,4 +13,6 @@
     Sublist3r
     subfinder
     Wayback Machine 
+    crtsh
+    assetfinder
   
