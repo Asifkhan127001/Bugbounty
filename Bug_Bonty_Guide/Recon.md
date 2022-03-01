@@ -15,4 +15,5 @@
     Wayback Machine 
     crtsh
     assetfinder
+    shodan
   
