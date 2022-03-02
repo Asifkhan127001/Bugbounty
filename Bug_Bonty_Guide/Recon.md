@@ -17,3 +17,11 @@
     assetfinder
     shodan
   
+  
+  ### analyze web technologiess 
+  
+     Wappalyzer
+     Netcraft
+     Built with
+     What web
+     Whois
