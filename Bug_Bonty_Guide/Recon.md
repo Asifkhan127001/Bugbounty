@@ -21,6 +21,10 @@
   
     cat subdomain.txt | httprobe -p http:81 -p http:3000 -p https:3000 -p http:3001 -p https:3001 -p http:8000 -p http:8080 -p https:8443 -c 50 
     | tee online-domains.txt
+    
+  ### If you already have a list of domains and what to see if there are new ones
+  
+    cat new-output.txt | anew old-output.txt | httprobe
   
   ### analyze web technologiess 
   
