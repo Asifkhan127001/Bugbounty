@@ -25,6 +25,11 @@
   ### If you already have a list of domains and what to see if there are new ones
   
     cat new-output.txt | anew old-output.txt | httprobe
+    
+    
+  ### This tool generates a combination of domain names from the provided input
+  
+    cat subdomain.txt | dnsgen - | httprobe
   
   ### analyze web technologiess 
   
