@@ -46,6 +46,10 @@
      
   ### that helps you to enumerate all endpoints on your target!
     gospider
+    
+  ### Arjun designed to look for hidden HTTP parameters
+  
+    arjun
   
   ### analyze web technologiess 
   
