@@ -35,6 +35,10 @@
   ### for quickly gaining an overview of HTTP-based attack surface.
   
       cat domains-endpoints.txt | aquatone
+      
+  ### Find Hidden Endpoint use meg Tools
+  
+     meg 
   
   ### analyze web technologiess 
   
