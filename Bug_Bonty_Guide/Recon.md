@@ -28,6 +28,11 @@
   ## Wayback Machine 
   ## crtsh
   ## assetfinder
+  Find domains and subdomains potentially related to a given domain
+  
+     assetfinder [--subs-only] <domain>
+     
+     
   ## shodan
   
   ### Find HTTP server and HTTPS server 
