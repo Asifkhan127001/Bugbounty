@@ -22,7 +22,7 @@
   ## subfinder
   Subfinder is a subdomain discovery tool that discovers valid subdomains for websites by using passive online sources.
   
-   subfinder -all -silent -d <Domain>
+    subfinder -all -silent -d <Domain>
  
  
   ## Wayback Machine 
