@@ -9,9 +9,9 @@
     amass
     
 ### SubBrute
-  subbrute is a subdomain finder tools   
-    
-    
+  subBrute is a subdomain finder tools   
+   
+     ./subbrute.py <domain> [output]
     
     
     Knock
