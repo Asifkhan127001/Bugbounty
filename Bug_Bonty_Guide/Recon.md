@@ -6,10 +6,6 @@
    
 ## amass
     
-### SubBrute
-  subBrute is a subdomain finder tools use bruteforcer and find subdomain   
-   
-    ./subbrute.py <domain> [output]
     
 ### Knock
    Knockpy is a python3 tool designed to quickly enumerate subdomains on a target domain through dictionary attack 
@@ -17,9 +13,12 @@
     python3 knockpy.py domain.com -w /home/asifk/secLists/Discovery/DNS/subdomains-top1million-110000.txt -o /home/
     
 ## Sublist3r
-    Sublist3r enumerates subdomains using many search engines such as Google, Yahoo, Bing, Baidu and Ask.
-    Sublist3r also enumerates subdomains using Netcraft, Virustotal, ThreatCrowd, DNSdumpster and ReverseDNS.
+   Sublist3r enumerates subdomains using many search engines such as Google, Yahoo, Bing, Baidu and Ask.
+   Sublist3r also enumerates subdomains using Netcraft, Virustotal, ThreatCrowd, DNSdumpster and ReverseDNS.
    
+     sublist3r.py -d example.com
+     sublist3r.py -b -d example.com
+     
   ## subfinder
   ## Wayback Machine 
   ## crtsh
