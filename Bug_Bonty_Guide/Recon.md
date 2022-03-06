@@ -7,7 +7,13 @@
    TOOLS
    
     amass
-    SubBrute
+    
+### SubBrute
+  subbrute is a subdomain finder tools   
+    
+    
+    
+    
     Knock
     DNSRecon
     Sublist3r
