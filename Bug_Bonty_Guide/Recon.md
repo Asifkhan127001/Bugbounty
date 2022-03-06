@@ -2,9 +2,7 @@
 
  It refers to the process of collecting as much information as possible about the target system to find ways to penetrate into the system
 
-### Subdomain 
-
-   TOOLS
+### SUBDOMAIN TOOLS
    
 ## amass
     
@@ -19,13 +17,14 @@
     python3 knockpy.py domain.com -w /home/asifk/secLists/Discovery/DNS/subdomains-top1million-110000.txt -o /home/
     
 ## Sublist3r
+    Sublist3r enumerates subdomains using many search engines such as Google, Yahoo, Bing, Baidu and Ask.
+    Sublist3r also enumerates subdomains using Netcraft, Virustotal, ThreatCrowd, DNSdumpster and ReverseDNS.
    
-   
-   subfinder
-    Wayback Machine 
-    crtsh
-    assetfinder
-    shodan
+  ## subfinder
+  ## Wayback Machine 
+  ## crtsh
+  ## assetfinder
+  ## shodan
   
   ### Find HTTP server and HTTPS server 
   
