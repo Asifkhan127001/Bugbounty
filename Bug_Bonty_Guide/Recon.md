@@ -16,8 +16,8 @@
    Sublist3r enumerates subdomains using many search engines such as Google, Yahoo, Bing, Baidu and Ask.
    Sublist3r also enumerates subdomains using Netcraft, Virustotal, ThreatCrowd, DNSdumpster and ReverseDNS.
    
-     sublist3r.py -d example.com
-     sublist3r.py -b -d example.com
+    sublist3r.py -d example.com
+    sublist3r.py -b -d example.com
      
   ## subfinder
   ## Wayback Machine 
