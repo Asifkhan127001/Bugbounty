@@ -20,6 +20,11 @@
     sublist3r.py -b -d example.com
      
   ## subfinder
+  Subfinder is a subdomain discovery tool that discovers valid subdomains for websites by using passive online sources.
+  
+   subfinder -all -silent -d <Domain>
+ 
+ 
   ## Wayback Machine 
   ## crtsh
   ## assetfinder
