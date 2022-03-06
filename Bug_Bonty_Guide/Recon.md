@@ -9,12 +9,15 @@
     amass
     
 ### SubBrute
-  subBrute is a subdomain finder tools   
+  subBrute is a subdomain finder tools use bruteforcer and find subdomain   
    
-     ./subbrute.py <domain> [output]
+    ./subbrute.py <domain> [output]
     
-    
-    Knock
+### Knock
+   Knockpy is a python3 tool designed to quickly enumerate subdomains on a target domain through dictionary attack 
+   
+    python3 knockpy.py domain.com
+   
     DNSRecon
     Sublist3r
     subfinder
