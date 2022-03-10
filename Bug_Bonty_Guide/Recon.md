@@ -26,7 +26,7 @@
  
 
   ## crtsh
-  find subdomain Certificate 
+  find subdomain use Certificate transparency 
   
     crtsh -q <domain> -o > [filename]
     
