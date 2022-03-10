@@ -24,9 +24,12 @@
   
     subfinder -all -silent -d <Domain>
  
- 
-  ## Wayback Machine 
+
   ## crtsh
+  find subdomain Certificate 
+  
+    crtsh -q <domain> -o > [filename]
+    
   ## assetfinder
   Find domains and subdomains potentially related to a given domain
   
