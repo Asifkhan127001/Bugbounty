@@ -38,6 +38,11 @@
      
   ## shodan
   
+  ## waybackurls
+   waybackurls find subdomain,Endpoints,Tokens & secrets,IDs and secret files
+    
+     cat domain.txt | waybackurls > [filename]
+  
   ### Find HTTP server and HTTPS server 
   
     cat subdomain.txt | httprobe -p http:81 -p http:3000 -p https:3000 -p http:3001 -p https:3001 -p http:8000 -p http:8080 -p https:8443 -c 50 
