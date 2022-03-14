@@ -10,7 +10,7 @@
 ### Knock
    Knockpy is a python3 tool designed to quickly enumerate subdomains on a target domain through dictionary attack 
    
-    python3 knockpy.py domain.com -w /home/asifk/secLists/Discovery/DNS/subdomains-top1million-110000.txt -o /home/
+    python3 knockpy.py domain.com -w /home/asifk/secLists/Discovery/DNS/dns-Jhaddix.txt -o /home/
     
 ## Sublist3r
    Sublist3r enumerates subdomains using many search engines such as Google, Yahoo, Bing, Baidu and Ask.
