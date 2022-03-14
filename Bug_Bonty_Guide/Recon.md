@@ -46,6 +46,12 @@
 
     subzy -targets list.txt
    
+ ### MassDNS
+MassDNS is a simple high-performance DNS stub resolver tool
+
+   /massdns -r ../lists/resolvers.txt  subdomain.txt -o S -w output.txt
+   cat massdns.txt | sed 's/A.*// ; s/CN.*// ; s/\..$//' > output.txt
+  
   ## waybackurls
    waybackurls find subdomain,Endpoints,Tokens & secrets,IDs and secret files
     
