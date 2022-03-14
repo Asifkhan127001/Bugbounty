@@ -34,9 +34,6 @@
   Find domains and subdomains potentially related to a given domain
   
      assetfinder [--subs-only] <domain>
-     
-     
-  ## shodan
   
   
 ### Subdomain Take over tools
