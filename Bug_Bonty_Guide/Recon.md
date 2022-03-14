@@ -38,6 +38,11 @@
      
   ## shodan
   
+  
+### Subdomain Take over tools
+  
+ ## subzy
+
   ## waybackurls
    waybackurls find subdomain,Endpoints,Tokens & secrets,IDs and secret files
     
