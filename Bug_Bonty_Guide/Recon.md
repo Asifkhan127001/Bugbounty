@@ -52,7 +52,7 @@ MassDNS is a simple high-performance DNS stub resolver tool
   ## waybackurls
    waybackurls find subdomain,Endpoints,Tokens & secrets,IDs and secret files
     
-     cat domain.txt | waybackurls > [filename]
+     cat subdomain.txt | waybackurls > [filename]
   
   ### Find HTTP server and HTTPS server 
   
