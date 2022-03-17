@@ -67,11 +67,7 @@ MassDNS is a simple high-performance DNS stub resolver tool
    that helps you to enumerate all endpoints on your target!
     
      gospider -S sites.txt -o output 
-    
-    
-  ### This tool generates a combination of domain names from the provided input
-  
-    cat subdomain.txt | dnsgen - | httprobe
+     
     
   ### Aquatone is a tool for visual inspection of websites across a large amount of hosts and is convenient 
   ### for quickly gaining an overview of HTTP-based attack surface.
