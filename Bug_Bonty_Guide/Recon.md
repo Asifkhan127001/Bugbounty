@@ -79,12 +79,12 @@ MassDNS is a simple high-performance DNS stub resolver tool
    ## meg 
    Endpoint scan the masses
    
-      meg --verbose wordlist hosts.txt 
+     meg --verbose wordlist hosts.txt 
      
   ### Arjun 
   Arjun can find query parameters for URL endpoints
   
-    arjun -i urls
+   arjun -i urls
      
   ### EyeWitness is designed to take screenshots of websites provide some server header info, and identify default credentials if known
   
