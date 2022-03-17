@@ -57,10 +57,12 @@ MassDNS is a simple high-performance DNS stub resolver tool
    ### httprobe
    Take a list of domains and probe for working http and https servers
     
+     cat subdomain.txt | httprobe > httprobe
+    
    ### gospider
    that helps you to enumerate all endpoints on your target!
     
-   gospider -S sites.txt -o output 
+     gospider -S sites.txt -o output 
     
     
   ### This tool generates a combination of domain names from the provided input
