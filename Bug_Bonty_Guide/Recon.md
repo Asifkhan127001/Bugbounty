@@ -81,9 +81,6 @@ MassDNS is a simple high-performance DNS stub resolver tool
   ### EyeWitness is designed to take screenshots of websites provide some server header info, and identify default credentials if known
   
      eyewitness
-     
-  ### that helps you to enumerate all endpoints on your target!
-    gospider
     
   ### Arjun designed to look for hidden HTTP parameters
   
