@@ -35,6 +35,10 @@
   
      assetfinder [--subs-only] <domain>
   
+ ## dnsgen
+ This tool generates a combination of domain names from the provided input
+ 
+  cat subdomain.txt | dnsgen - > output
   
 ### Subdomain Take over tools
   
