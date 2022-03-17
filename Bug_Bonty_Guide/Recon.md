@@ -76,7 +76,10 @@ MassDNS is a simple high-performance DNS stub resolver tool
       
   ### Find Hidden Endpoint use meg Tools
   
-     meg 
+   ## meg 
+   Endpoint scan the masses
+   
+      meg --verbose wordlist hosts.txt 
      
   ### Arjun 
   Arjun can find query parameters for URL endpoints
