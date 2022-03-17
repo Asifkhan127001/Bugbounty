@@ -38,7 +38,7 @@
  ## dnsgen
  This tool generates a combination of domain names from the provided input
  
-     cat subdomain.txt | dnsgen - > output
+     cat domain.txt | dnsgen - > output
   
 ### Subdomain Take over tools
   
