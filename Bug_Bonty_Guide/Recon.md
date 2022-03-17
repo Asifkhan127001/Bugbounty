@@ -59,9 +59,10 @@ MassDNS is a simple high-performance DNS stub resolver tool
     
      cat subdomain.txt | waybackurls > [filename]
     
-  ### If you already have a list of domains and what to see if there are new ones
-  
-    cat new-output.txt | anew old-output.txt | httprobe
+   ### gospider
+    that helps you to enumerate all endpoints on your target!
+    
+      gospider
     
     
   ### This tool generates a combination of domain names from the provided input
