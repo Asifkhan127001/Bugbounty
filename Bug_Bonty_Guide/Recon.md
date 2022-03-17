@@ -74,10 +74,9 @@ MassDNS is a simple high-performance DNS stub resolver tool
   
       cat domains-endpoints.txt | aquatone
       
-  ### Find Hidden Endpoint use meg Tools
   
    ## meg 
-   Endpoint scan the masses
+   Find Hidden Endpoint use meg Tools
    
      meg --verbose wordlist hosts.txt 
      
