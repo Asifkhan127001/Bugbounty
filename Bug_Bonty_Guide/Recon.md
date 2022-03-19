@@ -67,14 +67,7 @@ MassDNS is a simple high-performance DNS stub resolver tool
    that helps you to enumerate all endpoints on your target!
     
      gospider -S sites.txt -o output 
-     
-    
-  ### Aquatone is a tool for visual inspection of websites across a large amount of hosts and is convenient 
-  ### for quickly gaining an overview of HTTP-based attack surface.
-  
-      cat domains-endpoints.txt | aquatone
       
-  
    ## meg 
    Find Hidden Endpoint use meg Tools
    
@@ -85,6 +78,10 @@ MassDNS is a simple high-performance DNS stub resolver tool
   
     arjun -i urls
      
+ ### Aquatone is a tool for visual inspection of websites across a large amount of hosts and is convenient  for quickly gaining an overview of HTTP-based attack surface.
+   
+      cat domains-endpoints.txt | aquatone  
+   
   ### EyeWitness is designed to take screenshots of websites provide some server header info, and identify default credentials if known
   
      eyewitness
