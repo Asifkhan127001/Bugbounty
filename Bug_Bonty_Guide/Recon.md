@@ -86,7 +86,13 @@ MassDNS is a simple high-performance DNS stub resolver tool
   
      eyewitness
     
-  
+ ### Nuclei 
+ vulnerability scanner
+ 
+     nuclei -update-templates
+     nuclei -l url -o vulnerability 
+     nuclei -l url -t </template/> path
+     
   ### analyze web technologiess 
   
      Wappalyzer
