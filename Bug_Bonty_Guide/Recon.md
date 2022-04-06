@@ -27,7 +27,7 @@
   ## crtsh
   find subdomain use Certificate transparency 
   
-    crtsh -q <domain> -o > [filename]
+    crtsh -q <domain> -o <output>
     
   ## assetfinder
   Find domains and subdomains potentially related to a given domain
