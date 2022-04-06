@@ -39,14 +39,7 @@
  
      cat domain.txt | dnsgen - > output
   
-### Subdomain Take over tools
-  
- ## subzy
- Subdomain takeover tool which works based on matching response fingerprints from can-i-take-over-xyz
-
-    subzy -targets list.txt
-   
-  ### httprobe
+ ### httprobe
   Take a list of domains and probe for working http and https servers
     
      cat subdomain.txt | httprobe > httprobe
@@ -55,6 +48,13 @@
  httpx is a fast and multi-purpose HTTP
  
     cat domain.txt | httpx -title -tech-detect -status-code  -mc 200,301
+
+### Subdomain Take over tools
+  
+ ## subzy
+ Subdomain takeover tool which works based on matching response fingerprints from can-i-take-over-xyz
+
+    subzy -targets list.txt 
     
   ## waybackurls
    waybackurls find subdomain,Endpoints,Tokens & secrets,IDs and secret files
