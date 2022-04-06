@@ -58,9 +58,9 @@ MassDNS is a simple high-performance DNS stub resolver tool
      cat subdomain.txt | httprobe > httprobe
  
  ## httpx 
- httpx is a fast and multi-purpose HTTP 
+ httpx is a fast and multi-purpose HTTP
  
-    cat domain.txt | httpx -title -tech-detect -status-code    
+    cat domain.txt | httpx -title -tech-detect -status-code  -mc 200,301
     
   ## waybackurls
    waybackurls find subdomain,Endpoints,Tokens & secrets,IDs and secret files
