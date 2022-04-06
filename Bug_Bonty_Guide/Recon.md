@@ -16,7 +16,7 @@
    Sublist3r enumerates subdomains using many search engines such as Google, Yahoo, Bing, Baidu and Ask.
    Sublist3r also enumerates subdomains using Netcraft, Virustotal, ThreatCrowd, DNSdumpster and ReverseDNS.
    
-     sublist3r -b -d domain -o <output>
+    sublist3r -b -d domain -o <output>
  
   ## subfinder
   Subfinder is a subdomain discovery tool that discovers valid subdomains for websites by using passive online sources.
