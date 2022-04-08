@@ -59,7 +59,7 @@
   ## waybackurls
    waybackurls find subdomain,Endpoints,Tokens & secrets,IDs and secret files
     
-     cat subdomain.txt | waybackurls > [filename]
+     cat subdomain.txt | waybackurls -no-subs > [filename]
     
    ### gospider
    that helps you to enumerate all endpoints on your target!
