@@ -54,7 +54,7 @@
  ## subzy
  Subdomain takeover tool which works based on matching response fingerprints from can-i-take-over-xyz
 
-    subzy -targets list.txt 
+    subzy  -hide_fails -targets subdomain.txt
     
   ## waybackurls
    waybackurls find subdomain,Endpoints,Tokens & secrets,IDs and secret files
