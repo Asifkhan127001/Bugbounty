@@ -27,7 +27,7 @@
   ## crtsh
   find subdomain use Certificate transparency 
   
-    crtsh -q <domain> -o <output>
+    python3 crtsh.py -d example.com -r -w
     
   ## assetfinder
   Find domains and subdomains potentially related to a given domain
