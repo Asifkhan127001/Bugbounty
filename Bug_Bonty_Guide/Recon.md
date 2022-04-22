@@ -76,11 +76,13 @@
   
     arjun -i urls
      
- ### Aquatone is a tool for visual inspection of websites across a large amount of hosts and is convenient  for quickly gaining an overview of HTTP-based attack surface.
+ ### Aquatone 
+ aqutone is a tool for visual inspection of websites across a large amount of hosts and is convenient  for quickly gaining an overview of HTTP-based     attack surface.
    
       cat domains-endpoints.txt | aquatone  
    
-  ### EyeWitness is designed to take screenshots of websites provide some server header info, and identify default credentials if known
+  ### EyeWitness 
+  eyewitness is designed to take screenshots of websites provide some server header info, and identify default credentials if known
   
      eyewitness
     
