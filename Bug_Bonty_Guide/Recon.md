@@ -38,6 +38,11 @@
  This tool generates a combination of domain names from the provided input
  
      cat domain.txt | dnsgen - > output
+     
+   ## shosubgo
+   Small tool to Grab subdomains using Shodan api.
+    
+    ./shosubgo_linux -d target.com -s YourAPIKEY
   
  ### httprobe
   Take a list of domains and probe for working http and https servers
