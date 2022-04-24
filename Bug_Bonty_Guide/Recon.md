@@ -60,6 +60,12 @@
     
     burp-suite spider
     
+  ## Hakrawler
+    Fast golang web crawler for gathering URLs and JavaSript file locations. 
+    This is basically a simple implementation of the awesome Gocolly library.
+    
+      cat urls.txt | hakrawler
+    
   ## waybackurls
    waybackurls find subdomain,Endpoints,Tokens & secrets,IDs and secret files
     
