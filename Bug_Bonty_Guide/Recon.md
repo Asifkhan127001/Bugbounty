@@ -58,6 +58,8 @@
     
   ## SubDomainizer
   SubDomainizer is a tool designed to find hidden subdomains and secrets present is either webpage, Github
+  
+    python3 SubDomainizer.py -u example.com -san same 
     
  ## Linked Discovery use Burp Suite
     
