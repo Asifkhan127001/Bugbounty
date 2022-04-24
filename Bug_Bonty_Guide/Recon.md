@@ -39,6 +39,11 @@
  
      cat domain.txt | dnsgen - > output
      
+  ## Async DNS Brute  
+  A Python 3.5+ tool that uses asyncio to brute force domain names asynchronously.
+ 
+     aiodnsbrute -w wordlist.txt domain.com -o {output} 
+     
    ## shosubgo
    Small tool to Grab subdomains using Shodan api.
     
