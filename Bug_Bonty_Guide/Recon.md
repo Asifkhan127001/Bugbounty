@@ -56,6 +56,10 @@
 
     subzy  -hide_fails -targets subdomain.txt
     
+ ## Linked Discovery use Burp Suite
+    
+    burp-suite spider
+    
   ## waybackurls
    waybackurls find subdomain,Endpoints,Tokens & secrets,IDs and secret files
     
