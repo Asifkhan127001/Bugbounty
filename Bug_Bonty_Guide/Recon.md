@@ -56,6 +56,9 @@
 
     subzy  -hide_fails -targets subdomain.txt
     
+  ## SubDomainizer
+  SubDomainizer is a tool designed to find hidden subdomains and secrets present is either webpage, Github
+    
  ## Linked Discovery use Burp Suite
     
     burp-suite spider
