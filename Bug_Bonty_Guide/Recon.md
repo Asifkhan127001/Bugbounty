@@ -28,11 +28,6 @@
   
      assetfinder --subs-only <domain>
    
-     
-   ## shosubgo
-   Small tool to Grab subdomains using Shodan api.
-    
-    ./shosubgo_linux -d target.com -s YourAPIKEY
   
  ### httprobe
   Take a list of domains and probe for working http and https servers
