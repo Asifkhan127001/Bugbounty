@@ -27,21 +27,6 @@
   Find domains and subdomains potentially related to a given domain
   
      assetfinder --subs-only <domain>
-  
- ## dnsgen
- This tool generates a combination of domain names from the provided input
- 
-     cat domain.txt | dnsgen - > output
-     
-  ## Async DNS Brute  
-  A Python 3.5+ tool that uses asyncio to brute force domain names asynchronously.
- 
-     aiodnsbrute -w wordlist.txt domain.com -o {output} 
-     
- ## shuffleDNS 
- shuffleDNS is a wrapper around massdns written in go that allows you to enumerate valid subdomains
- using active bruteforce as well as resolve subdomains with wildcard handling and easy input-output support.
- 
    
      
    ## shosubgo
