@@ -87,6 +87,11 @@
   
      python3 SubDomainizer.py -l url.txt 
      
+  ##Gdorklinks.sh
+  This tool is github-dorking
+  
+     Gdorklinks.sh domain.com 
+     
  ### Aquatone 
  aqutone is a tool for visual inspection of websites across a large amount of hosts and is convenient  for quickly gaining an overview of HTTP-based     attack surface.
    
