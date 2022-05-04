@@ -30,8 +30,6 @@
  httpx is a fast and multi-purpose HTTP
  
     cat domain.txt | httpx -title -tech-detect -status-code  -mc 200,301
-
-### Subdomain Take over tools
   
  ## subzy
  Subdomain takeover tool which works based on matching response fingerprints from can-i-take-over-xyz
