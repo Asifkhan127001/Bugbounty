@@ -36,6 +36,10 @@
 
     subzy  -hide_fails -targets subdomain.txt
     
+ ## Check Subdomain Vulnerable ,Not vulnerable
+ 
+     https://github.com/EdOverflow/can-i-take-over-xyz
+    
   ## SubDomainizer
   SubDomainizer is a tool designed to find hidden subdomains and secrets present is either webpage, Github
   
