@@ -87,7 +87,7 @@
   
      python3 SubDomainizer.py -l url.txt 
      
-  ##Gdorklinks.sh
+  ## Gdorklinks.sh
   This tool is github-dorking
   
      Gdorklinks.sh domain.com 
