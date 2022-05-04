@@ -80,6 +80,12 @@
   Arjun can find query parameters for URL endpoints
   
     arjun -i urls
+    
+  ## SubDomainizer
+  SubDomainizer is a tool designed to find hidden subdomains and secrets present is either webpage, Github, and external
+  javascripts present in the given URL. This tool also finds S3 buckets, cloudfront URL's
+  
+     python3 SubDomainizer.py -l url.txt 
      
  ### Aquatone 
  aqutone is a tool for visual inspection of websites across a large amount of hosts and is convenient  for quickly gaining an overview of HTTP-based     attack surface.
