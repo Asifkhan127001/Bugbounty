@@ -1,13 +1,5 @@
-### What Is Recon
-
- It refers to the process of collecting as much information as possible about the target system to find ways to penetrate into the system
-
-### SUBDOMAIN TOOLS
-   
-## amass
     
-    
-### Knock
+ ### Knock
    Knockpy is a python3 tool designed to quickly enumerate subdomains on a target domain through dictionary attack 
    
     python3 knockpy.py domain.com --no-http-code 404 500 530 -w /home/asifk/secLists/Discovery/DNS/dns-Jhaddix.txt -o /home/
