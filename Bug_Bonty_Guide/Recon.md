@@ -36,6 +36,9 @@
 
     subzy  -hide_fails -targets subdomain.txt
     
+ ## Step 1 
+ check whiche hosting probide in website 
+    
  ## Check Subdomain Vulnerable ,Not vulnerable
  
      https://github.com/EdOverflow/can-i-take-over-xyz
