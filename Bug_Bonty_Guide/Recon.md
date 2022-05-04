@@ -22,12 +22,6 @@
   Subfinder is a subdomain discovery tool that discovers valid subdomains for websites by using passive online sources.
   
     subfinder -all -silent -d <Domain> -o <output>
- 
-
-  ## crtsh
-  find subdomain use Certificate transparency 
-  
-    python3 crtsh.py -d example.com -r -w
     
   ## assetfinder
   Find domains and subdomains potentially related to a given domain
