@@ -67,6 +67,11 @@
    that helps you to enumerate all endpoints on your target!
     
      gospider -S sites.txt -o output 
+     
+  ## LinkFinder 
+  LinkFinder is a python script written to discover endpoints and their parameters in JavaScript files
+    
+      
       
    ## meg 
    Find Hidden Endpoint use meg Tools
