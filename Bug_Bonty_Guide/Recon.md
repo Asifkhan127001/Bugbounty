@@ -74,7 +74,7 @@
       
       
    ## meg 
-   Find Hidden Endpoint use meg Tools
+   Find Hidden Endpoint use brute-force
    
      meg --verbose wordlist hosts.txt 
      
