@@ -49,7 +49,7 @@
     python3 SubDomainizer.py -u example.com -san same 
     
  ## Fast-Google-Dorks-Scan
- The OSINT project, the main idea of which is to collect all the possible Google dorks search combinations 
+ The main idea of which is to collect all the possible Google dorks search combinations 
  
      ./FGDS.sh example.com
  
