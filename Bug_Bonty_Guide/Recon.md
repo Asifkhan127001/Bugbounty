@@ -31,12 +31,10 @@
  
     cat domain.txt | httpx -title -tech-detect -status-code  -mc 200,301
     
- ## [403bypasser](https://github.com/yunemse48/403bypasser)
- 403bypasser automates the techniques used to circumvent access control restrictions on target pages
- 
-    python3 403bypasser.py -U urllist.txt -D dirlist.txt
-    
-    python3 403bypasser.py -u domain.com -d dirlist.txt
+## dontgo403
+dontgo403 is a tool to bypass 40X errors
+
+  dontgo403 -u domain.com
   
  ## subzy
  Subdomain takeover tool which works based on matching response fingerprints from can-i-take-over-xyz
