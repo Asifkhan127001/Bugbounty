@@ -34,7 +34,7 @@
 ## dontgo403
 dontgo403 is a tool to bypass 40X errors
 
-  dontgo403 -u domain.com
+   dontgo403 -u domain.com
   
  ## subzy
  Subdomain takeover tool which works based on matching response fingerprints from can-i-take-over-xyz
