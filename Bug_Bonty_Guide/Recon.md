@@ -30,6 +30,13 @@
  httpx is a fast and multi-purpose HTTP
  
     cat domain.txt | httpx -title -tech-detect -status-code  -mc 200,301
+    
+ ## 403bypasser
+ 403bypasser automates the techniques used to circumvent access control restrictions on target pages
+ 
+    python3 403bypasser.py -U urllist.txt -D dirlist.txt
+    
+    python3 403bypasser.py -u domain.com -d dirlist.txt
   
  ## subzy
  Subdomain takeover tool which works based on matching response fingerprints from can-i-take-over-xyz
