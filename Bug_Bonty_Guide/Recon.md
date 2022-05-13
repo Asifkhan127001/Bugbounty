@@ -63,6 +63,11 @@ dontgo403 is a tool to bypass 40X errors
  
      ./FGDS.sh example.com
  
+ ## Google Hacking 
+ Google dork tools
+ 
+     https://pentest-tools.com/information-gathering/google-hacking
+ 
     
  ## Linked Discovery use Burp Suite
     
