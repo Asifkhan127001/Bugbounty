@@ -1,3 +1,4 @@
 ## Vulnerability Research
 
-[NVD – National Vulnerability Database NVD – National Vulnerability Database](https://nvd.nist.gov/vuln/search)
+   [NVD – National Vulnerability Database NVD – National Vulnerability Database](https://nvd.nist.gov/vuln/search)
+   [Exploit-DB](https://www.exploit-db.com/)
