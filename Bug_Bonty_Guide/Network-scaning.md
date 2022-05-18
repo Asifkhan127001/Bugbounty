@@ -6,3 +6,7 @@ You can also provide a file as input for your list of targets,
 Find Subnet
 
     nmap -sL -n ip
+    
+ Live Hoste Discover
+ 
+    sudo nmap -PR -sn -iL ip.txt
