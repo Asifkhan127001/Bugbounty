@@ -10,3 +10,7 @@ Find Subnet
  Live Hoste Discover
  
     sudo nmap -PR -sn -iL ip.txt
+
+ Nmap Host Discovery Using ICMP 
+ 
+     sudo nmap -PE -sn 10.10.68.220/24
