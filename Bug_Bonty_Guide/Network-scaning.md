@@ -14,3 +14,7 @@ Find Subnet
  Nmap Host Discovery Using ICMP 
  
      sudo nmap -PE -sn 10.10.68.220/24
+
+Namp TCP Ports scan
+
+     sudo nmap -sT IP
