@@ -15,6 +15,10 @@ Find Subnet
  
      sudo nmap -PE -sn 10.10.68.220/24
 
-Namp TCP Ports scan
+ TCP Connect Scan 
 
      sudo nmap -r -sT IP
+
+ TCP SYN Scan 
+ 
+      sudo nmap -sS IP
