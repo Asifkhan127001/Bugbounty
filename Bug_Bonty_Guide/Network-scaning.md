@@ -17,4 +17,4 @@ Find Subnet
 
 Namp TCP Ports scan
 
-     sudo nmap -sT IP
+     sudo nmap -r -sT IP
