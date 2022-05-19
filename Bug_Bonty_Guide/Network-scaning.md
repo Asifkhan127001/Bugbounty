@@ -15,14 +15,23 @@ Find Subnet
  
      sudo nmap -PE -sn 10.10.68.220/24
 
- TCP Connect Scan 
 
-     sudo nmap -r -sT IP
-
- TCP SYN Scan 
- 
-      sudo nmap -sS IP
-      
-  UDP Scan 
+  ## WAF Baypass Ports
   
-      sudo nmap -sU IP
+   FIN Scan
+   
+        sudo nmap -sF IP
+        
+        
+    NULL SCAN 
+    
+         sudo nmap -sN IP
+         
+         
+      
+      
+        
+        
+        
+        
+        
