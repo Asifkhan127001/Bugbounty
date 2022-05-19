@@ -20,12 +20,12 @@ Find Subnet
   
    FIN Scan
    
-        sudo nmap -sF IP
+    sudo nmap -sF IP
         
         
-    NULL SCAN 
+   NULL SCAN 
     
-         sudo nmap -sN IP
+    sudo nmap -sN IP
          
          
       
