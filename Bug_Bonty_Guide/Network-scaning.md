@@ -22,3 +22,7 @@ Find Subnet
  TCP SYN Scan 
  
       sudo nmap -sS IP
+      
+  UDP Scan 
+  
+      sudo nmap -sU IP
