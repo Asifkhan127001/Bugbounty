@@ -27,9 +27,9 @@ Find Subnet
     
     sudo nmap -sN IP
          
-   Service Detection 
+ ## Service Detection 
       
-      nmap -sV IP   
+     nmap -sV IP   
         
         
         
