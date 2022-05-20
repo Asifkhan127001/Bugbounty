@@ -40,7 +40,11 @@ Find Subnet
   
      sudo nmap -sS --traceroute IP
       
-      
+ ## Nmap Scripting Engine
+ find script 
+ 
+     ls -la /usr/share/nmap/scripts | grep "ftp"
+
   
       
       
