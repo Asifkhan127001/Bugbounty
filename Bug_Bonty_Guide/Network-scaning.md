@@ -38,7 +38,7 @@ Find Subnet
  ## Traceroute
   Nmap to find the routers between you and the target, just add --traceroute
   
-      sudo nmap -sS --traceroute IP
+     sudo nmap -sS --traceroute IP
       
       
   
