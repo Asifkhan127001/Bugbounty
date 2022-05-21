@@ -6,6 +6,6 @@
     
     
  ## Nslookup 
-  nslook find IP v4 and IP V6 Cname MX TXT Record and Start of Authority
+  nslook find IP v4 and IP V6 Cname, MX, TXT Record and Start of Authority
   
-     nslookup OPTIONS DOMAIN_NAME SERVER
+    nslookup OPTIONS DOMAIN_NAME SERVER
