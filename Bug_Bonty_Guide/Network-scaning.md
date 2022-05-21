@@ -45,7 +45,33 @@ Find Subnet
  
      ls -la /usr/share/nmap/scripts | grep "ftp"
 
+## Service Enumeration 
+
+ telnet 
   
+     sudo telnet IP
+     username 
+     password
+     
+     
+  FTP
+  
+     sudo ftp IP
+     username 
+     password
+     
+  downlods file command 
+  
+      get filename
+      
+  
+      
+      
+      
+      
+      
+    
+     
       
       
       
