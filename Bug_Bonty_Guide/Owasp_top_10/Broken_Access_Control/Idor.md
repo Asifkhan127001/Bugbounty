@@ -7,8 +7,8 @@
       
     https://example.com/account.php?id=24
       
-   The request collects the user ID from the URL parameter and then displays the information.
-   But what happens when the user with ID of 24 sends the next request?
+  - The request collects the user ID from the URL parameter and then displays the information.
+  - But what happens when the user with ID of 24 sends the next request?
    
     https://example.com/account.php?id=11
       
