@@ -21,7 +21,7 @@
    2.Generic IDOR: The type of IDOR in which the results of the exploitation can be seen in the server response. 
  - For example accessing confidential data or files belonging to another user.
    
-   3.IDOR with Reference to Objects: Used to access or modify an unauthorized object. 
+  3.IDOR with Reference to Objects: Used to access or modify an unauthorized object. 
  - For example accessing bank account information of other users by sending such a request
    
     →example.com/accounts?id={reference ID}
