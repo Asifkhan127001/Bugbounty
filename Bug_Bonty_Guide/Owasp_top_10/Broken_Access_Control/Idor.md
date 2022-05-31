@@ -36,18 +36,18 @@
     
    ## How to find an IDOR in a Bug Bounty Program
    
-   The first rule in testing for an IDOR vulnerability is to catch all the requests your
-   browser sends to the web server. Many times you will find those type of issues in 
-   URL parameters values, headers values or cookies. You will likely find encoded 
-   or hashed values and you have to decode them. For example the following link:
+   - The first rule in testing for an IDOR vulnerability is to catch all the requests your
+   - browser sends to the web server. Many times you will find those type of issues in 
+   - URL parameters values, headers values or cookies. You will likely find encoded 
+   - or hashed values and you have to decode them. For example the following link:
    
-     https://example.com/profiles.php?id=e4da3b7fbbce2345d7772b0674a318d5
+       https://example.com/profiles.php?id=e4da3b7fbbce2345d7772b0674a318d5
      
-   The “id” URL parameter value can be easily cracked using a hash decode tool (MD5 hashed).
+  The “id” URL parameter value can be easily cracked using a hash decode tool (MD5 hashed).
    
-   Also, a common place where an IDOR can occur is in the API requests, so be sure
-   that you analyze the web application, gather all the API requests that are being 
-   sent and tamper with the requested values.
+  - Also, a common place where an IDOR can occur is in the API requests, so be sure
+  - that you analyze the web application, gather all the API requests that are being 
+  - sent and tamper with the requested values.
    
   ## An IDOR Example  
   
