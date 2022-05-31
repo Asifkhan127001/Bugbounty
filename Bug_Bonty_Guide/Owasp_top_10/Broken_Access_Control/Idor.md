@@ -10,7 +10,7 @@
   - The request collects the user ID from the URL parameter and then displays the information.
   - But what happens when the user with ID of 24 sends the next request?
    
-          https://example.com/account.php?id=11
+        https://example.com/account.php?id=11
       
    If the data belonging to the user with ID of 11 is returned then it is an IDOR issue.
    
