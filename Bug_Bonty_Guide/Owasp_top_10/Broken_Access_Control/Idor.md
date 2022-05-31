@@ -18,17 +18,17 @@
    1.Blind IDOR: The type of IDOR in which the results of the exploitation cannot be seen in the server response. 
   - For example modifying other user private data without accessing it.
    
-   2.Generic IDOR: The type of IDOR in which the results of the exploitation can be seen 
-   in the server response. For example accessing confidential data or files belonging to another user.
+   2.Generic IDOR: The type of IDOR in which the results of the exploitation can be seen in the server response. 
+ - For example accessing confidential data or files belonging to another user.
    
    3.IDOR with Reference to Objects: Used to access or modify an unauthorized object. 
-   For example accessing bank account information of other users by sending such a request
+ - For example accessing bank account information of other users by sending such a request
    
     →example.com/accounts?id={reference ID}
       
    4.IDOR with Reference to Files: Used to access an unauthorized file. 
-   For example a live chat server stores the confidential conversations in files with names as 
-   incrementing numbers and any conversation can be retrieved by just sending requests like this
+ - For example a live chat server stores the confidential conversations in files with names as 
+ - incrementing numbers and any conversation can be retrieved by just sending requests like this
    
     →example.com/1.log, example.com/2.log, example.com/3.log 
    
