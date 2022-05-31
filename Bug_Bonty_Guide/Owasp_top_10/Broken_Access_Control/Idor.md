@@ -1,7 +1,7 @@
   ## IDOR (Insecure direct object references)
   
    ## What is IDOR
-  - [IDOR stands for Insecure Direct Object Reference and it is a vulnerability in which]
+  - IDOR stands for Insecure Direct Object Reference and it is a vulnerability in which
   - [an attacker can access sensitive information by making unauthorized references.] 
   - [For example, an user would retrieve his personal and confidential data by sending a request to the following URL:]
       
