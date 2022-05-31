@@ -24,13 +24,13 @@
   3.IDOR with Reference to Objects: Used to access or modify an unauthorized object. 
  - For example accessing bank account information of other users by sending such a request
    
-         example.com/accounts?id={reference ID}
+       example.com/accounts?id={reference ID}
       
   4.IDOR with Reference to Files: Used to access an unauthorized file. 
  - For example a live chat server stores the confidential conversations in files with names as 
  - incrementing numbers and any conversation can be retrieved by just sending requests like this
    
-    →example.com/1.log, example.com/2.log, example.com/3.log 
+       example.com/1.log, example.com/2.log, example.com/3.log 
    
 
     
