@@ -41,7 +41,7 @@
    - URL parameters values, headers values or cookies. You will likely find encoded 
    - or hashed values and you have to decode them. For example the following link:
    
-       https://example.com/profiles.php?id=e4da3b7fbbce2345d7772b0674a318d5
+         https://example.com/profiles.php?id=e4da3b7fbbce2345d7772b0674a318d5
      
   The “id” URL parameter value can be easily cracked using a hash decode tool (MD5 hashed).
    
