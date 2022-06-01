@@ -31,6 +31,14 @@
  - incrementing numbers and any conversation can be retrieved by just sending requests like this
    
        example.com/1.log, example.com/2.log, example.com/3.log 
+       
+   
+  ## IDOR Resource
+  
+   - Bypass WAF And Find IDOR 
+       https://github.com/daffainfo/AllAboutBugBounty/blob/master/Insecure%20Direct%20Object%20References.md
+       
+    
    
 
     
