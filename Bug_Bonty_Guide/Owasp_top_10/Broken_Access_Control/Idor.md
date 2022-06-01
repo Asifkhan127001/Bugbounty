@@ -38,10 +38,8 @@
    - Bypass WAF And Find IDOR 
    
          https://github.com/daffainfo/AllAboutBugBounty/blob/master/Insecure%20Direct%20Object%20References.md
+         https://github.com/KathanP19/HowToHunt/blob/master/IDOR/IDOR.md
        
-    
-   
-
     
    ## How to find an IDOR in a Bug Bounty Program
    
