@@ -36,7 +36,8 @@
   ## IDOR Resource
   
    - Bypass WAF And Find IDOR 
-       https://github.com/daffainfo/AllAboutBugBounty/blob/master/Insecure%20Direct%20Object%20References.md
+   
+         https://github.com/daffainfo/AllAboutBugBounty/blob/master/Insecure%20Direct%20Object%20References.md
        
     
    
