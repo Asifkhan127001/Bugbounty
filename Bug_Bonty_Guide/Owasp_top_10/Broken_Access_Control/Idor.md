@@ -17,6 +17,7 @@
    ## Types of IDOR
    1.Blind IDOR: The type of IDOR in which the results of the exploitation cannot be seen in the server response. 
   - For example modifying other user private data without accessing it.
+  - [How to find Blind Idor](https://medium.com/hackcura/blind-idor-leads-to-change-personal-details-of-the-companys-employees-acc2e0701155)
    
    2.Generic IDOR: The type of IDOR in which the results of the exploitation can be seen in the server response. 
  - For example accessing confidential data or files belonging to another user.
