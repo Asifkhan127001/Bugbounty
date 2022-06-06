@@ -12,3 +12,6 @@ The application makes subsequent access control decisions based on the submitted
 
     https://insecure-website.com/login/home.jsp?admin=true
     https://insecure-website.com/login/home.jsp?role=1
+
+This approach is fundamentally insecure because a user can simply modify the value and gain access to functionality to which they are not authorized,
+such as administrative functions. 
