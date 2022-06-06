@@ -23,4 +23,4 @@ Horizontal privilege escalation arises when a user is able to gain access to res
  ## For example,
  a user might ordinarily access their own account page using a URL like the following: 
 
-     https://insecure-website.com/myaccount?id=123
+    https://insecure-website.com/myaccount?id=123
