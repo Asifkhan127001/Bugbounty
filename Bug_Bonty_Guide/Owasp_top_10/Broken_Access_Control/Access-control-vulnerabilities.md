@@ -42,8 +42,8 @@ If the target user is an application administrator, then the attacker will gain 
 ## LAB
  
  ## 1. Step
-    Asif Is Upgrade User 
-    Login in and Caputer The Request In Burp Repeter
+  Asif Is Upgrade User 
+  Login in and Caputer The Request In Burp Repeter
     
     
 
