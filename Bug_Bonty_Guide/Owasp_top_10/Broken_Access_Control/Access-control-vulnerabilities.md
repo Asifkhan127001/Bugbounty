@@ -68,7 +68,7 @@ If the target user is an application administrator, then the attacker will gain 
     
 
  ## 2.STEP
- Khan Is Local user Log
+ Khan Is Local user 
  Login in the login page and Caputer The Request In Burp Repeter and  analyze the Request 
  
      GET /my-account?id=khan HTTP/1.1
