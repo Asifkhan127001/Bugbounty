@@ -39,7 +39,11 @@ an attacker might be able to gain access to another user's account page using th
 If the target user is an application administrator, then the attacker will gain access to an administrative account page. This page might disclose the administrator's password or provide a means of changing it, or might provide direct access to privileged functionality. 
     
     
-    
+## LAB
+ 
+ ## 1. Step
+    Asif Is Upgrade User 
+    Login in and Caputer The Request In Burp Repeter
     
     
 
