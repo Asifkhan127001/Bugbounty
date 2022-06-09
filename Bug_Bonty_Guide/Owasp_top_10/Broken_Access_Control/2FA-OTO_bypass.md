@@ -22,7 +22,6 @@ Fuck the 2FA, just try to access the next endpoint directly (you need to know th
  7. And add the end-point parameter
  
         /my-account
- 
         https://aca11f651ff1ebfac0cc7137009500a3.web-security-academy.net/my-account
  
  ## Finally Hack The Vicatam Account
