@@ -9,14 +9,19 @@ Fuck the 2FA, just try to access the next endpoint directly (you need to know th
  
   3. Check The Email and use the code and loging
   4. check the url parameter
+  
         https://aca11f651ff1ebfac0cc7137009500a3.web-security-academy.net/my-account
+        
  5. /my-account is end-point
  6. loging Vicatm Account and send the 4 digit code 
 
  7. This is Url in Vicatam account
+ 
         https://aca11f651ff1ebfac0cc7137009500a3.web-security-academy.net/login2
+        
  8. And add the end-point parameter
  9. /my-account
+ 
         https://aca11f651ff1ebfac0cc7137009500a3.web-security-academy.net/my-account
  
  ## Finally Hack The Vicatam Account
