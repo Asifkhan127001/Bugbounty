@@ -11,8 +11,8 @@ Fuck the 2FA, just try to access the next endpoint directly (you need to know th
   4. check the url parameter
   
          https://aca11f651ff1ebfac0cc7137009500a3.web-security-academy.net/my-account
-        
          /my-account is end-point
+         
  5. loging Vicatm Account and send the 4 digit code 
 
  6. This is Url in Vicatam account
