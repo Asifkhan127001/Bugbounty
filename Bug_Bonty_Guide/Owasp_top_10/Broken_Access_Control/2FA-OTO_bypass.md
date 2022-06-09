@@ -4,8 +4,7 @@ Fuck the 2FA, just try to access the next endpoint directly (you need to know th
 
 ## Ex 
  
- 1. STEP 
- Loging Account use username and password 
+ 1. Loging Account use username and password 
  2. Please enter your 4-digit security code 
  - [Check The Email and use the code and loging It loging]
  - [check the url parameter]
