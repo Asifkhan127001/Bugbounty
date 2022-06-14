@@ -2,7 +2,7 @@
 Fuck the 2FA, just try to access the next endpoint directly (you need to know the path of the next endpoint).
 
 
-## Ex 1
+## Ex 1 2FA simple bypass
  
  1. Loging Account use username and password 
  2. Please enter your 4-digit security code 
