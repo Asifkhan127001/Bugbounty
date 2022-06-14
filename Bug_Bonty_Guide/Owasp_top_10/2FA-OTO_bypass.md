@@ -29,7 +29,7 @@ Fuck the 2FA, just try to access the next endpoint directly (you need to know th
  ## EX 2 2FA broken logic
  1.loging Account and intercept the request
  
-   GET /login2 HTTP/1.1
+     GET /login2 HTTP/1.1
    Host: acca1fb51e222ae1c096b0ee00130073.web-security-academy.net
    Cookie: verify=wiener; session=BbzscnaCtyy4b69XW8P9Q0JRlqLq8iMU
    Cache-Control: max-age=0
