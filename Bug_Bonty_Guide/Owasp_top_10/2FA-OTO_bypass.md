@@ -29,7 +29,7 @@ Fuck the 2FA, just try to access the next endpoint directly (you need to know th
  ## EX 2 2FA broken logic
  1.loging Account and intercept the request
  
-       POST /login HTTP/1.1
+     POST /login HTTP/1.1
 Host: acca1fb51e222ae1c096b0ee00130073.web-security-academy.net
 Cookie: session=Gkb38gS5iSHtopTvzjmVcGodyR7nbjoY
 Content-Length: 27
