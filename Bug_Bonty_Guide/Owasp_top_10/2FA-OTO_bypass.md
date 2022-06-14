@@ -48,7 +48,7 @@ Fuck the 2FA, just try to access the next endpoint directly (you need to know th
     Accept-Language: en-US,en;q=0.9
     Connection: close
     
- And Note Cookie: Verify username so change the username adn add the victom name 
+ And Note Cookie: Verify username so change the username adn add the victom username and sand the request
  
  
  
