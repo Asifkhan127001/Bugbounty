@@ -15,7 +15,7 @@
   
   ## EX 
   
-     POST /login HTTP/1.1
+    POST /login HTTP/1.1
 Host: ac9b1f711ed8b1e1c0220cdd005b006a.web-security-academy.net
 Cookie: session=gyv8YLrvVqRcgxsc6JaG8vIgnRezoHew
 User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0
