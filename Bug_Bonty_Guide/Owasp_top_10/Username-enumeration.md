@@ -13,7 +13,7 @@
   1. First try to loging show Invalid username or password
   2. Loging page to worng username and password and burp request and sand intruder and add username password add $$ 
   
-  ## EX 
+  ## EXAMPLE
   
     POST /login HTTP/1.1
     Host: ac9b1f711ed8b1e1c0220cdd005b006a.web-security-academy.net
