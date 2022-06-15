@@ -36,3 +36,17 @@
 
     username=§asif§&password=khan§§
     
+ 3. select Attack Type=Cluster bomb
+ 4. set paylods number 1 simple list and past paylods number 2 null paylods and paylods option select type 4
+ 5. intruder sub-tab Option and scroll GREP-EXTRACT click add button and scroll and select Invalid username or password. and ok
+ 6. start the attack 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
