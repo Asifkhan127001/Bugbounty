@@ -20,7 +20,9 @@
    1. Basic
     
   Find CSRF
+  
   email change functionality is vulnerable to CSRF
+  
   Burp intercept request and manualy revewo 
     
  ## BURP request 
