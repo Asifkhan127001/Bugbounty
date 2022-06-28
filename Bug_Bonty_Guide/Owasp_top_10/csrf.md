@@ -11,4 +11,12 @@
 
 
   ## How to test for CSRF
-   A good methodology to identify CSRF vulnerabilities would be to discover all the endpoints through which the application initiates and executes actions, and apply tests for all three types of Cross-Site Request Forgery described above.
+   A good methodology to identify CSRF vulnerabilities would be to discover all the endpoints through which the application initiates and executes actions,   and apply tests for all three types of Cross-Site Request Forgery described above.
+
+
+
+  ## CSRF type
+  
+   1. Basic
+
+    a. first find csrf 
