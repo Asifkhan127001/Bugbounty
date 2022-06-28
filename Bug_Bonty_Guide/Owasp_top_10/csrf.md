@@ -6,7 +6,8 @@
    If the victim is an administrative account, CSRF can compromise the entire web application.
 
    ## Resource 
-   -[csrf](https://corneacristian.medium.com/top-25-csrf-bug-bounty-reports-ffb0b61afa55)
+   
+          https://corneacristian.medium.com/top-25-csrf-bug-bounty-reports-ffb0b61afa55
 
 
   ## How to test for CSRF
