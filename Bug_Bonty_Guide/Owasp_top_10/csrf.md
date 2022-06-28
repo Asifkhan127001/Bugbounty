@@ -23,12 +23,12 @@
     email change functionality is vulnerable to CSRF
     Burp intercept request and manualy revewo 
     
- BURP request 
+ ## BURP request 
  
     POST /my-account/change-email HTTP/1.1
-Host: 0a98002a031dc494c0bb490d002b0039.web-security-academy.net
-Cookie: session=Xi4wUL9QBc5WIvwtzoN7dwzzJdwtDVi5
-User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0
+    Host: 0a98002a031dc494c0bb490d002b0039.web-security-academy.net
+    Cookie: session=Xi4wUL9QBc5WIvwtzoN7dwzzJdwtDVi5
+    User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0
 Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
 Accept-Language: en-US,en;q=0.5
 Accept-Encoding: gzip, deflate
