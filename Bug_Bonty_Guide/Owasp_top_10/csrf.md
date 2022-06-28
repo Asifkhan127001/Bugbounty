@@ -18,5 +18,7 @@
   ## CSRF type
   
    1. Basic
-
-    a. first find csrf 
+    
+    Find CSRF
+    email change functionality is vulnerable to CSRF
+    Burp request 
