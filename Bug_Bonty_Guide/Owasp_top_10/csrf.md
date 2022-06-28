@@ -64,7 +64,9 @@
  
  copy html and sand the victom
  
- victam click the link and boom hack the id 
+ victam click the link 
+ 
+ boom hack the id 
  
   ## 2. CSRF change request method
  
@@ -74,8 +76,26 @@
   
   Burp intercept request and manualy review
     
-    
-    
+    POST /my-account/change-email HTTP/1.1
+Host: 0ad2000603304f22c01c4dd500860024.web-security-academy.net
+Cookie: session=ogvSLeaV2cZGd1WUAWSmqSVPMvOm4Q4C
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 59
+Origin: https://0ad2000603304f22c01c4dd500860024.web-security-academy.net
+Referer: https://0ad2000603304f22c01c4dd500860024.web-security-academy.net/my-account
+Upgrade-Insecure-Requests: 1
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: same-origin
+Sec-Fetch-User: ?1
+Te: trailers
+Connection: close
+
+email=asif%40khan.com&csrf=XYZJKeGiUSE0mD4LKrHufpsusLxqtIQa
     
     
     
