@@ -118,7 +118,44 @@
  boom hack the id 
     
     
+ ## 3. Remove CSRF Token 
+ 
+  Find CSRF
+  
+  Email change functionality is vulnerable to CSRF
+  
+  Burp intercept request and manualy review
     
+    
+    POST /my-account/change-email HTTP/1.1
+Host: 0a47009a043a07eac09a218e000300a8.web-security-academy.net
+Cookie: session=VShOTSOiOO4zVZzz8bn9QOcI7dhmtYJj
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 59
+Origin: https://0a47009a043a07eac09a218e000300a8.web-security-academy.net
+Referer: https://0a47009a043a07eac09a218e000300a8.web-security-academy.net/my-account
+Upgrade-Insecure-Requests: 1
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: same-origin
+Sec-Fetch-User: ?1
+Te: trailers
+Connection: close
+
+email=asif%40khan.com&csrf=WETxOXISfGeVUKAPqcezagvb4x9HSaZn
+
+
+
+
+
+
+
+
+
     
     
     
