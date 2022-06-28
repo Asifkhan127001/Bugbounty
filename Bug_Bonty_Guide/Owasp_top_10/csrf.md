@@ -4,3 +4,7 @@
    an attacker may trick the users of a web application into executing actions of the attacker’s choosing. If the victim is a normal user, 
    a successful CSRF attack can force the user to perform state changing requests like transferring funds, changing their email address, and so forth. 
    If the victim is an administrative account, CSRF can compromise the entire web application.
+
+
+  ## How to test for CSRF
+   A good methodology to identify CSRF vulnerabilities would be to discover all the endpoints through which the application initiates and executes actions, and apply tests for all three types of Cross-Site Request Forgery described above.
