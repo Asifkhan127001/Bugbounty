@@ -174,7 +174,23 @@
 
     email=asif%40khan.com
 
-
+  Change Email Id 
+  
+ Sand the Request in Repeter
+ 
+ Sand the Request in Engagement tools
+ 
+ Sand the request Engagement sub-tabe Generate CSRF POC 
+ 
+ Open the Option tabe and select the INCLUDE auto-submit Script
+ 
+ and click "Regenerate"
+ 
+ copy html and sand the victom
+ 
+ victam click the link 
+ 
+ boom hack the id 
 
     
     
