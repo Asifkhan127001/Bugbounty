@@ -17,7 +17,9 @@
 
   ## CSRF type
   
-   1. Basic
+  
+  
+  ## 1. Basic
     
   Find CSRF
   
@@ -64,7 +66,7 @@
  
  victam click the link and boom hack the id 
  
- 2. CSRF change request method
+  ## 2. CSRF change request method
  
   Find CSRF
   
