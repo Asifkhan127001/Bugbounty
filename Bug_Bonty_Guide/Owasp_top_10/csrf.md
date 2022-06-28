@@ -25,7 +25,7 @@
     
  BURP request 
  
-     POST /my-account/change-email HTTP/1.1
+    POST /my-account/change-email HTTP/1.1
 Host: 0a98002a031dc494c0bb490d002b0039.web-security-academy.net
 Cookie: session=Xi4wUL9QBc5WIvwtzoN7dwzzJdwtDVi5
 User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0
