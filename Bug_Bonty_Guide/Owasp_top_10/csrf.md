@@ -21,9 +21,9 @@
     
   Find CSRF
   
-  email change functionality is vulnerable to CSRF
+  Email change functionality is vulnerable to CSRF
   
-  Burp intercept request and manualy revewo 
+  Burp intercept request and manualy review
     
  ## BURP request 
  
@@ -47,9 +47,23 @@
     Connection: close
 
     email=asif%40khan.com
-    
  
-    
+ Change Email Id 
+ Sand the Request in Repeter
+ Sand the Request in Engagement tools
+ Sand the request Engagement sub-tabe Generate CSRF POC 
+ Open the Option tabe and select the INCLUDE auto-submit Script
+ and click "Regenerate". 
+ copy html and sand the victom 
+ victam click the link and boom hack the id 
+ 
+ 2. CSRF change request method
+ 
+  Find CSRF
+  
+  Email change functionality is vulnerable to CSRF
+  
+  Burp intercept request and manualy review
     
     
     
