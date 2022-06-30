@@ -203,7 +203,7 @@
   Burp intercept request and manualy review
  
  
-     POST /my-account/change-email HTTP/1.1
+    POST /my-account/change-email HTTP/1.1
 Host: 0a0800450456c9a9c0431ce40073003c.web-security-academy.net
 Cookie: session=s9t9wxedbIp1ub1eCsb6uXTps09RV5l3
 User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0
