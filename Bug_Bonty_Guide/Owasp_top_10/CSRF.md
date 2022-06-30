@@ -206,7 +206,7 @@
   
   Observe that if you Change the CSRF token with the value from the other account, then the request is accepted, this is vulnerable
   
-  first account request
+ ## first account request
  
     POST /my-account/change-email HTTP/1.1
     Host: 0a0800450456c9a9c0431ce40073003c.web-security-academy.net
@@ -230,7 +230,7 @@
 
     email=Attacker%40gmail.com&csrf=HqtjvqoKSCdRw8vNjNE9jliF8P39WhM2
  
-  secand account request 
+  ## secand account request 
  
  
     POST /my-account/change-email HTTP/1.1
@@ -252,7 +252,9 @@
     email=Victom%40gmail.com&csrf=Oi7rHvtd7DOqsEEGicPXo4LBMidJEYcD
  
  
- 
+  Copy the csrf token Privilege account, and past the normal use csrf token 
+  
+  And book Hack
  
  
  
