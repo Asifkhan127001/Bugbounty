@@ -234,26 +234,22 @@
  
  
     POST /my-account/change-email HTTP/1.1
-Host: 0a0800450456c9a9c0431ce40073003c.web-security-academy.net
-Cookie: session=s9t9wxedbIp1ub1eCsb6uXTps09RV5l3
-User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0
-Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
-Accept-Language: en-US,en;q=0.5
-Accept-Encoding: gzip, deflate
-Content-Type: application/x-www-form-urlencoded
-Content-Length: 60
-Origin: https://0a0800450456c9a9c0431ce40073003c.web-security-academy.net
-Dnt: 1
-Referer: https://0a0800450456c9a9c0431ce40073003c.web-security-academy.net/my-account
-Upgrade-Insecure-Requests: 1
-Sec-Fetch-Dest: document
-Sec-Fetch-Mode: navigate
-Sec-Fetch-Site: same-origin
-Sec-Fetch-User: ?1
-Te: trailers
-Connection: close
-
-email=Victom%40gmail.com&csrf=Oi7rHvtd7DOqsEEGicPXo4LBMidJEYcD
+    Host: 0a0800450456c9a9c0431ce40073003c.web-security-academy.net
+    Cookie: session=s9t9wxedbIp1ub1eCsb6uXTps09RV5l3
+    User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0
+    Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+    Accept-Language: en-US,en;q=0.5
+    Accept-Encoding: gzip, deflate
+    Content-Type: application/x-www-form-urlencoded
+    Content-Length: 60
+    Origin: https://0a0800450456c9a9c0431ce40073003c.web-security-academy.net
+    Dnt: 1
+    Referer: https://0a0800450456c9a9c0431ce40073003c.web-security-academy.net/my-account
+    Upgrade-Insecure-Requests: 1
+    Sec-Fetch-Dest: document
+    Sec-Fetch-Mode: navigate
+ 
+    email=Victom%40gmail.com&csrf=Oi7rHvtd7DOqsEEGicPXo4LBMidJEYcD
  
  
  
