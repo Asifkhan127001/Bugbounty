@@ -298,25 +298,25 @@
    ## Local User account request
  
     POST /my-account/change-email HTTP/1.1
-Host: 0a46002a0304dbd3c03a186b00050036.web-security-academy.net
-Cookie: session=24dpnS4N8crVqQHBTd3QBccYllRZheOe; csrfKey=mVCTxe6SETdHTB59NX7izfWGmQbCJtGt
-User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0
-Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
-Accept-Language: en-US,en;q=0.5
-Accept-Encoding: gzip, deflate
-Content-Type: application/x-www-form-urlencoded
-Content-Length: 59
-Origin: https://0a46002a0304dbd3c03a186b00050036.web-security-academy.net
-Referer: https://0a46002a0304dbd3c03a186b00050036.web-security-academy.net/my-account?id=wiener
-Upgrade-Insecure-Requests: 1
-Sec-Fetch-Dest: document
-Sec-Fetch-Mode: navigate
-Sec-Fetch-Site: same-origin
-Sec-Fetch-User: ?1
-Te: trailers
-Connection: close
+    Host: 0a46002a0304dbd3c03a186b00050036.web-security-academy.net
+    Cookie: session=24dpnS4N8crVqQHBTd3QBccYllRZheOe; csrfKey=mVCTxe6SETdHTB59NX7izfWGmQbCJtGt
+    User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0
+    Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+    Accept-Language: en-US,en;q=0.5
+    Accept-Encoding: gzip, deflate
+    Content-Type: application/x-www-form-urlencoded
+    Content-Length: 59
+    Origin: https://0a46002a0304dbd3c03a186b00050036.web-security-academy.net
+    Referer: https://0a46002a0304dbd3c03a186b00050036.web-security-academy.net/my-account?id=wiener
+    Upgrade-Insecure-Requests: 1
+    Sec-Fetch-Dest: document
+    Sec-Fetch-Mode: navigate
+    Sec-Fetch-Site: same-origin
+    Sec-Fetch-User: ?1
+    Te: trailers
+    Connection: close
 
-email=asif%40khan.com&csrf=G0zc7n3MlHSGvkIl3ji5OrCz4MEZQtKv
+    email=asif%40khan.com&csrf=G0zc7n3MlHSGvkIl3ji5OrCz4MEZQtKv
  
  
  
