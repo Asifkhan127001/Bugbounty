@@ -319,5 +319,6 @@
     email=asif%40khan.com&csrf=G0zc7n3MlHSGvkIl3ji5OrCz4MEZQtKv
  
  
- 
+ Copy the csrfKey and csrf token Privilege account, and past the local use csrfKey and csrf token, sand the to request server, Server is accept the request,
+ This is vulnerable
     
