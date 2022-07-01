@@ -269,7 +269,7 @@
  
  Observe that if you swap the csrfKey cookie and csrf parameter from the first account to the second account, the request is accepted. this is vulnerable
  
-     POST /my-account/change-email HTTP/1.1
+    POST /my-account/change-email HTTP/1.1
 Host: 0a46002a0304dbd3c03a186b00050036.web-security-academy.net
 Cookie: session=ABcCuqstyngyux2QNIm9mq260r2zi58z; csrfKey=mVCTxe6SETdHTB59NX7izfWGmQbCJtGt
 User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0
