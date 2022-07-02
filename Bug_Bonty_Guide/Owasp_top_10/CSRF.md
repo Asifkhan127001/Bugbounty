@@ -148,7 +148,8 @@
 
 
  Remove CSRF Token 
-
+ 
+ Sand Request to Server accept the request website is vulnerabilities 
 
     
     POST /my-account/change-email HTTP/1.1
