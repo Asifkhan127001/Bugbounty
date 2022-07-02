@@ -391,7 +391,7 @@
 
     email=asif%40khan.com
  
- 
+ Accept The Request, CSRF vulnerability
  
  
  
