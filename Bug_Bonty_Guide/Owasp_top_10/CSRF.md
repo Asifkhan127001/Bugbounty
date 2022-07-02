@@ -204,6 +204,8 @@
   
  ## Privilege account request
  
+ Drop The Request
+ 
     POST /my-account/change-email HTTP/1.1
     Host: 0a0800450456c9a9c0431ce40073003c.web-security-academy.net
     Cookie: session=s9t9wxedbIp1ub1eCsb6uXTps09RV5l3
@@ -228,6 +230,7 @@
  
   ## Local User account request 
  
+ Drop The Request
  
     POST /my-account/change-email HTTP/1.1
     Host: 0a0800450456c9a9c0431ce40073003c.web-security-academy.net
@@ -269,6 +272,8 @@
  
  ## Privilege account request
  
+ Drop The Request
+ 
     POST /my-account/change-email HTTP/1.1
     Host: 0a46002a0304dbd3c03a186b00050036.web-security-academy.net
     Cookie: session=ABcCuqstyngyux2QNIm9mq260r2zi58z; csrfKey=mVCTxe6SETdHTB59NX7izfWGmQbCJtGt
@@ -292,6 +297,8 @@
     email=nasir%40khan.com&csrf=G0zc7n3MlHSGvkIl3ji5OrCz4MEZQtKv
  
    ## Local User account request
+   
+   Drop The Request
  
     POST /my-account/change-email HTTP/1.1
     Host: 0a46002a0304dbd3c03a186b00050036.web-security-academy.net
