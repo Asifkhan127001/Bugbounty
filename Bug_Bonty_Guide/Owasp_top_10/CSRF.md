@@ -27,7 +27,7 @@
   
   Burp intercept request and manualy review
     
- ## BURP request 
+ ## BURP request
  
     POST /my-account/change-email HTTP/1.1
     Host: 0a98002a031dc494c0bb490d002b0039.web-security-academy.net
@@ -49,8 +49,6 @@
     Connection: close
 
     email=asif%40khan.com
- 
- Change Email Id 
   
  Sand the Request in Repeter
  
@@ -97,7 +95,7 @@
 
     email=asif%40khan.com&csrf=XYZJKeGiUSE0mD4LKrHufpsusLxqtIQa
     
- And Change request method 
+ ## Change request method 
     
  Change Email Id 
   
