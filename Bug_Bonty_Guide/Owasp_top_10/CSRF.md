@@ -204,7 +204,7 @@
   
  ## Privilege account request
  
- Drop The Request
+## Drop The Request, Don't sand the request to server
  
     POST /my-account/change-email HTTP/1.1
     Host: 0a0800450456c9a9c0431ce40073003c.web-security-academy.net
@@ -230,7 +230,7 @@
  
   ## Local User account request 
  
- Drop The Request
+## Drop The Request, Don't sand the request to server
  
     POST /my-account/change-email HTTP/1.1
     Host: 0a0800450456c9a9c0431ce40073003c.web-security-academy.net
@@ -272,7 +272,7 @@
  
  ## Privilege account request
  
- Drop The Request
+## Drop The Request Don't sand the request server
  
     POST /my-account/change-email HTTP/1.1
     Host: 0a46002a0304dbd3c03a186b00050036.web-security-academy.net
@@ -298,7 +298,7 @@
  
    ## Local User account request
    
-   Drop The Request
+  ## Drop The Request Don't sand the request server
  
     POST /my-account/change-email HTTP/1.1
     Host: 0a46002a0304dbd3c03a186b00050036.web-security-academy.net
