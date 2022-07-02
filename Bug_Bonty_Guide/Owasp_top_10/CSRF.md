@@ -147,10 +147,8 @@
     email=asif%40khan.com&csrf=WETxOXISfGeVUKAPqcezagvb4x9HSaZn
 
 
- Remove CSRF Token 
+ Remove CSRF Token, Sand Request to Server, accept the request, website is vulnerabilities 
  
- Sand Request to Server accept the request website is vulnerabilities 
-
     
     POST /my-account/change-email HTTP/1.1
     Host: 0a47009a043a07eac09a218e000300a8.web-security-academy.net
@@ -173,7 +171,6 @@
 
     email=asif%40khan.com
 
-  Change Email Id 
   
  Sand the Request in Repeter
  
