@@ -403,7 +403,7 @@
   
   you add the Subdomain in Referer header 
   
-      Referer: https://0a89008703ebcffdc0d93c820012003e.web-security-academy.com?https://0a89008703ebcffdc0d93c820012003e.web-security-academy.net
+    Referer: https://0a89008703ebcffdc0d93c820012003e.web-security-academy.com?https://0a89008703ebcffdc0d93c820012003e.web-security-academy.net
  
  
  
