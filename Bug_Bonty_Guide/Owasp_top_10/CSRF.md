@@ -372,24 +372,24 @@
  ## Sand Request 
    
     POST /my-account/change-email HTTP/1.1
-Host: 0a89008703ebcffdc0d93c820012003e.web-security-academy.net
-Cookie: session=JVkCCpZQiS0OYc5fps8TmHh504ingf6f
-User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0
-Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
-Accept-Language: en-US,en;q=0.5
-Accept-Encoding: gzip, deflate
-Content-Type: application/x-www-form-urlencoded
-Content-Length: 21
-Origin: https://0a89008703ebcffdc0d93c820012003e.web-security-academy.net
-Upgrade-Insecure-Requests: 1
-Sec-Fetch-Dest: document
-Sec-Fetch-Mode: navigate
-Sec-Fetch-Site: same-origin
-Sec-Fetch-User: ?1
-Te: trailers
-Connection: close
+    Host: 0a89008703ebcffdc0d93c820012003e.web-security-academy.net
+    Cookie: session=JVkCCpZQiS0OYc5fps8TmHh504ingf6f
+    User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0
+    Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+    Accept-Language: en-US,en;q=0.5
+    Accept-Encoding: gzip, deflate
+    Content-Type: application/x-www-form-urlencoded
+    Content-Length: 21
+    Origin: https://0a89008703ebcffdc0d93c820012003e.web-security-academy.net
+    Upgrade-Insecure-Requests: 1
+    Sec-Fetch-Dest: document
+    Sec-Fetch-Mode: navigate
+    Sec-Fetch-Site: same-origin
+    Sec-Fetch-User: ?1
+    Te: trailers
+    Connection: close
 
-email=asif%40khan.com
+    email=asif%40khan.com
  
  
  
