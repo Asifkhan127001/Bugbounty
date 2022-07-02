@@ -365,7 +365,9 @@
 
     email=asif%40khan.com
   
+ ## Delete the Referer header entirely and observe that the request is now accepted.
  
+     Referer: https://0a89008703ebcffdc0d93c820012003e.web-security-academy.net/my-account
  
  
  
