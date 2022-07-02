@@ -344,7 +344,7 @@
   
   Delete the Referer header entirely and observe that the request is now accepted.
   
-  POST /my-account/change-email HTTP/1.1
+    POST /my-account/change-email HTTP/1.1
 Host: 0a89008703ebcffdc0d93c820012003e.web-security-academy.net
 Cookie: session=JVkCCpZQiS0OYc5fps8TmHh504ingf6f
 User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0
