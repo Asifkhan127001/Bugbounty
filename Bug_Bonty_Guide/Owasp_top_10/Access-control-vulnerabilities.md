@@ -246,8 +246,17 @@ Check The Header Show ID
    
    
    
+ ## 7. Method-based access control can be circumvented
+ 
+   Create twon account one Privilege and secand is Local User 
    
+   Copy The Local user Cookie :session, and past the Privilege account Cookie :session, And sand the request is server
    
+   and observe that the response says "Unauthorized". 
+   
+   Change the method from POST to POSTX and observe that the response changes to "missing parameter".
+   
+   Convert the request to use the GET method by right-clicking and selecting "Change request method". 
    
    
    
