@@ -265,7 +265,9 @@ Check The Header Show ID
 
   Create two account, one Privilege and secand is Local User 
  
-  Copy the Local user's session cookie and past the Privilege user, and change the username, sand the request to server, accept the request, This is    vulnerable
+  Copy the Local user's session cookie and past the Privilege user, and change the username, 
+  
+  sand the request to server, accept the request, This is    vulnerable
    
    
      
