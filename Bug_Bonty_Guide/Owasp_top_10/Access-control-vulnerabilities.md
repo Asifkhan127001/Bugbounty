@@ -119,16 +119,22 @@ If the target user is an application administrator, then the attacker will gain 
  ## 1. User role controlled by request parameter
  
  In Burp Proxy, turn interception on and enable response interception
+ 
  Complete and submit the login page, and forward the resulting request in Burp.
+ 
  Observe that the response sets the cookie Admin=false. Change it to Admin=true. 
+ 
  Acess The directory
  
  
  ## 2. User role can be modified in user profile
  
  Request Sand to repeter 
+ 
  Observe that the response contains your role ID.
+ 
  Send the email submission request to Burp Repeater, add "roleid":2 into the JSON in the request body, and resend it. 
+ 
  Observe that the response shows your roleid has changed to 2.
 
     POST /my-account/change-email HTTP/1.1
