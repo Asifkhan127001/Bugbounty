@@ -198,6 +198,8 @@ If the target user is an application administrator, then the attacker will gain 
 
     {"email":"asif@khan.com",
      "roleid":2}
+     
+  Accept the request, This is vulnerable
 
 
  ## 3. User ID controlled by request parameter 
