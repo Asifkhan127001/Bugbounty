@@ -281,21 +281,34 @@ Check The Header Show ID
   
  ## Request 
  
-    GET /my-account?id=carlos HTTP/1.1
-Host: 0aaf003204d8ede2c04a33d50003008a.web-security-academy.net
-Cookie: session=EFpwsC5e6EhLdrxHM7ImktzSjMeuFgUq
-User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0
-Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
-Accept-Language: en-US,en;q=0.5
-Accept-Encoding: gzip, deflate
-Referer: https://0aaf003204d8ede2c04a33d50003008a.web-security-academy.net/my-account
-Upgrade-Insecure-Requests: 1
-Sec-Fetch-Dest: document
-Sec-Fetch-Mode: navigate
-Sec-Fetch-Site: same-origin
-Sec-Fetch-User: ?1
-Te: trailers
-Connection: close
+    GET /my-account?id=asif HTTP/1.1
+    Host: 0aaf003204d8ede2c04a33d50003008a.web-security-academy.net
+    Cookie: session=EFpwsC5e6EhLdrxHM7ImktzSjMeuFgUq
+    User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0
+    Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+    Accept-Language: en-US,en;q=0.5
+    Accept-Encoding: gzip, deflate
+    Referer: https://0aaf003204d8ede2c04a33d50003008a.web-security-academy.net/my-account
+    Upgrade-Insecure-Requests: 1
+    Sec-Fetch-Dest: document
+    Sec-Fetch-Mode: navigate
+    Sec-Fetch-Site: same-origin
+    Sec-Fetch-User: ?1
+    Te: trailers
+    Connection: close
    
-   
+ Check The Header Show the username 
+ 
+     GET /my-account?id=asif HTTP/1.1
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
 
