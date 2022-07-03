@@ -303,7 +303,45 @@ Check The Header Show ID
      
      
      
+ ## 6.  User ID controlled by request parameter with password disclosure
+ 
+    Log in using the supplied credentials and access the user account page
+    
+    Change the "id" parameter in the URL to administrator. 
+    
+    View the response in Burp and observe that it contains the administrator's password.
+    
+ ## Request 
+ 
+   GET /my-account?id=wiener HTTP/1.1
+Host: 0a5800870333c4eac027bb34005e00c2.web-security-academy.net
+Cookie: session=DqtzHbQyCH395bnMAVQZyyjkrPnUts0Z
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: https://0a5800870333c4eac027bb34005e00c2.web-security-academy.net/my-account
+Upgrade-Insecure-Requests: 1
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: same-origin
+Sec-Fetch-User: ?1
+Te: trailers
+Connection: close
      
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
      
      
      
