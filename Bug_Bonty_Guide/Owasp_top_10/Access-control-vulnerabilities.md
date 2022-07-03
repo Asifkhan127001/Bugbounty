@@ -45,7 +45,7 @@ If the target user is an application administrator, then the attacker will gain 
   Asif Is Upgrade User 
   Login in the login page and Caputer The Request In Burp Repeter and  analyze the Request
     
-     POST /admin-roles HTTP/1.1
+    POST /admin-roles HTTP/1.1
     Host: acca1f871ff59314c0b1124d00580002.web-security-academy.net
     Cookie: session=dhb7aRHg7lEnRb2uRogyfXu2onwMp2jY
     User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0
@@ -116,7 +116,12 @@ If the target user is an application administrator, then the attacker will gain 
     
  
  
+ ## User role controlled by request parameter
  
+ In Burp Proxy, turn interception on and enable response interception
+ Complete and submit the login page, and forward the resulting request in Burp.
+ Observe that the response sets the cookie Admin=false. Change it to Admin=true. 
+ Acess The directory
  
  
  
