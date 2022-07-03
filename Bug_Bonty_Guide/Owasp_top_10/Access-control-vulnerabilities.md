@@ -168,7 +168,7 @@ If the target user is an application administrator, then the attacker will gain 
   
   Change the "id" parameter and sand the server accept the request, This is vulnerability
   
-     GET /my-account?id=asif HTTP/1.1
+   GET /my-account?id=asif HTTP/1.1
 Host: 0a3f0064038d99a1c0d1738b007b0085.web-security-academy.net
 Cookie: session=NN4wD7kCq0mi8vnkAdVwEg9TkEMZYlSd
 User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0
