@@ -265,7 +265,7 @@ If the target user is an application administrator, then the attacker will gain 
    
 Check The Header Show ID 
 
-     GET /my-account?id=62cae48d-fa7e-43a1-810a-8d3edcb5b449 HTTP/1.1
+    GET /my-account?id=62cae48d-fa7e-43a1-810a-8d3edcb5b449 HTTP/1.1
    
    
    
