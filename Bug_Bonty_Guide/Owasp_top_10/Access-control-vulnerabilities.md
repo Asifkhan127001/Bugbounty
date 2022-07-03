@@ -271,8 +271,12 @@ Check The Header Show ID
    
    
      
-     
-     
+## 9. Referer-based access control 
+
+   Create two account, one Privilege and secand is Local User 
+   
+   send the HTTP request to Burp Repeater
+   
      
      
      
