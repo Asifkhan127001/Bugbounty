@@ -336,25 +336,25 @@ Check The Header Show ID
  Click The Update Password and request sand the burp, and show the password 
  
     POST /my-account/change-password HTTP/1.1
-Host: 0a5800870333c4eac027bb34005e00c2.web-security-academy.net
-Cookie: session=DqtzHbQyCH395bnMAVQZyyjkrPnUts0Z
-User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0
-Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
-Accept-Language: en-US,en;q=0.5
-Accept-Encoding: gzip, deflate
-Content-Type: application/x-www-form-urlencoded
-Content-Length: 67
-Origin: https://0a5800870333c4eac027bb34005e00c2.web-security-academy.net
-Referer: https://0a5800870333c4eac027bb34005e00c2.web-security-academy.net/my-account?id=wiener
-Upgrade-Insecure-Requests: 1
-Sec-Fetch-Dest: document
-Sec-Fetch-Mode: navigate
-Sec-Fetch-Site: same-origin
-Sec-Fetch-User: ?1
-Te: trailers
-Connection: close
+    Host: 0a5800870333c4eac027bb34005e00c2.web-security-academy.net
+    Cookie: session=DqtzHbQyCH395bnMAVQZyyjkrPnUts0Z
+    User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0
+    Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+    Accept-Language: en-US,en;q=0.5
+    Accept-Encoding: gzip, deflate
+    Content-Type: application/x-www-form-urlencoded
+    Content-Length: 67
+    Origin: https://0a5800870333c4eac027bb34005e00c2.web-security-academy.net
+   Referer: https://0a5800870333c4eac027bb34005e00c2.web-security-academy.net/my-account?id=wiener
+   Upgrade-Insecure-Requests: 1
+   Sec-Fetch-Dest: document
+   Sec-Fetch-Mode: navigate
+   Sec-Fetch-Site: same-origin
+   Sec-Fetch-User: ?1
+   Te: trailers
+   Connection: close
 
-csrf=RsQYgpYz7H7wqpp7PNGFDvwLPqA7GhJC&password=mi6zzypslh7wkqay3os3
+   csrf=RsQYgpYz7H7wqpp7PNGFDvwLPqA7GhJC&password=mi6zzypslh7wkqay3os3
    
    
    
