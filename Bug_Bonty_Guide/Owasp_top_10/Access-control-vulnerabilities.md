@@ -299,7 +299,7 @@ Check The Header Show ID
    
  Check The Header Show the username 
  
-     GET /my-account?id=asif HTTP/1.1
+    GET /my-account?id=asif HTTP/1.1
      
      
      
