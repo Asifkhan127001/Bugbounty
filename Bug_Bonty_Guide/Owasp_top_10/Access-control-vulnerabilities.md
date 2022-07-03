@@ -232,16 +232,16 @@ Check The Header Show ID
     Content-Type: application/x-www-form-urlencoded
     Content-Length: 67
     Origin: https://0a5800870333c4eac027bb34005e00c2.web-security-academy.net
-   Referer: https://0a5800870333c4eac027bb34005e00c2.web-security-academy.net/my-account?id=wiener
-   Upgrade-Insecure-Requests: 1
-   Sec-Fetch-Dest: document
-   Sec-Fetch-Mode: navigate
-   Sec-Fetch-Site: same-origin
-   Sec-Fetch-User: ?1
-   Te: trailers
-   Connection: close
+    Referer: https://0a5800870333c4eac027bb34005e00c2.web-security-academy.net/my-account?id=wiener
+    Upgrade-Insecure-Requests: 1
+    Sec-Fetch-Dest: document
+    Sec-Fetch-Mode: navigate
+    Sec-Fetch-Site: same-origin
+    Sec-Fetch-User: ?1
+    Te: trailers
+    Connection: close
 
-   csrf=RsQYgpYz7H7wqpp7PNGFDvwLPqA7GhJC&password=mi6zzypslh7wkqay3os3
+    csrf=RsQYgpYz7H7wqpp7PNGFDvwLPqA7GhJC&password=mi6zzypslh7wkqay3os3
    
    
    
