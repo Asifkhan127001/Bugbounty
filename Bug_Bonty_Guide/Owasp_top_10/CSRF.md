@@ -417,6 +417,7 @@
    and observe that the search term gets reflected in the Set-Cookie header.
    Since the search function has no CSRF protection, you can use this to inject cookies into the victim user's browser. 
    
+ use Search Option and search asifkhan
    
   ## Request 
   
@@ -440,14 +441,17 @@
  ## Respotion
  
  
-     HTTP/1.1 200 OK
-Set-Cookie: LastSearchTerm=asifkhan; Secure; HttpOnly
-Content-Type: text/html; charset=utf-8
-Connection: close
-Content-Length: 3325
+    HTTP/1.1 200 OK
+    Set-Cookie: LastSearchTerm=asifkhan; Secure; HttpOnly
+    Content-Type: text/html; charset=utf-8
+    Connection: close
+    Content-Length: 3325
    
-   
-   
+Check The Respotion header, here reflected in the Set-Cookie header, like this 
+
+    set-Cookie: LastSearchTerm=asifkhan;
+
+
    
    
    
