@@ -420,7 +420,7 @@
    
   ## Request 
   
-     GET /?search=asifkhan HTTP/1.1
+    GET /?search=asifkhan HTTP/1.1
 Host: 0a6f0029045f1c66c0e911e400e5004f.web-security-academy.net
 Cookie: session=5pKtbbE7hog8GvkfvIDYeWmAHTdqMIkd; csrf=Qe68oDbsYoKVyGjBcVXjdXyb8lEDUOTj
 User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0
