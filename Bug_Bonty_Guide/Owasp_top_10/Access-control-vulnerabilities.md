@@ -277,6 +277,11 @@ Check The Header Show ID
    
    send the HTTP request to Burp Repeater
    
+   Browse to /admin-roles?username=asif&action=upgrade
+   
+   and observe that the request is treated as unauthorized due to the absent Referer header.
+   
+   Copy the Local user session cookie into the existing Burp Repeater request, change the username to yours, and replay it. 
      
      
      
