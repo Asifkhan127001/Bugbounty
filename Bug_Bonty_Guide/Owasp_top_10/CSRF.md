@@ -461,7 +461,7 @@ Check The Respotion header, here reflected in the Set-Cookie header, like this
    
  Remove the script block, and instead add the following code to inject the cookie and submit the form:
  
-   <img src="$cookie-injection-url" onerror="document.forms[0].submit();"/>
+    <img src="$cookie-injection-url" onerror="document.forms[0].submit();"/>
    
    
    
