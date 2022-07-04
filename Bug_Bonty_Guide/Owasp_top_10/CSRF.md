@@ -421,23 +421,30 @@
   ## Request 
   
     GET /?search=asifkhan HTTP/1.1
-Host: 0a6f0029045f1c66c0e911e400e5004f.web-security-academy.net
-Cookie: session=5pKtbbE7hog8GvkfvIDYeWmAHTdqMIkd; csrf=Qe68oDbsYoKVyGjBcVXjdXyb8lEDUOTj
-User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0
-Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
-Accept-Language: en-US,en;q=0.5
-Accept-Encoding: gzip, deflate
-Referer: https://0a6f0029045f1c66c0e911e400e5004f.web-security-academy.net/
-Upgrade-Insecure-Requests: 1
-Sec-Fetch-Dest: document
-Sec-Fetch-Mode: navigate
-Sec-Fetch-Site: same-origin
-Sec-Fetch-User: ?1
-Te: trailers
+    Host: 0a6f0029045f1c66c0e911e400e5004f.web-security-academy.net
+    Cookie: session=5pKtbbE7hog8GvkfvIDYeWmAHTdqMIkd; csrf=Qe68oDbsYoKVyGjBcVXjdXyb8lEDUOTj
+    User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0
+    Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+    Accept-Language: en-US,en;q=0.5
+    Accept-Encoding: gzip, deflate
+    Referer: https://0a6f0029045f1c66c0e911e400e5004f.web-security-academy.net/
+    Upgrade-Insecure-Requests: 1
+    Sec-Fetch-Dest: document
+    Sec-Fetch-Mode: navigate
+    Sec-Fetch-Site: same-origin
+    Sec-Fetch-User: ?1
+    Te: trailers
+    Connection: close
+   
+   
+ ## Respotion
+ 
+ 
+     HTTP/1.1 200 OK
+Set-Cookie: LastSearchTerm=asifkhan; Secure; HttpOnly
+Content-Type: text/html; charset=utf-8
 Connection: close
-   
-   
-   
+Content-Length: 3325
    
    
    
