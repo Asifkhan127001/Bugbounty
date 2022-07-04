@@ -413,7 +413,7 @@
  
    Send the request to Burp Repeater and observe that the value of the csrf body parameter is simply being validated by comparing it with the csrf cookie. 
    
-      POST /login HTTP/1.1
+    POST /login HTTP/1.1
 Host: 0a6f0029045f1c66c0e911e400e5004f.web-security-academy.net
 Cookie: session=LcTF7G7Z5gCmrLp90QMN0MzGezP59rTw; csrf=Qe68oDbsYoKVyGjBcVXjdXyb8lEDUOTj
 User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0
