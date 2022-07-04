@@ -16,9 +16,6 @@
   ## How to test for CSRF
    A good methodology to identify CSRF vulnerabilities would be to discover all the endpoints through which the application initiates and executes actions,   and apply tests for all three types of Cross-Site Request Forgery described above.
 
-
-
-  ## CSRF type
   
   
   
@@ -26,7 +23,7 @@
     
   Find CSRF vulnerability
   
-  Email change functionality is vulnerable to CSRF
+  Check Email change functionality y not
   
   Burp intercept request and manualy review
     
@@ -73,7 +70,7 @@
  
   Find CSRF vulnerability
   
-  Email change functionality is vulnerable to CSRF
+  Check Email change functionality is vulnerable y not
   
   Burp intercept request and manualy review
     
@@ -410,5 +407,33 @@
  
   Accept The Request, CSRF vulnerability
  
+ 
+ ## 8. CSRF where token is duplicated in cookie
+ 
+ 
+   Send the request to Burp Repeater and observe that the value of the csrf body parameter is simply being validated by comparing it with the csrf cookie. 
+   
+   Perform a search, send the resulting request to Burp Repeater,
+   and observe that the search term gets reflected in the Set-Cookie header.
+   Since the search function has no CSRF protection, you can use this to inject cookies into the victim user's browser. 
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
  
     
