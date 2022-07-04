@@ -11,7 +11,7 @@
  ## Username enumeration via account lock
  
   1. First try to loging show Invalid username or password
-  2. Loging page to worng username and password and burp request and sand intruder and add username password add $$ 
+  2. Loging page to worng username and password and burp request and sand intruder and set paylods in username password add $$ 
   
   ## EXAMPLE
   
