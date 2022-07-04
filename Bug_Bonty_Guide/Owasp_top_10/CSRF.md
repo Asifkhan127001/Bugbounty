@@ -413,6 +413,27 @@
  
    Send the request to Burp Repeater and observe that the value of the csrf body parameter is simply being validated by comparing it with the csrf cookie. 
    
+      POST /login HTTP/1.1
+Host: 0a6f0029045f1c66c0e911e400e5004f.web-security-academy.net
+Cookie: session=LcTF7G7Z5gCmrLp90QMN0MzGezP59rTw; csrf=Qe68oDbsYoKVyGjBcVXjdXyb8lEDUOTj
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 68
+Origin: https://0a6f0029045f1c66c0e911e400e5004f.web-security-academy.net
+Referer: https://0a6f0029045f1c66c0e911e400e5004f.web-security-academy.net/login
+Upgrade-Insecure-Requests: 1
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: same-origin
+Sec-Fetch-User: ?1
+Te: trailers
+Connection: close
+
+csrf=Qe68oDbsYoKVyGjBcVXjdXyb8lEDUOTj&username=wiener&password=peter
+   
    Perform a search, send the resulting request to Burp Repeater,
    and observe that the search term gets reflected in the Set-Cookie header.
    Since the search function has no CSRF protection, you can use this to inject cookies into the victim user's browser. 
