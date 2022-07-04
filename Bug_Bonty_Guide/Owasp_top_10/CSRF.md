@@ -8,6 +8,9 @@
    ## Resource 
    
      https://corneacristian.medium.com/top-25-csrf-bug-bounty-reports-ffb0b61afa55
+     https://medium.com/swlh/intro-to-csrf-cross-site-request-forgery-9de669df03de
+     
+ 
 
 
   ## How to test for CSRF
