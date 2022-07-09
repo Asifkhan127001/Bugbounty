@@ -83,9 +83,16 @@
   
     http://localhost:4567/?url=http://brutelogic.com.br/poc.svg
   
-  
+ ## Testing URL schemas -
+ 
+   First thing to do when we find an SSRF is to test all the wrapper which are working
    
-   
+    file:///
+    dict://
+    sftp://
+    ldap://
+    tftp://
+    gopher://
     
     
     
