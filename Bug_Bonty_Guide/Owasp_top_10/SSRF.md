@@ -99,7 +99,7 @@
  
    File is used to fetch file from the file system
    
-      http://example.com/ssrf.php?url=file:///etc/passwd
-     http://example.com/ssrf.php?url=file:///C:/Windows/win.ini
+    http://example.com/ssrf.php?url=file:///etc/passwd
+    http://example.com/ssrf.php?url=file:///C:/Windows/win.ini
     
     
