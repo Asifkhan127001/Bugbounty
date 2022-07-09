@@ -185,7 +185,9 @@ It is an application protocol used over an IP network to manage and access the d
      http://metadata.google.internal/computeMetadata/v1beta1/project/attributes/ssh-keys?alt=json
  
  
- 
+  ## Digital Ocean -
+  
+     http://169.254.169.254/metadata/v1.json
  
  
  
