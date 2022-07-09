@@ -19,7 +19,9 @@
  1. In a simple way - Attacker asks the server to fetch a URL for him
 
         GET /?url=http://google.com/ HTTP/1.1
-      Host: example.com
+        Host: example.com
+        
+ Here example.com fetch http://google.com from its server, here posible SSRF vulnerability
 
     POST /product/stock HTTP/1.1
     Host: 0a6800110358b1bfc093443000f600a4.web-security-academy.net
