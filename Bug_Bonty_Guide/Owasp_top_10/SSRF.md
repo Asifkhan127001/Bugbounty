@@ -13,5 +13,5 @@
   First check the all url rquest in burp proxy, and observe that request, 2 url first server and secand server to call secand server request
   here is posible SSRF vulnerability 
   
-     GET /?url=http://google.com/ HTTP/1.1
-     Host: example.com
+    GET /?url=http://google.com/ HTTP/1.1
+    Host: example.com
