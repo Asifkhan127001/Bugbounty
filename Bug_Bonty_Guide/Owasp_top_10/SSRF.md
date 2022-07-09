@@ -81,7 +81,7 @@
   
   Example -
   
-      http://localhost:4567/?url=http://brutelogic.com.br/poc.svg
+    http://localhost:4567/?url=http://brutelogic.com.br/poc.svg
   
   
    
