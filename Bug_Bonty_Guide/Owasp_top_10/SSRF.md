@@ -25,7 +25,7 @@
  
  2. Here cheack a stock check products 
 
-      POST /product/stock HTTP/1.1
+        POST /product/stock HTTP/1.1
     Host: 0a6800110358b1bfc093443000f600a4.web-security-academy.net
     Cookie: session=mewjzSnDMV8c3uT7hIo493arKt9OuuH9
     User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0
