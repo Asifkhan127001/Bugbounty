@@ -22,6 +22,8 @@
         Host: example.com
         
  Here example.com fetch http://google.com from its server, here posible SSRF vulnerability
+ 
+ 2. Here cheack a stock check products 
 
     POST /product/stock HTTP/1.1
     Host: 0a6800110358b1bfc093443000f600a4.web-security-academy.net
