@@ -10,8 +10,27 @@
 
  ## How To Find SSRF 
  
-  First check the all url rquest in burp proxy, and observe that request, 2 url first server and secand server to call secand server request
-  here is posible SSRF vulnerability 
+  First check the all url rquest in burp proxy, and observe that request,find 2 urls first url sand request to server and secand url sand request to
+  server and server call to secand server request, here is posible SSRF vulnerability 
+ 
   
-    GET /?url=http://google.com/ HTTP/1.1
-    Host: example.com
+## EX:
+
+    POST /product/stock HTTP/1.1
+Host: 0a6800110358b1bfc093443000f600a4.web-security-academy.net
+Cookie: session=mewjzSnDMV8c3uT7hIo493arKt9OuuH9
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: https://0a6800110358b1bfc093443000f600a4.web-security-academy.net/product?productId=1
+Content-Type: application/x-www-form-urlencoded
+Origin: https://0a6800110358b1bfc093443000f600a4.web-security-academy.net
+Content-Length: 107
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-origin
+Te: trailers
+Connection: close
+
+stockApi=http%3A%2F%2Fstock.weliketoshop.net%3A8080%2Fproduct%2Fstock%2Fcheck%3FproductId%3D1%26storeId%3D1
