@@ -49,8 +49,26 @@
     
  ## Types of SSRF -
  
-   Two Type of SSRF 1. Basic 2. Blind
-    
+   Two Type of SSRF 
+   
+   i. The one which displays response to attacker ( Basic )
+   
+   ii. The one which does not display response ( Blind )
+   
+   
+## What can we do with SSRF? -
+
+   SSRF to Reflected XSS
+   
+   Try URL schemas to read internal and make server perform actions (file:///, dict://, ftp://, gopher://..)
+   
+   We can scan for internal networks and ports
+   
+   If it runs on Cloud Instances try to fetch META-DATA
+   
+   
+   
+   
     
     
     
