@@ -47,8 +47,9 @@
  stockapi is request is another server call, here is posible SSRF vulnerability
      
     
-    
-    
+ ## Types of SSRF -
+ 
+   Two Type of SSRF 1. Basic 2. Blind
     
     
     
