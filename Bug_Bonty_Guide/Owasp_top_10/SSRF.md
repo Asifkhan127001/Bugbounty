@@ -18,7 +18,7 @@
 
  1. In a simple way - Attacker asks the server to fetch a URL for him
 
-      GET /?url=http://google.com/ HTTP/1.1
+          GET /?url=http://google.com/ HTTP/1.1
       Host: example.com
 
     POST /product/stock HTTP/1.1
