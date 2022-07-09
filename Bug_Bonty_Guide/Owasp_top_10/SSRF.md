@@ -161,3 +161,10 @@ It is an application protocol used over an IP network to manage and access the d
     Hi
     ssrf
     test
+    
+ ## Cloud Instances -
+  
+  Amazon:
+  
+  If you find an SSRF in Amazon Could, Amazon expose an internal service every EC2 instance can query for instance metadata about the host.
+  If you found an SSRF vulnerability that runs on EC2, try requesting :
