@@ -34,3 +34,24 @@
     Connection: close
 
     stockApi=http%3A%2F%2Fstock.weliketoshop.net%3A8080%2Fproduct%2Fstock%2Fcheck%3FproductId%3D1%26storeId%3D1
+    
+    
+ ## First url in request Host url
+ 
+    Host: 0a6800110358b1bfc093443000f600a4.web-security-academy.net
+    
+## Secand Url in request StockApi 
+
+    stockApi=http%3A%2F%2Fstock.weliketoshop.net%3A8080%2Fproduct%2Fstock%2Fcheck%3FproductId%3D1%26storeId%3D1
+    
+ stockapi is request is another server call, here is posible SSRF vulnerability
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
