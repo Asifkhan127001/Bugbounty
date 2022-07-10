@@ -261,7 +261,19 @@ It is an application protocol used over an IP network to manage and access the d
  Click on this request, send it to Burp Repeater, and change the path in the stockApi to: /admin
  
  
+ ## 3. SSRF with blacklist-based input filter
  
+  Visit a product, click "Check stock", intercept the request in Burp Suite, and send it to Burp Repeater. 
+  
+  Change the URL in the stockApi parameter to http://127.0.0.1/ and observe that the request is blocked. 
+  
+  Bypass the block by changing the URL to: http://127.1/
+  
+  Change the URL to http://127.1/admin and observe that the URL is blocked again. 
+  
+  Obfuscate the "a" by double-URL encoding it to %2561 to access the admin interface and delete the target user. 
+  
+  ## Avoide Blacklist input use encoding methode
  
  
  
