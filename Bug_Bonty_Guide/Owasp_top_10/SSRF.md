@@ -334,7 +334,8 @@ It is an application protocol used over an IP network to manage and access the d
     "Invalid external stock check url 'Illegal character in path at index 17: http://127.0.0.1/ '" 
  
  
- ## Note="Invalid external stock check url 'Illegal character in path at index 17: http://127.0.0.1/ '" 
+ ## Note=
+ "Invalid external stock check url 'Illegal character in path at index 17: http://127.0.0.1/ '" 
  
  ## Step 2.
  
@@ -395,13 +396,19 @@ It is an application protocol used over an IP network to manage and access the d
     stockApi=http://username#stock.weliketoshop.net/
  
  
+ ## Respotion 
+ 
+    HTTP/1.1 400 Bad Request
+    Content-Type: application/json; charset=utf-8
+    Connection: close
+    Content-Length: 58
+
+    "External stock check host must be stock.weliketoshop.net"
  
  
- 
- 
- 
- 
- 
+ ## Note=
+ "External stock check host must be stock.weliketoshop.net"
+   
  
  
  
