@@ -326,12 +326,12 @@ It is an application protocol used over an IP network to manage and access the d
  
  ## Respotion
   
-     HTTP/1.1 400 Bad Request
-Content-Type: application/json; charset=utf-8
-Connection: close
-Content-Length: 94
+    HTTP/1.1 400 Bad Request
+    Content-Type: application/json; charset=utf-8
+    Connection: close
+    Content-Length: 94
 
-"Invalid external stock check url 'Illegal character in path at index 17: http://127.0.0.1/ '" 
+    "Invalid external stock check url 'Illegal character in path at index 17: http://127.0.0.1/ '" 
  
  
  
