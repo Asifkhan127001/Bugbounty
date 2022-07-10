@@ -276,9 +276,11 @@ It is an application protocol used over an IP network to manage and access the d
   ## Avoide Blacklist input use encoding methode just like encode ip and endpoint
   
   
-  ## 4. 
+  ## 4. SSRF with whitelist-based input filters
  
- 
+  You can embed credentials in a URL before the hostname, using the @ character. For example:
+  
+     https://expected-host@evil-host
  
  
  
