@@ -225,7 +225,7 @@ It is an application protocol used over an IP network to manage and access the d
  
  And Change The StockApi like 
  
-     POST /product/stock HTTP/1.1
+    POST /product/stock HTTP/1.1
 Host: 0ae1000c0480168dc06de9f6003c0073.web-security-academy.net
 Cookie: session=EPwP4cphLv9LiB2QtMzpx9h6mqSw7JAB
 User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0
