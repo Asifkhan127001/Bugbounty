@@ -273,7 +273,10 @@ It is an application protocol used over an IP network to manage and access the d
   
   Obfuscate the "a" by double-URL encoding it to %2561 to access the admin interface and delete the target user. 
   
-  ## Avoide Blacklist input use encoding methode
+  ## Avoide Blacklist input use encoding methode just like encode ip and endpoint
+  
+  
+  ## 4. 
  
  
  
