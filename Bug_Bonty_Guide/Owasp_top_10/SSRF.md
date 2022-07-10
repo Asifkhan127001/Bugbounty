@@ -13,7 +13,7 @@
   First check the all url rquest in burp proxy, and observe that request,find 2 urls first url sand request to server and secand url sand request to
   server and server call to secand server request, here is posible SSRF vulnerability 
  
- ## Reouse  Bypass
+ ## Reouse to Bypass SSRF
  
     https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/Server%20Side%20Request%20Forgery
   
