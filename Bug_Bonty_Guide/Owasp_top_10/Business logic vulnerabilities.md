@@ -81,10 +81,11 @@ we have to manipulate specific parameters in the request or so to test for the b
 
     productId=2&redir=PRODUCT&quantity=1
  
- Change The product header like quantity=-1
+ Change The product header like quantity=1 so change quantity=-2
  
-    productId=2&redir=PRODUCT&quantity=-1
+    productId=2&redir=PRODUCT&quantity=-2
     
+ Your product price 100$ so buy know the product price 200$ but this is vulnerable so your product price 100$
      
      
      
