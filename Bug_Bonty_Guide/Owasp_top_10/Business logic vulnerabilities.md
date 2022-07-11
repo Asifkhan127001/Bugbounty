@@ -102,7 +102,9 @@ we have to manipulate specific parameters in the request or so to test for the b
  
  Create the same Intruder attack again, but this time, under "Payloads" > "Payload Options", choose to generate exactly 323 payloads. 
  
- Notice That the price is negative like -1000$ so add some product and price is positive 100$ so buy the product, This is Low-level logic flaw
+ Notice That the price is negative like
+ 
+ -1000$ so add some product and price is positive 100$ so buy the product, This is Low-level logic flaw
   
  
  
