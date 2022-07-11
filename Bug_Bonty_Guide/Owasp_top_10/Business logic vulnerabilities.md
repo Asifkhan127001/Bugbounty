@@ -50,7 +50,37 @@ we have to manipulate specific parameters in the request or so to test for the b
  So Change The Price and sand the request in server, like server is accept the request, here business logic vulnerabilities
  
  
-     
+ ## 2. High-level logic vulnerability
+ 
+ Your card amount 100$ but you wante purchase 200$ product, buy 2 product first product price 50$ and secand product price 150$
+ 
+ First Product nurp request sand burp repeter and  Observe that product quantity=1 so chnage the product guantity add -
+ 
+ just like quantity=-2 and sand the request in server, accept the request, this is vulnerability 
+ 
+ ## Request 
+ 
+     POST /cart HTTP/1.1
+Host: 0ab6005b04eb8061c0d3246e00430049.web-security-academy.net
+Cookie: session=BC6C85CuO7OKzvT5oSjqsThv5qBb6Xap
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 37
+Origin: https://0ab6005b04eb8061c0d3246e00430049.web-security-academy.net
+Referer: https://0ab6005b04eb8061c0d3246e00430049.web-security-academy.net/product?productId=2
+Upgrade-Insecure-Requests: 1
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: same-origin
+Sec-Fetch-User: ?1
+Te: trailers
+Connection: close
+
+productId=2&redir=PRODUCT&quantity=1
+ 
      
      
      
