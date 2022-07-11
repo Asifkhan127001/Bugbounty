@@ -60,28 +60,31 @@ we have to manipulate specific parameters in the request or so to test for the b
  
  ## Request 
  
-     POST /cart HTTP/1.1
-Host: 0ab6005b04eb8061c0d3246e00430049.web-security-academy.net
-Cookie: session=BC6C85CuO7OKzvT5oSjqsThv5qBb6Xap
-User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0
-Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
-Accept-Language: en-US,en;q=0.5
-Accept-Encoding: gzip, deflate
-Content-Type: application/x-www-form-urlencoded
-Content-Length: 37
-Origin: https://0ab6005b04eb8061c0d3246e00430049.web-security-academy.net
-Referer: https://0ab6005b04eb8061c0d3246e00430049.web-security-academy.net/product?productId=2
-Upgrade-Insecure-Requests: 1
-Sec-Fetch-Dest: document
-Sec-Fetch-Mode: navigate
-Sec-Fetch-Site: same-origin
-Sec-Fetch-User: ?1
-Te: trailers
-Connection: close
+    POST /cart HTTP/1.1
+    Host: 0ab6005b04eb8061c0d3246e00430049.web-security-academy.net
+    Cookie: session=BC6C85CuO7OKzvT5oSjqsThv5qBb6Xap
+    User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0
+    Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+    Accept-Language: en-US,en;q=0.5
+    Accept-Encoding: gzip, deflate
+    Content-Type: application/x-www-form-urlencoded
+    Content-Length: 37
+    Origin: https://0ab6005b04eb8061c0d3246e00430049.web-security-academy.net
+    Referer: https://0ab6005b04eb8061c0d3246e00430049.web-security-academy.net/product?productId=2
+    Upgrade-Insecure-Requests: 1
+    Sec-Fetch-Dest: document
+    Sec-Fetch-Mode: navigate
+    Sec-Fetch-Site: same-origin
+    Sec-Fetch-User: ?1
+    Te: trailers
+    Connection: close
 
-productId=2&redir=PRODUCT&quantity=1
+    productId=2&redir=PRODUCT&quantity=1
  
-     
+ Change The product header like quantity=-1
+ 
+    productId=2&redir=PRODUCT&quantity=-1
+    
      
      
      
