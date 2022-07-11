@@ -88,4 +88,36 @@ we have to manipulate specific parameters in the request or so to test for the b
  Your product price 100$ so buy know the product price 200$ but this is vulnerable so your product price 100$
      
      
-     
+ ## 3. Low-level logic flaw
+ 
+ First Add 2 product, first product price is 100$, secand product price is 200$, Total price is 300$, 
+ 
+ some appliction limited add product, so add unlimited product the price is less the price {-} so this is vulnerblity
+ 
+ how to find, simple, On the "Payloads" tab, select the payload type "Null payloads". Under "Payload options", select "Continue indefinitely". Start the attack 
+ 
+ While the attack is running, go to your cart. Keep refreshing the page every so often and monitor the total price. Eventually, notice that the price suddenly switches to a large negative integer
+ 
+ ## This is Vulnerblity
+ 
+ Create the same Intruder attack again, but this time, under "Payloads" > "Payload Options", choose to generate exactly 323 payloads. 
+ 
+ Notice That the price is negative like {-1000$} so add some product and price is positive {100$} so buy the product, This is Low-level logic flaw
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
