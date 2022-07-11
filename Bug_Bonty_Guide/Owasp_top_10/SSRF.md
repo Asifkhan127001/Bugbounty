@@ -470,7 +470,28 @@ It is an application protocol used over an IP network to manage and access the d
  
  Check The Header show open redirection 
  
- 
+    GET /product/nextProduct?currentProductId=3&path=/product?productId=4 HTTP/1.1
+    
+## Request 
+
+     POST /product/stock HTTP/1.1
+Host: 0a7200c904d2e666c1d61b2400a3003e.web-security-academy.net
+Cookie: session=DEdve7zYbcqIWVlI14axA9iORWiX3Kfh; session=9zDJPWTSYtTJgdg4B48YKUfRL6nvUVeC
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: https://0a7200c904d2e666c1d61b2400a3003e.web-security-academy.net/product?productId=3
+Content-Type: application/x-www-form-urlencoded
+Origin: https://0a7200c904d2e666c1d61b2400a3003e.web-security-academy.net
+Content-Length: 65
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-origin
+Te: trailers
+Connection: close
+
+stockApi=%2Fproduct%2Fstock%2Fcheck%3FproductId%3D3%26storeId%3D1
  
  
  
