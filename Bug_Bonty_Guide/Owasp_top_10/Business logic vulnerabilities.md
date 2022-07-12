@@ -126,10 +126,10 @@ we have to manipulate specific parameters in the request or so to test for the b
  
  Observe that the user whose password is changed is determined by the username parameter. Set username=administrator and send the request again. 
  
- The Request is Accepted This is Vulnerblity
+## The Request is Accepted This is Vulnerblity
  
  
-   POST /my-account/change-password HTTP/1.1
+    POST /my-account/change-password HTTP/1.1
 Host: 0af200a303444b49c0479118006f0066.web-security-academy.net
 Cookie: session=cLpA7MwciG5r6gQg0qijALMT0lUaf6FK
 User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0
