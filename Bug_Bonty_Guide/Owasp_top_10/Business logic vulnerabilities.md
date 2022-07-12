@@ -105,7 +105,13 @@ we have to manipulate specific parameters in the request or so to test for the b
  Notice That the price is negative like -100 so add some product and price is positive 100 so buy the product, This is Low-level logic flaw vulnerblity
   
  
+ ## 4. Inconsistent security controls
  
+ I found a Loging page but this loging page only for allow admin user like asif@admin.com email user, but i have gmail user like asif@gmail.com so 
+ 
+ First reqester account is local user like asif@gmail.com secand update email fuction i am use a asif@admin.com so this email is update 
+ 
+ ## This is Vulnerblity
  
  
  
