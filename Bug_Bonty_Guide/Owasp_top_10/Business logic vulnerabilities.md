@@ -148,8 +148,12 @@ we have to manipulate specific parameters in the request or so to test for the b
     Te: trailers
     Connection: close
 
-    csrf=yMlABSWkf5sH22vGwGQQLiWMKK4lhUYl&username=administrator&current-password=idonn%27tknow&new-password-1=khan&new-password-2=khan
+    csrf=yMlABSWkf5sH22vGwGQQLiWMKK4lhUYl&username=administrator&current-password=hi&new-password-1=khan&new-password-2=khan
  
+ 
+ Note That Last Header like current-password=hi so remove the current-password parameter and sand the request is server, the server accept the
+ 
+ request This is Vulnerabley
  
  
  
