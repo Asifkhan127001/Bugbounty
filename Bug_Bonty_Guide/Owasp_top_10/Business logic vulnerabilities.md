@@ -219,6 +219,6 @@ we have to manipulate specific parameters in the request or so to test for the b
     Te: trailers
     Connection: close
     
-Then add a new product like 300$ you have 30$ product checkout request in repeter, sand the repeter request to server and server is accepted 
+Then add a new product like 300$ you have 30$ product checkout request in repeter, sand the repeter request to server and server is accepted an 300$ product is buy 
 
 ## This is Vulnerblity
