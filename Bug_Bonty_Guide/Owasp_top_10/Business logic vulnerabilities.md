@@ -246,3 +246,16 @@ so check level user request drop the request so defaulted to privelage account
     Connection: close
 
 Check GET header GET/role-selector so This request Drop 
+
+
+ ## 9. Flawed enforcement of business rules
+ 
+Created Two Account First asif@gmail.com secand khan@gmail.com This website is buy a product and use coupon code some discount 
+
+asif@gmail.com account coupon code like NEWCUST5. khan@gmail.com coupon code like SIGNUP30. 
+
+Then i am loging asif@gmail.com account and use NEWCUST5 coupon code and some discount and use again use the coupon code they fail and see the message "Coupon already applied"
+
+Then I am useing First use NEWCUST5 coupn code and secand use SIGNUP30 this coupn code and again use NEWCUST5 and again use SIGNUP30 coupn code and Ammount is 00 
+
+## This is Vulnerblity
