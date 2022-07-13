@@ -88,20 +88,20 @@ When the attack is finished, review the results. Note that all payloads caused a
 Go back to the Positions tab in Burp Intruder and replace your search term like 
 
     GET /?search=<body%20§§=1> HTTP/1.1
-Host: 0ac4000e03c21f41c110a9200039006d.web-security-academy.net
-Cookie: session=743GVgVjqrfVKWWEuPfUvbDnYFHCsM5l
-User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0
-Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
-Accept-Language: en-US,en;q=0.5
-Accept-Encoding: gzip, deflate
-Referer: https://0ac4000e03c21f41c110a9200039006d.web-security-academy.net/
-Upgrade-Insecure-Requests: 1
-Sec-Fetch-Dest: document
-Sec-Fetch-Mode: navigate
-Sec-Fetch-Site: same-origin
-Sec-Fetch-User: ?1
-Te: trailers
-Connection: close
+    Host: 0ac4000e03c21f41c110a9200039006d.web-security-academy.net
+    Cookie: session=743GVgVjqrfVKWWEuPfUvbDnYFHCsM5l
+    User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0
+    Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+    Accept-Language: en-US,en;q=0.5
+    Accept-Encoding: gzip, deflate
+    Referer: https://0ac4000e03c21f41c110a9200039006d.web-security-academy.net/
+    Upgrade-Insecure-Requests: 1
+    Sec-Fetch-Dest: document
+    Sec-Fetch-Mode: navigate
+    Sec-Fetch-Site: same-origin
+    Sec-Fetch-User: ?1
+    Te: trailers
+    Connection: close
    
 
  
