@@ -85,7 +85,7 @@ When the attack is finished, review the results. Note that all payloads caused a
 
 ## body tags is 200 Ok
 
-Go back to the Positions tab in Burp Intruder and replace your search term like 
+Go back to the Positions tab in Burp Intruder and replace your search term and set paylods position like 
 
     GET /?search=<body%20§§=1> HTTP/1.1
     Host: 0ac4000e03c21f41c110a9200039006d.web-security-academy.net
@@ -104,7 +104,17 @@ Go back to the Positions tab in Burp Intruder and replace your search term like
     Connection: close
    
 
+ Visit the XSS cheat sheet and click "copy events to clipboard".
  
+ In Burp Intruder, in the Payloads tab, click "Clear" to remove the previous payloads. Then click "Paste" to paste the list of attributes into the  payloads list. Click "Start attack".
+ 
+ When the attack is finished, review the results. Note that all payloads caused an HTTP 400 response, except for the onresize payload, which caused a 200 response. 
+ 
+ Go to the exploit server and paste the following code, replacing your-lab-id with your lab ID: 
+ 
+     <iframe src="https://your-lab-id.web-security-academy.net/?search=%22%3E%3Cbody%20onresize=print()%3E" onload=this.style.width='100px'>
+     
+  Click "Store" and "Deliver exploit to victim". 
  
  
  
