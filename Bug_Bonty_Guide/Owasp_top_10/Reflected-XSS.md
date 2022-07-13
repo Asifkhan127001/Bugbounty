@@ -42,9 +42,9 @@ Notice That
  You Have a Search Funtion and search like asif and intercept the request and sand the repeter and Observe that asif is reflected in JavaScript filed like
  
     <script>
-                        var searchTerms = 'asif';
-                        document.write('<img src="/resources/images/tracker.gif?searchTerms='+encodeURIComponent(searchTerms)+'">');
-                    </script>
+    var searchTerms = 'asif';
+    document.write('<img src="/resources/images/tracker.gif?searchTerms='+encodeURIComponent(searchTerms)+'">');
+     </script>
  
  
  
