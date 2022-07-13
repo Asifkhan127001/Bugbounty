@@ -12,6 +12,8 @@ then the attacker might be able to gain full control over all of the application
 
 You Have a Search Funtion and search like asif and intercept the request and sand the repeter and Observe that asif is reflected in html like
 
-     <h1>
-     0 search results for 'asif'
-     </h1>
+    <h1>
+    0 search results for 'asif'
+    </h1>
+
+ ## This is Vulnerably
