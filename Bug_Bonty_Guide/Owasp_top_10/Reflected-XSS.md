@@ -44,9 +44,14 @@ Notice That
     <script>
     var searchTerms = 'asif';
     document.write('<img src="/resources/images/tracker.gif?searchTerms='+encodeURIComponent(searchTerms)+'">');
-     </script>
+    </script>
+ 
+ Paylods 
+ 
+    '-alert(1)-'
  
  
+ ## This is vulnerably 
  
  
  
