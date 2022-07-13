@@ -17,3 +17,9 @@ You Have a Search Funtion and search like asif and intercept the request and san
     </h1>
 
  ## This is Vulnerably
+
+ ## 2. Reflected XSS into attribute with angle brackets HTML-encoded
+ 
+ You Have a Search Funtion and search like asif and intercept the request and sand the repeter and Observe that asif is reflected in input filed like
+ 
+       <input type=text placeholder='Search the blog...' name=search value="asif">
