@@ -85,7 +85,7 @@ When the attack is finished, review the results. Note that all payloads caused a
 
 ## body tags is 200 Ok
 
-Go back to the Positions tab in Burp Intruder and replace your search term and set paylods position like 
+Go back to the Positions tab in Burp Intruder and replace your search term and set paylods position <body%20&&=1> like 
 
     GET /?search=<body%20§§=1> HTTP/1.1
     Host: 0ac4000e03c21f41c110a9200039006d.web-security-academy.net
@@ -109,6 +109,8 @@ Go back to the Positions tab in Burp Intruder and replace your search term and s
  In Burp Intruder, in the Payloads tab, click "Clear" to remove the previous payloads. Then click "Paste" to paste the list of attributes into the  payloads list. Click "Start attack".
  
  When the attack is finished, review the results. Note that all payloads caused an HTTP 400 response, except for the onresize payload, which caused a 200 response. 
+ 
+ ## onresize 200 ok
  
  Go to the exploit server and paste the following code, replacing your-lab-id with your lab ID: 
  
