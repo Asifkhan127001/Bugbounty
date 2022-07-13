@@ -22,4 +22,4 @@ You Have a Search Funtion and search like asif and intercept the request and san
  
  You Have a Search Funtion and search like asif and intercept the request and sand the repeter and Observe that asif is reflected in input filed like
  
-       <input type=text placeholder='Search the blog...' name=search value="asif">
+     <input type=text placeholder='Search the blog...' name=search value="asif">
