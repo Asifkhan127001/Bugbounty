@@ -59,7 +59,7 @@ Notice That
  You Have a Search Funtion and search like asif and intercept the request and sand the repeter and Observe that asif is reflected in html This is 
  vulnerably and Inject a standard XSS paylods Observe that this gets blocked most html tages attributes are blocked.
  
- You Have a Search Funtion and search like asif and intercept the request and sand the intruder and remove asif and add <$$> like 
+You Have a Search Funtion and search like asif and intercept the request and sand the intruder and remove asif and add <> and set paylods in <> like <$$> 
  
     GET /?search=<$$> HTTP/1.1
     Host: 0a130031045b2eeac06b090600110008.web-security-academy.net
