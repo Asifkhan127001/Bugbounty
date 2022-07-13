@@ -32,3 +32,33 @@ Notice That
  The asif is double '' so use the paylods like double '' for example 
  
     "onmouseover="alert(1)
+    
+ 
+ ## This is Vulnerably
+ 
+ 
+ ## 3. Reflected XSS into a JavaScript string with angle brackets HTML encoded 
+ 
+ You Have a Search Funtion and search like asif and intercept the request and sand the repeter and Observe that asif is reflected in JavaScript filed like
+ 
+      <script>
+                        var searchTerms = 'asif';
+                        document.write('<img src="/resources/images/tracker.gif?searchTerms='+encodeURIComponent(searchTerms)+'">');
+                    </script>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
