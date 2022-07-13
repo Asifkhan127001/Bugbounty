@@ -54,7 +54,28 @@ Notice That
  ## This is vulnerably 
  
  
+ ## 4. Reflected XSS into HTML context with most tags and attributes blocked
  
+ You Have a Search Funtion and search like asif and intercept the request and sand the repeter and Observe that asif is reflected in html This is 
+ vulnerably and Inject a standard XSS paylods Observe that this gets blocked most html tages attributes are blocked.
+ 
+ You Have a Search Funtion and search like asif and intercept the request and sand the intruder and remove asif and add <> like 
+ 
+     GET /?search=<> HTTP/1.1
+Host: 0a130031045b2eeac06b090600110008.web-security-academy.net
+Cookie: session=Xvy6OLwWRumjRFxHQqruIfV77mnV5YmN
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: https://0a130031045b2eeac06b090600110008.web-security-academy.net/
+Upgrade-Insecure-Requests: 1
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: same-origin
+Sec-Fetch-User: ?1
+Te: trailers
+Connection: close
  
  
  
