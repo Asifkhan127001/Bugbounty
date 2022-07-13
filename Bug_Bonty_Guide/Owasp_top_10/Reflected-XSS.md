@@ -87,7 +87,7 @@ When the attack is finished, review the results. Note that all payloads caused a
 
 Go back to the Positions tab in Burp Intruder and replace your search term like 
 
-   GET /?search=<body%20§§=1> HTTP/1.1
+    GET /?search=<body%20§§=1> HTTP/1.1
 Host: 0ac4000e03c21f41c110a9200039006d.web-security-academy.net
 Cookie: session=743GVgVjqrfVKWWEuPfUvbDnYFHCsM5l
 User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0
