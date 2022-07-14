@@ -130,7 +130,35 @@ Go back to the Positions tab in Burp Intruder and replace your search term and s
  Click "Store" and "Deliver exploit to victim".
  
  
+ ## 6. Reflected XSS into a JavaScript string with single quote and backslash escaped
  
+ You Have a Search Funtion and search like asif and intercept the request and sand the repeter and Observe that asif is reflected in JavaScript string
  
+ Try Search like 
+ 
+     asif'khan
+     
+and observe that your single quote gets backslash-escaped, preventing you from breaking out of the string. like
+
+    <h1>
+    0 search results for 'asif&apos;khan'
+    </h1>
+    
+    <script>
+    var searchTerms = 'asif\'khan';
+    document.write('<img src="/resources/images/tracker.gif?searchTerms='+encodeURIComponent(searchTerms)+'">');
+    </script>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
  
  
