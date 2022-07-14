@@ -149,7 +149,11 @@ and observe that your single quote gets backslash-escaped, preventing you from b
     document.write('<img src="/resources/images/tracker.gif?searchTerms='+encodeURIComponent(searchTerms)+'">');
     </script>
     
-    
+You search asif'khan but respotion in html 'asif&apos;khan' in JavaScript respotion 'asif\'khan'; 
+
+so i am useing These Script 
+
+    </script><script>alert(1)</script>
     
     
     
