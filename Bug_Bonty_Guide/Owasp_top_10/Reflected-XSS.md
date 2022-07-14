@@ -251,9 +251,9 @@ You Have a Search Funtion and search like asif and intercept the request and san
  
  In Burp Intruder, in the Payloads tab, click "Paste" to paste the list of tags into the payloads list. Click "Start attack".
  
- When the attack is finished, review the results. Note that all payloads caused an HTTP 400 response, except for the <svg> <animatetransform> <title> and <image> tags payload, which caused a 200   response. 
+ When the attack is finished, review the results. Note that all payloads caused an HTTP 400 response, except for the svg, animatetransform, title, and  image tags payload, which caused a 200   response. 
   
- ## <svg>, <animatetransform>, <title>, and <image> tags 200 OKK
+ ## svg, animatetransform, title, and image tags 200 OKK
   
   
   
