@@ -61,3 +61,10 @@ Click The username and intercept the request and Observe that the website name i
     Te: trailers
     Connection: close
 
+## 2. Stored XSS into onclick event with angle brackets and double quotes HTML-encoded and single quotes and backslash escaped
+
+A blog post website and comment post function like post comment, name, email, and  website name so fill the fome and sand the request and intercept the request and send it to Burp Repeater. and referes the page and Observe that the website name is Reflected in JavaScript like 
+
+      <img src="/resources/images/avatarDefault.svg" class="avatar">                          
+      <a id="author" href="http://" onclick="var tracker={track(){}};tracker.track('http://');">asif</a>
+
