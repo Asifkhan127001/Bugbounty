@@ -18,6 +18,27 @@ and uses it to construct webpages without proper precautions, malicious JavaScri
 
 A blog post website and comment post function like post command name email website name so fill the fome and sand the request and intercept the request and send it to Burp Repeater.  
 
+    POST /post/comment HTTP/1.1
+Host: 0a5b002604a3359bc0c50a8f00660024.web-security-academy.net
+Cookie: session=Yxv1m3QuJvuaQUEGHIvYdvlqhJ25XhVt
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 126
+Origin: https://0a5b002604a3359bc0c50a8f00660024.web-security-academy.net
+Referer: https://0a5b002604a3359bc0c50a8f00660024.web-security-academy.net/post?postId=2
+Upgrade-Insecure-Requests: 1
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: same-origin
+Sec-Fetch-User: ?1
+Te: trailers
+Connection: close
+
+csrf=L7OfJwLWiH4FitnL2hKcZ7FMTBnfAUAs&postId=2&comment=hello+bro&name=nasir&email=nasir%40khan.com&website=website
+
 ## Step 2.
 
 Click The username and intercept the request and Observe that the website name is Reflected so This is vulnerably website name fill the fome here inject the paylods JavaScript Code 
