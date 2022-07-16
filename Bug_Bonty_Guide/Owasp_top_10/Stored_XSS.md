@@ -10,3 +10,15 @@ Stored XSS is when the XSS payload, or the malicious script, is stored on a serv
 
 When an application accepts user input, stores it in its servers, 
 and uses it to construct webpages without proper precautions, malicious JavaScript code can make its way into the database and then to victims’ browsers.
+
+
+## 1. Stored XSS into anchor href attribute with double quotes HTML-encoded
+
+## Step 1.
+
+A blog post website and comment post function like post command name email website name so fill the fome and sand the request and intercept the request and send it to Burp Repeater.  
+
+## Step 2.
+
+Click The username and intercept the request and Observe that the website name is Reflected so This is vulnerably website name fill the fome here inject the paylods JavaScript Code 
+
