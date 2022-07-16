@@ -343,6 +343,8 @@ You Have a Search Funtion and search like asif and intercept the request and san
  
  perform a cross-site scripting attack that bypasses CSP, escapes the AngularJS sandbox, and alerts document.cookie
  
+ You Have a Search Funtion and search like asif and intercept the request and sand the repeter and Observe that asif is reflected in html
+ 
  ## EXPLOIT 
  
      <script>
