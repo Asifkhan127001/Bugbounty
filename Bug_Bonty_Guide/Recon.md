@@ -1,9 +1,10 @@
     
- ### Knock
-   Knockpy is a python3 tool designed to quickly enumerate subdomains on a target domain through dictionary attack 
-   
-    python3 knockpy.py domain.com --no-http-code 404 500 530 -w /home/asifk/secLists/Discovery/DNS/dns-Jhaddix.txt -o /home/
-    
+ ## Amass
+ 
+  Amass use for brutrforce and find subdomain
+  
+     amass enum -df Root-domain.txt -w wordlist.txt -o output.txt
+ 
 ## Sublist3r
    Sublist3r enumerates subdomains using many search engines such as Google, Yahoo, Bing, Baidu and Ask.
    Sublist3r also enumerates subdomains using Netcraft, Virustotal, ThreatCrowd, DNSdumpster and ReverseDNS.
