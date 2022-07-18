@@ -19,7 +19,11 @@ Use Google Dorking Find Subdomain like
    
  Also suppose if a page is coming may time and you don’t want to see that in results like xyz.google.com, you can use “-” to remove that page
  
- Search will be now- site:google -xyz.google.com and the results will include pages from google.com but not xyz.google.com.
+ Search will be now- site:google -xyz.google.com and the results will include pages from google.com but not xyz.google.com. like 
+ 
+    site:google.com -xyz.google.com -abc.google.com 
+    
+ '-' Negative sine use many time and remove dublicate
 
 
 ## Sublist3r
