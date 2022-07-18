@@ -10,7 +10,18 @@
  Find manualy 
  
     crt.sh
+
+## Google Dorks
+
+Use Google Dorking Find Subdomain like 
+
+    site:google.com 
+   
+ Also suppose if a page is coming may time and you don’t want to see that in results like xyz.google.com, you can use “-” to remove that page
  
+ Search will be now- site:google -xyz.google.com and the results will include pages from google.com but not xyz.google.com.
+
+
 ## Sublist3r
    Sublist3r enumerates subdomains using many search engines such as Google, Yahoo, Bing, Baidu and Ask.
    Sublist3r also enumerates subdomains using Netcraft, Virustotal, ThreatCrowd, DNSdumpster and ReverseDNS.
