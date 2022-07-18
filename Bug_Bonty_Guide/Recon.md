@@ -4,6 +4,12 @@
   Amass use for brutrforce and find subdomain
   
     amass enum -df Root-domain.txt -max-dns-queries 100 -w wordlist.txt -o output.txt
+    
+ ## Crtsh
+ 
+ Find manualy 
+ 
+    crt.sh
  
 ## Sublist3r
    Sublist3r enumerates subdomains using many search engines such as Google, Yahoo, Bing, Baidu and Ask.
