@@ -29,7 +29,7 @@
  ## httpx 
  httpx is a fast and multi-purpose HTTP
  
-    cat domain.txt | httpx -title -tech-detect -status-code  -mc 200,301
+    cat domain.txt | httpx -title -tech-detect -status-code  -mc 200,301,403
     
 ## dontgo403
 dontgo403 is a tool to bypass 40X errors
