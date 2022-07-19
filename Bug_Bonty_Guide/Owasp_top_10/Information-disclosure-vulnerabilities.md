@@ -8,6 +8,10 @@ Depending on the context, websites may leak all kinds of information to a potent
 Many websites provide files at /robots.txt and /sitemap.xml to help crawlers navigate their site. Among other things,
 these files often list specific directories that the crawlers should skip, for example, because they may contain sensitive information. 
 
+## Example
+
+Open Burp suite intercept the request and sand the SCAN and select scan mode like Crawl
+
 ## 2. Directory listings
 
 Web servers can be configured to automatically list the contents of directories that do not have an index page present.
