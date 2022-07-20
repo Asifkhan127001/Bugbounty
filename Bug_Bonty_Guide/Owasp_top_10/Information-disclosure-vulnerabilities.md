@@ -17,7 +17,16 @@ Open Burp suite intercept the request and sand the SCAN and select scan mode lik
 archives that contain a full snapshot of files within (or indeed outside) the web root, 
 possibly enabling you to easily identify all content and functionality within the application.
 
-## 3. Directory listings
+## 3. Find INFORMATION TO SERVER
+
+New functionality that has been deployed to the server for testing but not yet linked from the main application
+
+Default application functionality in an off-the-shelf application that has been superficially hidden from the user but is still present on the server.
+
+Old versions of files that have not been removed from the server. In the case of dynamic pages, these may contain vulnerabilities that have been
+fixed in the current version but that can still be exploited in the old version
+
+## . Directory listings
 
 Web servers can be configured to automatically list the contents of directories that do not have an index page present.
 This can aid an attacker by enabling them to quickly identify the resources at a given path, 
@@ -28,7 +37,7 @@ such as temporary files and crash dumps
 Directory listings themselves are not necessarily a security vulnerability. However, if the website also fails to implement proper access control, 
 leaking the existence and location of sensitive resources in this way is clearly an issue. 
 
-## 4. Developer comments
+## . Developer comments
 
 During development, in-line HTML comments are sometimes added to the markup.
 These comments are typically stripped before changes are deployed to the production environment. However, comments can sometimes be forgotten, missed,
@@ -38,7 +47,7 @@ Although these comments are not visible on the rendered page, they can easily be
 Occasionally, these comments contain information that is useful to an attacker. For example, 
 they might hint at the existence of hidden directories or provide clues about the application logic. 
 
-## .5 Error messages
+## . Error messages
 
 One of the most common causes of information disclosure is verbose error messages. As a general rule, 
 you should pay close attention to all error messages you encounter during auditing. 
@@ -53,7 +62,7 @@ This information can be useful because you can easily search for any documented 
 you can check whether there are any common configuration errors or dangerous default settings that you may be able to exploit.
 Some of these may be highlighted in the official documentation. 
 
-## 6. Debugging data
+## . Debugging data
 
 For debugging purposes, many websites generate custom error messages and logs that contain large amounts of information about the application's behavior.
 While this information is useful during development, it is also extremely useful to an attacker if it is leaked in the production environment. 
@@ -69,7 +78,7 @@ Debug messages can sometimes contain vital information for developing an attack,
  it can serve as a useful reference for understanding the application's runtime state. 
  It can also provide several clues as to how they can supply crafted input to manipulate the application state and control the information received.
  
- ## 7. Source code disclosure via backup files
+ ## . Source code disclosure via backup files
  
  Obtaining source code access makes it much easier for an attacker to understand the application's behavior and construct high-severity attacks.
  Sensitive data is sometimes even hard-coded within the source code. 
@@ -101,7 +110,7 @@ Debug messages can sometimes contain vital information for developing an attack,
  This behavior is often harmless, but occasionally leads to information disclosure, 
  such as the name of internal authentication headers that may be appended to requests by reverse proxies. 
  
- ## 9. Version control history
+ ## . Version control history
  
  Virtually all websites are developed using some form of version control system, such as Git. By default,
  a Git project stores all of its version control data in a folder called .git. Occasionally, 
