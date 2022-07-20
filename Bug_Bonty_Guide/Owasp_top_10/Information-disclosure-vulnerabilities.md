@@ -17,15 +17,6 @@ Open Burp suite intercept the request and sand the SCAN and select scan mode lik
 archives that contain a full snapshot of files within (or indeed outside) the web root, 
 possibly enabling you to easily identify all content and functionality within the application.
 
-## 3. Find INFORMATION TO SERVER
-
-New functionality that has been deployed to the server for testing but not yet linked from the main application
-
-Default application functionality in an off-the-shelf application that has been superficially hidden from the user but is still present on the server.
-
-Old versions of files that have not been removed from the server. In the case of dynamic pages, these may contain vulnerabilities that have been
-fixed in the current version but that can still be exploited in the old version
-
 ## . Directory listings
 
 Web servers can be configured to automatically list the contents of directories that do not have an index page present.
