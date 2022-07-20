@@ -12,7 +12,13 @@ these files often list specific directories that the crawlers should skip, for e
 
 Open Burp suite intercept the request and sand the SCAN and select scan mode like Crawl
 
-## 2. Wayback Machine
+## 2. Find Old Information 
+
+1. Use Search engines
+2. Web archives
+
+Search engines such as Google, Yahoo, and MSN. These maintain a fine grained index of all content that their powerful spiders have discovered,
+and also cached copies of much of this content, which persists even after the original content has been removed.
 
 archives that contain a full snapshot of files within (or indeed outside) the web root, 
 possibly enabling you to easily identify all content and functionality within the application.
