@@ -115,6 +115,8 @@ Debug messages can sometimes contain vital information for developing an attack,
  It is common for applications to contain content and functionality that is not directly linked to or reachable from the main visible content. 
  A common example is functionality that has been implemented for testing or debugging purposes and has never been removed.
  
- Another example arises when the application presents different functionality to different categories of users (for example, anonymous users, authenticated regular users, and administrators). Users at one privilege level who perform exhaustive spidering of the application may miss functionality that is visible to users at other levels. An attacker who discovers the functionality may be able to exploit it to elevate her privileges within the application. There are countless other cases in which interesting content and functionality may exist that the mapping techniques previously described would not identify:
+ Another example arises when the application presents different functionality to different categories of users (for example, anonymous users, authenticated regular users, and administrators). Users at one privilege level who perform exhaustive spidering of the application may miss functionality that is visible to users at other levels. An attacker who discovers the functionality may be able to exploit it to elevate her privileges within the application. 
+ 
+ There are countless other cases in which interesting content and functionality may exist that the mapping techniques previously described would not identify:
  
  ## Example 
