@@ -12,6 +12,11 @@ these files often list specific directories that the crawlers should skip, for e
 
 Open Burp suite intercept the request and sand the SCAN and select scan mode like Crawl
 
+## 2. Wayback Machine
+
+archives that contain a full snapshot of files within (or indeed outside) the web root, 
+possibly enabling you to easily identify all content and functionality within the application.
+
 ## 2. Directory listings
 
 Web servers can be configured to automatically list the contents of directories that do not have an index page present.
