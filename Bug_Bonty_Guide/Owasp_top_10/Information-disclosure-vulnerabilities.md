@@ -17,7 +17,7 @@ Open Burp suite intercept the request and sand the SCAN and select scan mode lik
 archives that contain a full snapshot of files within (or indeed outside) the web root, 
 possibly enabling you to easily identify all content and functionality within the application.
 
-## 2. Directory listings
+## 3. Directory listings
 
 Web servers can be configured to automatically list the contents of directories that do not have an index page present.
 This can aid an attacker by enabling them to quickly identify the resources at a given path, 
@@ -28,7 +28,7 @@ such as temporary files and crash dumps
 Directory listings themselves are not necessarily a security vulnerability. However, if the website also fails to implement proper access control, 
 leaking the existence and location of sensitive resources in this way is clearly an issue. 
 
-## 3. Developer comments
+## 4. Developer comments
 
 During development, in-line HTML comments are sometimes added to the markup.
 These comments are typically stripped before changes are deployed to the production environment. However, comments can sometimes be forgotten, missed,
@@ -38,7 +38,7 @@ Although these comments are not visible on the rendered page, they can easily be
 Occasionally, these comments contain information that is useful to an attacker. For example, 
 they might hint at the existence of hidden directories or provide clues about the application logic. 
 
-## 4. Error messages
+## .5 Error messages
 
 One of the most common causes of information disclosure is verbose error messages. As a general rule, 
 you should pay close attention to all error messages you encounter during auditing. 
@@ -53,7 +53,7 @@ This information can be useful because you can easily search for any documented 
 you can check whether there are any common configuration errors or dangerous default settings that you may be able to exploit.
 Some of these may be highlighted in the official documentation. 
 
-## 5. Debugging data
+## 6. Debugging data
 
 For debugging purposes, many websites generate custom error messages and logs that contain large amounts of information about the application's behavior.
 While this information is useful during development, it is also extremely useful to an attacker if it is leaked in the production environment. 
@@ -69,7 +69,7 @@ Debug messages can sometimes contain vital information for developing an attack,
  it can serve as a useful reference for understanding the application's runtime state. 
  It can also provide several clues as to how they can supply crafted input to manipulate the application state and control the information received.
  
- ## 6. Source code disclosure via backup files
+ ## 7. Source code disclosure via backup files
  
  Obtaining source code access makes it much easier for an attacker to understand the application's behavior and construct high-severity attacks.
  Sensitive data is sometimes even hard-coded within the source code. 
@@ -89,7 +89,7 @@ Debug messages can sometimes contain vital information for developing an attack,
  to the filename or adding a different file extension. Requesting a code file using a backup file extension can sometimes allow you 
  to read the contents of the file in the response. 
  
- ## 7. Information disclosure due to insecure configuration
+ ## 8. Information disclosure due to insecure configuration
  
  Websites are sometimes vulnerable as a result of improper configuration. This is especially common due to the widespread use of third-party technologies,
  whose vast array of configuration options are not necessarily well-understood by those implementing them. 
@@ -101,7 +101,7 @@ Debug messages can sometimes contain vital information for developing an attack,
  This behavior is often harmless, but occasionally leads to information disclosure, 
  such as the name of internal authentication headers that may be appended to requests by reverse proxies. 
  
- ## 8. Version control history
+ ## 9. Version control history
  
  Virtually all websites are developed using some form of version control system, such as Git. By default,
  a Git project stores all of its version control data in a folder called .git. Occasionally, 
