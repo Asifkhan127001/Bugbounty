@@ -3,7 +3,7 @@
 Information disclosure, also known as information leakage, is when a website unintentionally reveals sensitive information to its users. 
 Depending on the context, websites may leak all kinds of information to a potential attacker, including: 
 
-## 1. Files for web crawlers
+## 1. web crawlers
 
 Many websites provide files at /robots.txt and /sitemap.xml to help crawlers navigate their site. Among other things,
 these files often list specific directories that the crawlers should skip, for example, because they may contain sensitive information. 
