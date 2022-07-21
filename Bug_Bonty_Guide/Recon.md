@@ -119,8 +119,8 @@ dontgo403 is a tool to bypass 40X errors
   ## Unfurl 
   You have a large file, This Tools is find file type and endpoint, subdomain 
   
-     cat waybackuls.txt | unfurl domains
-     cat waybackurl.txt | unfurl .js,.txt etc
+     cat waybackuls.txt | unfurl -u domains
+     cat waybackurl.txt | unfurl -u .js,.txt etc
      
   ## LinkFinder 
   LinkFinder is a python script written to discover endpoints and their parameters in JavaScript files
