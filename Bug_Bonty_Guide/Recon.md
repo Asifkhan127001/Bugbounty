@@ -120,7 +120,32 @@ dontgo403 is a tool to bypass 40X errors
   You have a large file, This Tools is find file type and endpoint, subdomain 
   
      cat waybackuls.txt | unfurl -u domains
-     cat waybackurl.txt | unfurl -u .js,.txt etc
+     cat waybackurl.txt | unfurl -u paths
+     cat waybackurl.txt | unfurl -u keys
+     cat waybackurl.txt | unfurl -u values
+     cat waybackurl.txt | unfurl -u keypairs
+     cat waybackurl.txt | unfurl -u format "%d (%s)"
+     
+  The available format directives are:
+  
+      %%  A literal percent character
+      %s  The request scheme (e.g. https)
+      %u  The user info (e.g. user:pass)
+      %d  The domain (e.g. sub.example.com)
+      %S  The subdomain (e.g. sub)
+      %r  The root of domain (e.g. example)
+      %t  The TLD (e.g. com)
+      %P  The port (e.g. 8080)
+      %p  The path (e.g. /users)
+      %e  The path's file extension (e.g. jpg, html)
+      %q  The raw query string (e.g. a=1&b=2)
+      %f  The page fragment (e.g. page-section)
+      %@  Inserts an @ if user info is specified
+      %:  Inserts a colon if a port is specified
+      %?  Inserts a question mark if a query string exists
+      %#  Inserts a hash if a fragment exists
+      %a  Authority (alias for %u%@%d%:%P)
+      
      
   ## LinkFinder 
   LinkFinder is a python script written to discover endpoints and their parameters in JavaScript files
