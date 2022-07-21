@@ -99,7 +99,12 @@ dontgo403 is a tool to bypass 40X errors
    Fast golang web crawler for gathering URLs and JavaSript file locations. 
    This is basically a simple implementation of the awesome Gocolly library.
     
-      cat urls.txt | hakrawler
+     cat urls.txt | hakrawler
+     
+  ## gau 
+  getallurls (gau) fetches known URLs 
+  
+     echo "example.com" | gau --fp --mc 200,401,403
     
   ## waybackurls
    waybackurls find subdomain,Endpoints,Tokens & secrets,IDs and secret files
