@@ -114,7 +114,7 @@ dontgo403 is a tool to bypass 40X errors
    ### gospider
    that helps you to enumerate all endpoints on your target!
     
-     gospider -S sites.txt -o output 
+     gospider -S sites.txt -d 20 --sitemap -a -o output 
      
   ## Unfurl 
   You have a large file, This Tools is find file type and endpoint, subdomain 
