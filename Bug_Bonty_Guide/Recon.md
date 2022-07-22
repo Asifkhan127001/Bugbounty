@@ -51,7 +51,7 @@ Use Google Dorking Find Subdomain like
  ## httpx 
  httpx is a fast and multi-purpose HTTP
  
-    cat domain.txt | httpx -title -tech-detect -status-code  -mc 200,301,403
+    cat domain.txt | httpx -title -tech-detect -status-code  -mc 200,301,403 -o output.txt
     
 ## dontgo403
 dontgo403 is a tool to bypass 40X errors
