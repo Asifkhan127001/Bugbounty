@@ -49,7 +49,15 @@ and the current version is 1.0.
     &xxe; #Reference to entity
     </Vulnerability>
 
+## XML Validation
 
+In this process, we generally validate the well-formedness where we check the syntax but not validate whether it is a valid instance of the included DTD.
+
+Tools we can use to validate an XML file are xmllint and xmlstarlet.
+
+## Common places to search for?
+
+XML file upload (e.g confing files)
 
 
 
