@@ -154,4 +154,18 @@ This is Vulnerability
  SAMPLE paylod: 
  
      <!DOCTYPE replace [<!ENTITY ent SYSTEM "expect://whoami"> ]>
+     
+ ## TOOLS
+ 
+ Burpsuite
+    
+     Intercepting Proxy 
+     
+  Xxeserv 
+  
+     A mini webserver with FTP support for XXE paylods 
+     
+  OXML_xxe
+  
+     A tool for embedding XXE/XML exploits into different filetypes
  
