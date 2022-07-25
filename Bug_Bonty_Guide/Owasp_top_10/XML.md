@@ -15,7 +15,10 @@ and the current version is 1.0.
 
 ## Some Code
 
-    <?xml version=”1.0” encoding=”UTF-8”?> #Decleration
-    <Vulnerability>#Root Element
-    XXE #Value of the element
-    </Vulnerability>
+    <?xml version=”1.0” encoding=”UTF-8”?> 
+    <plane>
+      <year> 1977 </year>
+      <make> Cessna </make>
+      <mode> Skyhawk </mode>
+      <color> Light Blue and White </color>
+     </plane>
