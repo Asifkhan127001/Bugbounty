@@ -67,6 +67,8 @@ XML based file (RSS,SVG,CSS)
 
 Ms Office files (docx,xlsx,etc.)
 
+## Uncommon Places 
+
 SAML-based SSO
 
 VoiceXML in IVR systems
