@@ -15,7 +15,7 @@ and the current version is 1.0.
 
 ## Some Code
 
-     <?xml version=”1.0” encoding=”UTF-8”?> #Decleration
+    <?xml version=”1.0” encoding=”UTF-8”?> #Decleration
     <Vulnerability>#Root Element
     XXE #Value of the element
     </Vulnerability>
