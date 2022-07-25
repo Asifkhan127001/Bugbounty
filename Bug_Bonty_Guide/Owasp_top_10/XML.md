@@ -59,6 +59,31 @@ Tools we can use to validate an XML file are xmllint and xmlstarlet.
 
 XML file upload (e.g confing files)
 
+XML input fields
+
+XML based Apis
+
+XML based file (RSS,SVG,CSS)
+
+Ms Office files (docx,xlsx,etc.)
+
+SAML-based SSO
+
+VoiceXML in IVR systems
+
+Online MAP editors using KML
+
+## ATTACK TYPE 
+
+1. Classic  XXE
+2. Server Side Request Forgery
+3. Denial of Service 
+4. Advanced XXE 
+5. Remote Code Execution
+
+
+
+
 
 
 
