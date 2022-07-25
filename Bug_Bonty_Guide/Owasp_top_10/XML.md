@@ -168,4 +168,13 @@ This is Vulnerability
   OXML_xxe
   
      A tool for embedding XXE/XML exploits into different filetypes
+     
+ ## Impact when exploited:
+ 
+ 1. Information Disclosure by reading local files and parsing errors.
+ 2. Denial of Service.
+ 3. External Requests which can also be called as SSRF.
+ 4. Data exfiltration using Out of Band approach.
+ 5. Remote Code Execution.
+ 
  
